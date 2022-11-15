@@ -10,11 +10,11 @@ rgb(58, 58, 58) = Grey Accent Color/Border color
     background-color: bisque
 }
 
-#WelcomePage .nav{
+#WelcomePage .nav {
     background-color: rgb(58, 58, 58);
 }
 
-#WelcomePage .nav .button{
+#WelcomePage .nav .button {
     background-color: beige;
     border: none;
     color: Black;
@@ -32,11 +32,11 @@ rgb(58, 58, 58) = Grey Accent Color/Border color
     background-color: bisque
 }
 
-#MyWork .nav{
+#MyWork .nav {
     background-color: rgb(58, 58, 58);
 }
 
-#MyWork .nav .button{
+#MyWork .nav .button {
     background-color: beige;
     border: none;
     color: Black;
@@ -49,13 +49,17 @@ rgb(58, 58, 58) = Grey Accent Color/Border color
     cursor: pointer;
 }
 
+#MyWorkHeader {
+    text-align: center;
+}
+
 /*General Class Things*/
-a:visited{
+a:visited {
     text-decoration: none;
     color: black;
 }
 
-a:active{
+a:active {
     text-decoration: none;
     color: black;
 }

@@ -1,0 +1,17 @@
+/*
+rgb(161, 161, 138) = Dark Green Background color
+bisque = Tan Background color
+beige = light tan background color
+rgb(58, 58, 58) = Grey Accent Color/Border color
+*/
+
+/*General Class Things*/
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}

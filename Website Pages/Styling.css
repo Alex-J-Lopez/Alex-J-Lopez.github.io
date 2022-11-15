@@ -7,7 +7,7 @@ rgb(58, 58, 58) = Grey Accent Color/Border color
 
 /*Styling for WelcomePage*/
 #WelcomePage {
-    background-color: bisque
+    background-color: rgb(124, 85, 142)
 }
 
 #WelcomePage .nav {

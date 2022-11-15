@@ -27,6 +27,11 @@ rgb(58, 58, 58) = Grey Accent Color/Border color
     cursor: pointer;
 }
 
+#indexHeader {
+    text-align: center;
+    background-color: rgb(161, 161, 138);
+}
+
 /*Styling For the MyWork page*/
 #MyWork {
     background-color: bisque

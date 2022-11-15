@@ -5,6 +5,35 @@ beige = light tan background color
 rgb(58, 58, 58) = Grey Accent Color/Border color
 */
 
+/*Styling for WelcomePage*/
+#WelcomePage {
+    background-color: bisque
+}
+
+#WelcomePage .nav {
+    background-color: rgb(58, 58, 58);
+}
+
+#WelcomePage .nav .button {
+    background-color: beige;
+    border: none;
+    color: Black;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#indexHeader {
+    text-align: center;
+    background-color: rgb(161, 161, 138);
+}
+
+
+
 /*General Class Things*/
 a:visited {
     text-decoration: none;

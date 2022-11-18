@@ -31,6 +31,10 @@ rgb(58, 58, 58) = Grey Accent Color/Border color
     text-align: center;
 }
 
+#IOTDoor {
+    background-color: beige;
+}
+
 #IOTDoor img {
     height: 300px;
     border-radius: 20px;

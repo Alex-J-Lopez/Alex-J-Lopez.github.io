@@ -32,7 +32,11 @@ rgb(58, 58, 58) = Grey Accent Color/Border color
     background-color: rgb(161, 161, 138);
 }
 
-
+#indexHeader img {
+    height: 300px;
+    border-radius: 100px;
+    border: 2px solid black;
+}
 
 /*General Class Things*/
 a:visited {
@@ -60,4 +64,9 @@ table, tr, td, th {
     margin-right: auto;
     border: 2px solid;
     border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}
+
+th {
+    background-color: rgb(201, 201, 201);
 }

@@ -1,72 +1,52 @@
-/*
-rgb(161, 161, 138) = Dark Green Background color
-bisque = Tan Background color
-beige = light tan background color
-rgb(58, 58, 58) = Grey Accent Color/Border color
-*/
-
-/*Styling for WelcomePage*/
-#index {
-    background-color: bisque
+body {
+    background-color: black;
+    color: white;
 }
 
-#index .nav {
-    background-color: rgb(58, 58, 58);
-}
-
-#index .nav .button {
-    background-color: beige;
-    border: none;
-    color: Black;
-    padding: 10px 35px;
-    text-align: center;
-    text-decoration: none;
+#NavHeader {
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    flex: 1;
 }
 
-#indexHeader {
-    text-align: center;
-    background-color: rgb(161, 161, 138);
+header {
+    border: 2px solid aqua;
+    display: flex;
+    flex-direction: row;
 }
 
-#indexHeader img {
-    height: 300px;
-    border-radius: 100px;
-    border: 2px solid black;
+#NavButtons{
+    text-align: right;
+    flex: 3;
 }
 
-/*General Class Things*/
-a:visited {
-    text-decoration: none;
-    color: black;
+nav ul li {
+    list-style: none;
+    display: inline;
 }
 
-a:active {
-    text-decoration: none;
-    color: black;
+.InfoSection {
+    padding: 10px 10px;
+    border: 2px solid aqua;
+    display: flex;
 }
 
-fieldset {
-    border-color: rgb(58, 58, 58);
-    background-color: beige;
+.InfoSection h1 {
+    font-size: 35px;
 }
 
-hr {
-    background-color: rgb(58, 58, 58);
-    padding: 2px;
+.InfoSection p {
+    font-size: 20px;
 }
 
-table, tr, td, th {
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid;
-    border-collapse: collapse;
-    background-color: rgb(255, 255, 255);
+#MyPicture {
+    max-width: 250px;
+    border-radius: 20%;
+    flex: 1;
 }
 
-th {
-    background-color: rgb(201, 201, 201);
+#Summary {
+    flex: 3;
+    padding: 10px 20px 10px 20px;
 }

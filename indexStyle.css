@@ -50,3 +50,16 @@ nav ul li {
     flex: 3;
     padding: 10px 20px 10px 20px;
 }
+
+#SkillsTable, tr, th, td {
+    font-size: 20px;
+    border: 2px solid orangered;
+    border-collapse: collapse;
+    text-align: center;
+    flex:2;
+}
+
+#SkillsTable tr th{
+    font-weight: bold;
+    background-color: brown;
+}

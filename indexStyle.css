@@ -30,6 +30,8 @@ nav ul li {
     padding: 10px 10px;
     border: 2px solid aqua;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .InfoSection h1 {
@@ -38,6 +40,11 @@ nav ul li {
 
 .InfoSection p {
     font-size: 20px;
+}
+
+.InfoSection article{
+    border: 2px dotted aquamarine;
+    border-radius: 15px;
 }
 
 #MyPicture {
@@ -56,7 +63,6 @@ nav ul li {
     border: 2px solid orangered;
     border-collapse: collapse;
     text-align: center;
-    flex:2;
 }
 
 #SkillsTable tr th{

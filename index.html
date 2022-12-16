@@ -1,83 +1,145 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Alexander's CV</title>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Alex Lopez's CV</title>
         <link rel="stylesheet" href="indexStyle.css">
-	</head>
-	<body id="index">
-        <nav class="nav">
-            <h2><button class="button"><a href="MyWork.html">My Work</a></button></h2>
-        </nav>
-        <hr/>
-        <header id="indexHeader">
-            <h1>Alexander Lopez</h1>
-		    <p><strong>BS Software Engineering</strong></p>
-            <img src="Media\PersonalImages\IMG_4679.JPG" alt="Image not supported by browser. Image displayed is Alexander Lopez Smiling">
-            <section>
-                <fieldset>
-                    <article align="center">
-                        <h2>Summary</h2>
-                        <section>
-                            <p>Software Engineer focused on stand alone applications persuing a bachelors in sotware engineering from MSOE</p>
-                        </section>
-                    </article>
-                </fieldset>
-            </section>
+    </head>
+    <body>
+        <header>
+            <h1 id="NavHeader">Alexander Lopez</h1>
+            <div id="Hamburger">
+                <a href="javascript:void(0)" onclick="myFunction()" id="HamburgerMenu"><button>|||</button></a>
+            </div>
+            <nav id="NavButtonsBlock">
+                <ul>
+                    <li><a href="#AboutMe"><button>About Me</button></a></li>
+                    <li><a href="#Skills"><button>Skills</button></a></li>
+                    <li><a href="#Portfolio"><button>Portfolio</button></a></li>
+                    <li><a href="#ContactInfo"><button>Contact Me</button></a></li>
+                </ul>
+            </nav>
         </header>
-        <hr/>
-        <fieldset>
-            <article align="center">
-                <h2>Experience</h2>
-                <section align="left">
-                    <ul>
-                        <li><b>ARVR application developer - L & S Electric, INC.</b>
-                            <p>Developed stand alone virtual reality applications to display company products to prospective buyers.</p>
-                        </li>
-                        <li><b>Collections Dialer - Aqua Finance INC.</b>
-                            <p>Worked in a collections center calling customers who were running behind on their loan payments</p>
-                        </li>
-                    </ul>
-                </section>
+        <section class="InfoSection" id="AboutMe">
+            <img src="Media\PersonalImages\IMG_4679.JPG" alt="Img not supported: Pictured, Alexander Lopez" id="MyPicture">
+            <article id="Summary">
+                <h1>Welcome,<br/>My Name is Alex Lopez</h1>
+                <p>I am a student at the milwaukee school of engineering in the BS software engineering program. 
+                    My interests include: Front end development, game development, and stand alone application development.
+                    In my free time I like to learn new programing languages and improve my skillset though personal
+                     projects such as this website. Feel free to take a look at some of my work in the portfolio section
+                     or send me a message to get in touch.
+                </p>
             </article>
-            <article align="center">
-                <h2>Skills</h2>
-                <section>
-                    <table>
-                        <tr>
-                            <th>Languages</th>
-                            <td>Java</td>
-                            <td>C++</td>
-                            <td>C#</td>
-                            <td>HTML</td>
-                        </tr>
-                        <tr>
-                            <th>Technical Skills</th>
-                            <td>Microsoft Office</td>
-                            <td>Unity</td>
-                            <td>Divinci Resolve</td>
-                            <td>Ansys</td>
-                        </tr>
-                    </table>
-                </section>
+        </section>
+        <section class="InfoSection" id="Skills">
+            <h1>Skills</h1>
+            <article>
+                <p>Coding Languages</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>Javascript</li>
+                    <li>C#</li>
+                </ul>
             </article>
-        </fieldset>
-        <hr/>
-        <footer align="center" style="background-color: rgb(161, 161, 138);">
-            <h2>Contacts</h2>
-            <button style="background-color: bisque; border-color:black;"><a href="https://github.com/Alex-J-Lopez" target="_blank">My Github</a></button>
-            <button style="background-color: bisque; border-color:black;"><a href="https://www.linkedin.com/in/alexander-lopez-j/" target="_blank">My LinkedIn</a></button>
-            <h2><i>Write me a message</i></h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" name="name" placeholder="name" required/><br/>
-                <label for="email">Email:</label>
-                <input tpye="email" name="email" placeholder="sample@gmail.com" required/><br/>
-                <label for="phonenumber">Phone:</label>
-                <input type="tel" name="phonenumber" placeholder="xxx-xxx-xxxx"/><br/>
-                <label for="message">MSG:</label>
-                <textarea type="text" name="message" placeholder="Message" required/></textarea><br/>
-                <input type="submit" value="send"/>
-            </form>
-        </footer>
-	</body>
+            <article>
+                <p>Applications</p>
+                <ul>
+                    <li>Unity</li>
+                    <li>Arduino IDE</li>
+                    <li>Microsoft Office</li>
+                    <li>Ansys Workbench</li>
+                    <li>Visual Studio</li>
+                </ul>
+            </article>
+            <article>
+                <p>General Skills</p>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Engineering Mindset</li>
+                    <li>Collaboration Minded</li>
+                </ul>
+            </article>
+        </section>
+        <section class="InfoSection" id="WorkExperience">
+            <h1>Work Experience</h1>
+            <article>
+                <h2>AR/VR application developer - L & S Electric, INC.</h2>
+                <p>I developed stand alone vr applications for the marketing team to use at international conventions such as Hydrovision International, Clear Water, and Powergen.
+                    I also worked on implementing mixed reality solutions in the work place using a Microsoft Hololens to display lifesize models of CAD files for collaboration 
+                    between engineers.</p>
+                <p>Duration: 2018-2021</p>
+            </article>
+            <article>
+                <h2>Collections Dialer - Aqua Finance INC.</h2>
+                <p>I worked for aqua finance for roughly two years as a collections dialer. During that time I was promoted to the dialer one position and spent most months in the top three 
+                    performers in my department. I also assisted with the training process for new hires by doing side by sides and allowing new hires to get hands on experience with the 
+                    collections process.</p>
+                <p>Duration: 2020-2022</p>
+            </article>
+        </section>
+        <section class="InfoSection" id="Portfolio">
+            <h1>Portfolio</h1>
+            <h3>Welcome to my portfolio, below are some of my personal projects that I find to be representative of some of my skills. Please feel free to explore. Click the "more 
+                info" buttons to get an indepth look at the project.</h3>
+            <article>
+                <h2>IOT Door Opening Machine</h2>
+                <img src="Media\DoorOpener\MachineOnDoor.jpg" alt="Img not supported" class="ProjectImage">
+                <img src="Media\DoorOpener\PCBOnDoor.jpg" alt="Img not supported" class="ProjectImage">
+                <img src="Media\DoorOpener\FinalClientSideWebsite.jpg" alt="Img not supported" class="ProjectImage">
+                <p><strong>Problem Statement</strong></p>
+                <p>Upon moving into my college dorm room, I quickly realized that my room mate and I had a nack for losing our keys. 
+                    Naturally we decided to build a machine to open our door for us so that we could reduce the chance of being locked out.</p>
+                <p><strong>Solution</strong></p>
+                <p>The solution to the problem was an internet connected machine with a stepper driver connected to a stepper motor attached to a piece of a 3d printer 
+                    that was repurposed for this task. The micro controller used was a NodeMCU ESP8266 from Expressif. When clients from the internet connect to the 
+                    Node IP address they are presented with the website shown above where they can click "Cycle Door" to open the door from outside the room.</p>
+                    <!-- Need to add a button that says "Click here to get more detail on the process" -->
+            </article>
+            <article>
+                <h2>IOT Plant Monitor</h2>
+                <img src="Media\PlantMonitor\IMG_4001.JPEG" alt="Img not supported" class="ProjectImage">
+                <img src="Media\PlantMonitor\IMG_4002.PNG" alt="Img not supported" class="ProjectImage">
+                <img src="Media\PlantMonitor\IMG_3628.jpeg" alt="Img not supported" class="ProjectImage">
+                <p><strong>Problem Statement</strong></p>
+                <p>I was having touble remembering to water my plants and I needed a solution. I decided, instead of just setting a reminder, to build an 
+                    internet connected plant water level monitor.</p>
+                <p><strong>Solution</strong></p>
+                <p>In order to monitor the plants from afar I used a NodeMCU ESP8266 from Expressif that connects to the internet and allows clients to check the water level
+                    using an interactive webpage shown above. The NodeMCU is connected to an analog water detector that changes output based on resistance from the 
+                    water it is touching.</p>
+            </article>
+            <article>
+                <h2>Personal Website</h2>
+                <img src="Media\WebsiteDesign\IMG_3711.JPG" alt="Img not supported" class="ProjectImage">
+                <img src="Media\WebsiteDesign\IMG_3728.JPEG" alt="Img not supported" class="ProjectImage">
+                <img src="Media\WebsiteDesign\IMG_3895.JPEG" alt="Img not supported" class="ProjectImage">
+                <p><strong>Objective</strong></p>
+                <p>The objective for this project was to create a website to promote myself and display my skills.
+                    Futhermore, I wanted to make a website that would let me give anyone a summary of who I am and 
+                    what my interests are.</p>
+            </article>
+        </section>
+        <section class="InfoSection" id="ContactInfo">
+            <article id="ContactArticle">
+                <h1>Contact Me</h1>
+                <a href="https://github.com/Alex-J-Lopez" target="blank"><button>Github</button></a>
+                <a href="www.linkedin.com/in/alexander-lopez-j" target="blank"><button>Linkedin</button></a>
+                <a href="about:blank" target="blank"><button>Handshake</button></a> <!--Need to get my Handshake URL-->
+            </article>
+        </section>
+    </body>
 </html>
+<script>
+    function myFunction() {
+        var x = document.getElementById("NavButtonsBlock");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>

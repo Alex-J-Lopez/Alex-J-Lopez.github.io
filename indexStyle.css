@@ -99,3 +99,10 @@ nav ul li {
     width: 25vw;
     height: auto;
 }
+
+button {
+    padding: 1vh 1vw 1vh 1vw;
+    background-color: white;
+    color: black;
+    border: aquamarine solid 1px;
+}

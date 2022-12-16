@@ -2,18 +2,21 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Welcome Page</title>
+        <title>Alex Lopez's CV</title>
         <link rel="stylesheet" href="indexStyle.css">
     </head>
     <body>
         <header>
             <h1 id="NavHeader">Alexander Lopez</h1>
-            <nav id="NavButtons">
+            <div id="Hamburger">
+                <a href="javascript:void(0)" onclick="myFunction()" id="HamburgerMenu"><button>|||</button></a>
+            </div>
+            <nav id="NavButtonsBlock">
                 <ul>
-                    <li><button>About Me</button></li>
-                    <li><button>Skills</button></li>
-                    <li><a href="MyWork.html"><button>Portfolio</button></a></li>
-                    <li><button>Contact Me</button></li>
+                    <li><a href="#AboutMe"><button>About Me</button></a></li>
+                    <li><a href="#Skills"><button>Skills</button></a></li>
+                    <li><a href="#Portfolio"><button>Portfolio</button></a></li>
+                    <li><a href="#ContactInfo"><button>Contact Me</button></a></li>
                 </ul>
             </nav>
         </header>
@@ -29,28 +32,39 @@
                 </p>
             </article>
         </section>
-        <section class="InfoSection">
+        <section class="InfoSection" id="Skills">
             <h1>Skills</h1>
-            <table id="SkillsTable">
-                <tr>
-                    <th>Stack</th>
-                    <td>HTML</td>
-                    <td>CSS</td>
-                    <td>Java</td>
-                    <td>Javascript</td>
-                    <td>C++</td>
-                    <td>C#</td>
-                </tr>
-                <tr>
-                    <th>Applications</th>
-                    <td>Unity</td>
-                    <td>Visual Studio</td>
-                    <td>Microsoft Office</td>
-                    <td>Ansys Workbench</td>
-                </tr>
-            </table>
+            <article>
+                <p>Coding Languages</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>Javascript</li>
+                    <li>C#</li>
+                </ul>
+            </article>
+            <article>
+                <p>Applications</p>
+                <ul>
+                    <li>Unity</li>
+                    <li>Arduino IDE</li>
+                    <li>Microsoft Office</li>
+                    <li>Ansys Workbench</li>
+                    <li>Visual Studio</li>
+                </ul>
+            </article>
+            <article>
+                <p>General Skills</p>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Engineering Mindset</li>
+                    <li>Collaboration Minded</li>
+                </ul>
+            </article>
         </section>
-        <section class="InfoSection">
+        <section class="InfoSection" id="WorkExperience">
             <h1>Work Experience</h1>
             <article>
                 <h2>AR/VR application developer - L & S Electric, INC.</h2>
@@ -67,7 +81,7 @@
                 <p>Duration: 2020-2022</p>
             </article>
         </section>
-        <section class="InfoSection">
+        <section class="InfoSection" id="Portfolio">
             <h1>Portfolio</h1>
             <h3>Welcome to my portfolio, below are some of my personal projects that I find to be representative of some of my skills. Please feel free to explore. Click the "more 
                 info" buttons to get an indepth look at the project.</h3>
@@ -109,8 +123,8 @@
                     what my interests are.</p>
             </article>
         </section>
-        <section class="InfoSection">
-            <article>
+        <section class="InfoSection" id="ContactInfo">
+            <article id="ContactArticle">
                 <h1>Contact Me</h1>
                 <a href="https://github.com/Alex-J-Lopez" target="blank"><button>Github</button></a>
                 <a href="www.linkedin.com/in/alexander-lopez-j" target="blank"><button>Linkedin</button></a>
@@ -119,3 +133,13 @@
         </section>
     </body>
 </html>
+<script>
+    function myFunction() {
+        var x = document.getElementById("NavButtonsBlock");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>

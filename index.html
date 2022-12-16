@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
         <title>Welcome Page</title>
         <link rel="stylesheet" href="indexStyle.css">
     </head>
@@ -16,7 +17,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="InfoSection">
+        <section class="InfoSection" id="AboutMe">
             <img src="Media\PersonalImages\IMG_4679.JPG" id="MyPicture">
             <article id="Summary">
                 <h1>Welcome,<br/>My Name is Alex Lopez</h1>
@@ -64,6 +65,38 @@
                     performers in my department. I also assisted with the training process for new hires by doing side by sides and allowing new hires to get hands on experience with the 
                     collections process.</p>
                 <p>Duration: 2020-2022</p>
+            </article>
+        </section>
+        <section class="InfoSection">
+            <h1>Portfolio</h1>
+            <h3>Welcome to my portfolio, below are some of my personal projects that I find to be representative of some of my skills. Please feel free to explore. Click the "more 
+                info" buttons to get an indepth look at the project.</h3>
+            <article>
+                <h2>IOT Door Opening Machine</h2>
+                <img src="Media\DoorOpener\MachineOnDoor.jpg" alt="Img not supported" class="ProjectImage">
+                <img src="Media\DoorOpener\PCBOnDoor.jpg" alt="Img not supported" class="ProjectImage">
+                <img src="Media\DoorOpener\FinalClientSideWebsite.jpg" alt="Img not supported" class="ProjectImage">
+                <p><strong>Problem Statement</strong></p>
+                <p>Upon moving into my college dorm room, I quickly realized that my room mate and I had a nack for losing our keys. 
+                    Naturally we decided to build a machine to open our door for us so that we could reduce the chance of being locked out.</p>
+                <p><strong>Solution</strong></p>
+                <p>The solution to the problem was an internet connected machine with a stepper driver connected to a stepper motor attached to a piece of a 3d printer 
+                    that was repurposed for this task. The micro controller used was a NodeMCU ESP8266 from Expressif. When clients from the internet connect to the 
+                    Node IP address they are presented with the website shown above where they can click "Cycle Door" to open the door from outside the room.</p>
+                    <!-- Need to add a button that says "Click here to get more detail on the process" -->
+            </article>
+            <article>
+                <h2>IOT Plant Monitor</h2>
+                <img src="Media\PlantMonitor\IMG_4001.JPEG" alt="Img not supported" class="ProjectImage">
+                <img src="Media\PlantMonitor\IMG_4002.PNG" alt="Img not supported" class="ProjectImage">
+                <img src="Media\PlantMonitor\IMG_3628.jpeg" alt="Img not supported" class="ProjectImage">
+                <p><strong>Problem Statement</strong></p>
+                <p>I was having touble remembering to water my plants and I needed a solution. I decided, instead of just setting a reminder, to build an 
+                    internet connected plant water level monitor.</p>
+                <p><strong>Solution</strong></p>
+                <p>In order to monitor the plants from afar I used a NodeMCU ESP8266 from Expressif that connects to the internet and allows clients to check the water level
+                    using an interactive webpage shown above. The NodeMCU is connected to an analog water detector that changes output based on resistance from the 
+                    water it is touching.</p>
             </article>
         </section>
     </body>

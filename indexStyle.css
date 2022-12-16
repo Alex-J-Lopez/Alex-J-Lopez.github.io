@@ -11,14 +11,26 @@ body {
 }
 
 header {
-    border: 2px solid aqua;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: black;
 }
 
 #NavButtons{
     text-align: right;
-    flex: 3;
+    margin-right: 10px;
+    flex: 1;
+}
+
+#NavButtons button {
+    padding: 1vh 1vw 1vh 1vw;
+    margin-right: 1vw;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
 }
 
 nav ul li {
@@ -36,6 +48,8 @@ nav ul li {
 
 .InfoSection h1 {
     font-size: 35px;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
 }
 
 .InfoSection p {
@@ -44,18 +58,23 @@ nav ul li {
 
 .InfoSection article{
     border: 2px dotted aquamarine;
+    margin: 10px 10px 10px 10px;
     border-radius: 15px;
+    padding: 10px 20px 10px 20px;
 }
 
 #MyPicture {
-    max-width: 250px;
-    border-radius: 20%;
-    flex: 1;
+    height: 25vh;
+    width: auto;
+    border-radius: 100px;
 }
 
 #Summary {
     flex: 3;
-    padding: 10px 20px 10px 20px;
+}
+
+#AboutMe {
+    margin-top: 90px;
 }
 
 #SkillsTable, tr, th, td {
@@ -66,7 +85,17 @@ nav ul li {
     flex: 2;
 }
 
+
 #SkillsTable tr th{
     font-weight: bold;
     background-color: brown;
+}
+
+#SkillsTable {
+    margin-left: 4vw;
+}
+
+.ProjectImage {
+    width: 25vw;
+    height: auto;
 }

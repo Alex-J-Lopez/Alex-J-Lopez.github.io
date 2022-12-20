@@ -3,7 +3,8 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Alex Lopez's CV</title>
-        <link rel="stylesheet" href="indexStyle.css">
+        <link rel="stylesheet" href="indexStyle.css" media="screen and (min-device-width: 450px)">
+        <link rel="stylesheet" href="indexStyleMobile.css" media="screen and (max-device-width: 450px)">
     </head>
     <body>
         <header>
@@ -21,8 +22,11 @@
             </nav>
         </header>
         <section class="InfoSection" id="AboutMe">
+            <!-- Outside image only displays when the website is in desktop mode -->
+            <img src="Media\PersonalImages\IMG_4679.JPG" alt="Img not supported: Pictured, Alexander Lopez" id="MyPictureOutside">
             <article id="Summary">
-                <img src="Media\PersonalImages\IMG_4679.JPG" alt="Img not supported: Pictured, Alexander Lopez" id="MyPicture">
+                <!-- Inside image displays on mobile. -->
+                <img src="Media\PersonalImages\IMG_4679.JPG" alt="Img not supported: Pictured, Alexander Lopez" id="MyPictureInside">
                 <h1>Welcome,<br/>My Name is Alex Lopez</h1>
                 <p>I am a student at the milwaukee school of engineering in the BS software engineering program. 
                     My interests include: Front end development, game development, and stand alone application development.
@@ -127,7 +131,7 @@
             <article id="ContactArticle">
                 <h1>Contact Me</h1>
                 <a href="https://github.com/Alex-J-Lopez" target="blank"><button>Github</button></a>
-                <a href="www.linkedin.com/in/alexander-lopez-j" target="blank"><button>Linkedin</button></a>
+                <a href="https://www.linkedin.com/in/alexander-lopez-j" target="blank"><button>Linkedin</button></a>
                 <a href="about:blank" target="blank"><button>Handshake</button></a> <!--Need to get my Handshake URL-->
             </article>
         </section>

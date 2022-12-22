@@ -4,8 +4,14 @@ body {
     font-family: sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     position: fixed;
+    border-bottom: solid #555 2px;
+    box-shadow: 0 10px 10px -10px #555;
     top: 0;
     width: 100vw;
     background-color: white;
@@ -18,11 +24,21 @@ header {
     margin-top: 2vh;
 }
 
+#HamburgerMenu button{
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+#HamburgerMenu Button:hover {
+    background-color: rgb(252, 198, 98);
+}
+
 #NavHeader {
     display: inline-block;
     box-sizing: border-box;
     font-size: 4vh;
     font-family: serif;
+    margin-left: 2vw;
 }
 
 #NavButtonsBlock {
@@ -39,6 +55,10 @@ header {
     font-size: 3vh;
 }
 
+#NavButtonsBlock button:hover {
+    background-color: rgb(252, 198, 98);
+}
+
 nav ul li {
     list-style: none;
 }
@@ -47,7 +67,6 @@ nav ul li {
     padding: 10px 10px;
     margin-left: 10vw;
     margin-right: 10vw;
-    /* border: 2px solid aqua; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -73,7 +92,7 @@ nav ul li {
 
 #MyPictureOutside {
     display: inline;
-    height: 25vh;
+    height: 25vw;
     width: auto;
     border-radius: 100px;
 }
@@ -98,7 +117,7 @@ nav ul li {
 }
 
 .ProjectImage {
-    width: 25vw;
+    width: 25vh;
     height: auto;
 }
 

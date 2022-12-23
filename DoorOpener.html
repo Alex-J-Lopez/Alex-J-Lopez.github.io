@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project: IOT Door Opener</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="MyWorkStyle.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="NavHeader">IOT Door Opener</h1>
+            <div id="Hamburger">
+                <a href="javascript:void(0)" onclick="myFunction()" id="HamburgerMenu"><button>|||</button></a>
+            </div>
+            <nav id="NavButtonsBlock">
+                <ul>
+                    <li><a href="index.html"><button>Home</button></a></li>
+                    <li><a href="https://alex-j-lopez.github.io/#Portfolio"><button>Portfolio</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="InfoSection" id="Overview">
+            <h1>Project Overview</h1>
+            <article>
+                <p><strong>Problem Statement</strong></p>
+                <p>Upon moving into my college dorm room, I quickly realized that my room mate and I had a nack for losing our keys. 
+                    Naturally we decided to build a machine to open our door for us so that we could reduce the chance of being locked out.</p>
+                <p><strong>Solution</strong></p>
+                <p>The solution to the problem was an internet connected machine with a stepper driver connected to a stepper motor attached to a piece of a 3d printer 
+                    that was repurposed for this task. The micro controller used was a NodeMCU ESP8266 from Expressif. When clients from the internet connect to the 
+                    Node IP address they are presented with a website where they can click "Cycle Door" to open the door from outside the room.</p>
+                <p>Moreover, the full parts list was as follows.</p>
+                <ul>
+                    <li>NodeMCU v1.0 ESP8266</li>
+                    <li>A4988 Stepper Driver</li>
+                    <li>Nema 17 Stepper Motor</li>
+                    <li>8x2 LCD Display</li>
+                    <li>2 Limit Switches</li>
+                    <li>Repurposed 3D Printer Extruded Aluminum</li>
+                </ul>
+            </article>
+        </section>
+        <section class="InfoSection" id="Process">
+            <h1>Process</h1>
+            <article>
+                <p><strong>Prototype One</strong></p>
+                <img src="Media\DoorOpener\PrototypeOne.jpg" alt="Image not supported" class="ProjectImage">
+                <p>The first prototpe consisted of one NodeMCU and a relay module with 4 relays. The relays would 
+                    be used to modulate the poles of a two pole stepper motor by using the Stepper.h library 
+                    included with the Arduino IDE.</p>
+            </article>
+            <article>
+                <p><strong>A better solution</strong></p>
+                <img src="Media\DoorOpener\BreadboardNodeAndStepperDriver.jpg" alt="Image not supported" class="ProjectImage">
+            </article>
+            <article>
+                <p><strong>Starting a new design</strong></p>
+                <img src="Media\DoorOpener\StartingNewPCBDesign.jpg" alt="Image not supported" class="ProjectImage">
+            </article>
+            <article>
+                <p><strong>First Sucessful working machine</strong></p>
+            </article>
+        </section>
+    </body>
+</html>
+<script>
+    function myFunction() {
+        var x = document.getElementById("NavButtonsBlock");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>

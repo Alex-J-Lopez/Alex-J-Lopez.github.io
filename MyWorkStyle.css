@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    border-bottom: solid #555 2px;
+    box-shadow: 0 10px 10px -10px #555;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+}
+
+#Hamburger {
+    display: inline-block;
+    float: right;
+    margin-right: 3vw;
+    margin-top: 2vh;
+}
+
+#HamburgerMenu button{
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+#HamburgerMenu Button:hover {
+    background-color: rgb(252, 198, 98);
+}
+
+#NavHeader {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 4vh;
+    font-family: serif;
+    margin-left: 2vw;
+}
+
+#NavButtonsBlock {
+    display: none;
+    text-align: center;
+}
+
+#NavButtonsBlock button {
+    width: auto;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+#NavButtonsBlock button:hover {
+    background-color: rgb(252, 198, 98);
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.InfoSection {
+    padding: 10px 10px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.InfoSection h1 {
+    font-size: 35px;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.InfoSection p {
+    font-size: 20px;
+}
+
+.InfoSection article{
+    background-color: orange;
+    box-shadow: 0 10px 10px -10px #555;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+.ProjectImage {
+    width: 25vh;
+    height: auto;
+}
+
+button {
+    padding: 1vh 1vw 1vh 1vw;
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+}
+
+#Overview {
+    margin-top: 90px;
+}

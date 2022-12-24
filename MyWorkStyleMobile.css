@@ -1,7 +1,6 @@
 body {
     background-color: white;
     color: black;
-    font-family: sans-serif;
 }
 
 html {
@@ -10,23 +9,23 @@ html {
 
 header {
     position: fixed;
-    border-bottom: solid #555 2px;
-    box-shadow: 0 10px 10px -10px #555;
     top: 0;
     width: 100vw;
     background-color: white;
+    border-bottom: solid #555 2px;
+    box-shadow: 0 10px 10px -10px #555;
 }
 
 #Hamburger {
     display: inline-block;
     float: right;
     margin-right: 3vw;
-    margin-top: 2vh;
+    margin-top: 3vh;   
 }
 
 #HamburgerMenu button{
-    padding-right: 2vw;
-    padding-left: 2vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
 }
 
 #HamburgerMenu Button:hover {
@@ -37,8 +36,6 @@ header {
     display: inline-block;
     box-sizing: border-box;
     font-size: 4vh;
-    font-family: serif;
-    margin-left: 2vw;
 }
 
 #NavButtonsBlock {
@@ -65,11 +62,6 @@ nav ul li {
 
 .InfoSection {
     padding: 10px 10px;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .InfoSection h1 {
@@ -90,32 +82,6 @@ nav ul li {
     padding: 10px 20px 10px 20px;
 }
 
-#MyPictureOutside {
-    display: inline;
-    height: 25vw;
-    width: auto;
-    border-radius: 100px;
-}
-
-#MyPictureInside {
-    display: none;
-    height: 25vh;
-    width: auto;
-    border-radius: 100px;
-}
-
-#Summary {
-    flex: 3;
-}
-
-#AboutMe {
-    margin-top: 90px;
-}
-
-#Skills {
-    display: block;
-}
-
 .ProjectImage {
     width: 25vh;
     height: auto;
@@ -128,12 +94,6 @@ button {
     border-radius: 10%;
 }
 
-button:hover {
-    background-color: aqua;
-}
-
-#ContactArticle {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+#Overview {
+    margin-top: 90px;
 }

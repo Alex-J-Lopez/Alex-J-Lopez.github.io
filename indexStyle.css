@@ -38,7 +38,7 @@ header {
     box-sizing: border-box;
     font-size: 4vh;
     font-family: serif;
-    margin-left: 2vw;
+    margin: 1vh 2vh 1vh 2vh;
 }
 
 #NavButtonsBlock {

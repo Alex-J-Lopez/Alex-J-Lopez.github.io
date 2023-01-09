@@ -20,8 +20,7 @@ header {
 #Hamburger {
     display: inline-block;
     float: right;
-    margin-right: 3vw;
-    margin-top: 2vh;
+    margin: 2vh 3vw 2vh 0vw;
 }
 
 #HamburgerMenu button{
@@ -38,7 +37,7 @@ header {
     box-sizing: border-box;
     font-size: 4vh;
     font-family: serif;
-    margin-left: 2vw;
+    margin: 2vh 2vw 2vh 2vw;
 }
 
 #NavButtonsBlock {
@@ -100,5 +99,5 @@ button {
 }
 
 #Overview {
-    margin-top: 90px;
+    margin-top: 9vh;
 }

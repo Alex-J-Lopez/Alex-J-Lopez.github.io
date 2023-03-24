@@ -31,7 +31,7 @@ header {
     background-color: rgb(252, 198, 98);
 }
 
-#NavHeader {
+#NavigationBarTitle {
     display: inline-block;
     box-sizing: border-box;
     font-size: 4vh;

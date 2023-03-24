@@ -1,2 +1,2 @@
 # Alex-J-Lopez.github.io
-This github repo holds the active code for my personal website.
+This branch holds the second and now obsolete version of my website

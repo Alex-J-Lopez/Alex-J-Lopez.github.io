@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Alex Lopez's CV</title>
-        <link rel="stylesheet" href="indexStyle.css" media="screen and (min-device-width: 450px)">
-        <link rel="stylesheet" href="indexStyleMobile.css" media="screen and (max-device-width: 450px)">
+        <link rel="stylesheet" href="indexStyle.css" media="screen and (min-device-width: 760px)">
+        <link rel="stylesheet" href="indexStyleMobile.css" media="screen and (max-device-width: 760px)">
     </head>
     <body>
         <header>
@@ -22,53 +22,56 @@
                 </ul>
             </nav>
         </header>
-        <section class="InfoSection" id="AboutMe">
-            <!-- Outside image only displays when the website is in desktop mode -->
-            <img src="Media\PersonalImages\IMG_4679.JPG" alt="Img not supported: Pictured, Alexander Lopez" id="MyPictureOutside">
-            <article id="Summary">
-                <!-- Inside image displays on mobile. -->
-                <img src="Media\PersonalImages\IMG_4679.JPG" alt="Img not supported: Pictured, Alexander Lopez" id="MyPictureInside">
-                <h1>Welcome,<br/>My Name is Alex Lopez</h1>
-                <p>I am a student at the Milwaukee School of Engineering in the BS Software Engineering program. 
-                    My interests include: Front end development, game development, and stand alone application development.
-                    In my free time I like to learn new programing languages and improve my skillset though personal
-                     projects such as this website. Feel free to take a look at some of my work in the portfolio section
-                     or send me a message to get in touch.
-                </p>
-            </article>
-        </section>
-        <section class="InfoSection" id="Skills">
-            <h1>Skills</h1>
-            <article>
-                <p>Coding Languages</p>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>Javascript</li>
-                    <li>C#</li>
-                </ul>
-            </article>
-            <article>
-                <p>Applications</p>
-                <ul>
-                    <li>Unity</li>
-                    <li>Arduino IDE</li>
-                    <li>Microsoft Office</li>
-                    <li>Ansys Workbench</li>
-                    <li>Visual Studio</li>
-                </ul>
-            </article>
-            <article>
-                <p>General Skills</p>
-                <ul>
-                    <li>Problem Solving</li>
-                    <li>Engineering Mindset</li>
-                    <li>Collaboration Minded</li>
-                </ul>
-            </article>
-        </section>
+        <div id="backgroundAboutMe">
+            <section class="InfoSection" id="AboutMe">
+                <article id="Summary">
+                    <!-- Inside image displays on mobile. -->
+                    <img src="Media\PersonalImages\IMG_4679.JPG" alt="Img not supported: Pictured, Alexander Lopez" id="MyPictureInside">
+                    <h1>Welcome,<br/>My Name is Alex Lopez</h1>
+                    <p>I am a student at the Milwaukee School of Engineering in the BS Software Engineering program. 
+                        My interests include: Front end development, game development, and stand alone application development.
+                        In my free time I like to learn new programing languages and improve my skillset though personal
+                            projects such as this website. Feel free to take a look at some of my work in the portfolio section
+                            or send me a message to get in touch.
+                    </p>
+                </article>
+            </section>
+        </div>
+        <div id="backgroundSkillsSection">
+            <section class="InfoSection" id="Skills">
+                <h1>Skills</h1>
+                <article>
+                    <p>Coding Languages</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>Javascript</li>
+                        <li>C#</li>
+                    </ul>
+                </article>
+                <article>
+                    <p>Applications</p>
+                    <ul>
+                        <li>Unity</li>
+                        <li>Arduino IDE</li>
+                        <li>Microsoft Office</li>
+                        <li>Ansys Workbench</li>
+                        <li>Visual Studio</li>
+                    </ul>
+                </article>
+                <article>
+                    <p>General Skills</p>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Engineering Mindset</li>
+                        <li>Collaboration Minded</li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+        
         <section class="InfoSection" id="WorkExperience">
             <h1>Work Experience</h1>
             <article>

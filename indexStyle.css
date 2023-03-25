@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: black;
     color: black;
     font-family: sans-serif;
 }
@@ -62,6 +62,22 @@ nav ul li {
     list-style: none;
 }
 
+#backgroundAboutMe {
+    background-image: url(Media/PersonalImages/IMG_4677.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 91vh;
+}
+
+#backgroundSkillsSection {
+    background-image: url(Media/PersonalImages/IMG_4678.JPG);
+    background-size: cover;
+    background-position: center2;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
 .InfoSection {
     padding: 10px 10px;
     margin-left: 10vw;
@@ -89,13 +105,6 @@ nav ul li {
     padding: 10px 20px 10px 20px;
 }
 
-#MyPictureOutside {
-    display: inline;
-    height: 25vw;
-    width: auto;
-    border-radius: 100px;
-}
-
 #MyPictureInside {
     display: none;
     height: 25vh;
@@ -104,7 +113,10 @@ nav ul li {
 }
 
 #Summary {
-    flex: 3;
+    float: right;
+    margin-left: 50vw;
+    max-height: 80vh;
+    overflow-y: scroll;
 }
 
 #AboutMe {
@@ -113,6 +125,9 @@ nav ul li {
 
 #Skills {
     display: block;
+    padding: 10px 75vw 10px 0px;
+    margin: 10px 0px 10px 10px;
+    border-radius: 15px;
 }
 
 .ProjectImage {

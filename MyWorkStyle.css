@@ -1,127 +1,34 @@
-body {
-    background: repeating-linear-gradient(180deg, white, black 100%);
-    margin: 0;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-header {
-    padding: 0;
-    position: fixed;
-    border-bottom: solid #555 2px;
-    box-shadow: 0 10px 10px -10px #555;
-    top: 0;
-    width: 100vw;
-    background: #008ce4;
-}
-
-#Hamburger {
-    float: right;
-    margin-right: 1vw;
-}
-
-#HamburgerMenu button{
-    padding: 2vh 2vh 2vh 2vh;
-    font-size: 3vh;
-    border: none;
-    background: linear-gradient(to left, #0077c2, #008ce4);
-}
-
-#HamburgerMenu Button:hover {
-    background-color: #1e90ff;
-}
-
-#NavigationBarTitle {
-    display: inline-block;
-    box-sizing: border-box;
-    font-size: 3vh;
-    font-family: serif;
-    margin: 2vh 2vw 2vh 2vw;
-}
-
-#NavButtonsBlock {
-    display: none;
-    text-align: center;
-}
-
-#NavButtonsBlock button {
-    width: 15vw;
-    border: none;
-    margin-right: 5vw;
-    margin-bottom: 1vh;
-    background-color: #0077c2;
-    color: black;
-    font-weight: bold;
-    font-size: 3vh;
-}
-
-#NavButtonsBlock button:hover {
-    background-color: #1e90ff;
-}
-
-nav ul li {
-    list-style: none;
-}
-
-.InfoSection {
-    padding: 10px 10px;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    flex-direction: row;
+.InfoSection article {
+    max-height: 70vh; /*This makes the project cards not get too long.*/
 }
 
 .InfoSection h1 {
-    font-size: 35px;
-    margin-bottom: 1vh;
-    margin-top: 1vh;
-}
-
-.InfoSection p {
-    font-size: 20px;
-}
-
-.InfoSection article{
-    background-color: #008ce4;
-    box-shadow: 0 10px 10px -10px #555;
-    margin: 10px 10px 10px 10px;
-    border-radius: 15px;
-    padding: 10px 20px 10px 20px;
-    max-height: 70vh;
+    color: white;
 }
 
 .processCardContainer {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .processCardContainer article {
     flex: 1;
+    overflow-y: scroll;
+    min-width: 22vw;
+    max-height: 50vh;
+    width: auto;
 }
 
 .projectImageContainer {
     white-space: nowrap;
     overflow-x: scroll;
-    max-width: 20vw;
+    max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
 }
 
 .ProjectImage {
-    width: 25vh;
-    height: auto;
-}
-
-button {
-    padding: 1vh 2vw 1vh 2vw;
-    background-color: white;
-    color: black;
-    border-radius: 10%;
-}
-
-#Overview {
-    margin-top: 9vh;
+    height: 25vh;
+    width: auto;
 }

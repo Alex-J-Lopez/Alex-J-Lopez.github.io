@@ -1,0 +1,149 @@
+/*Created by: Alexander Lopez
+Date Created: 3/28/2023*/
+
+/*
+Desktop General CSS 
+For the background color: #A4B3C1
+For primary: LightGray
+Button hover color #3c3f41 */
+
+/*Body and HTML*/
+:root {
+    --primaryOne: LightGray;
+    --accentOne: #3c3f41; /* Graphite grey */
+}
+
+body {
+    background: repeating-linear-gradient(45deg, var(--accentOne), black 50%);
+    margin: 0;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body:nth-child(2) { /*First object that isnt the nav bar*/
+    margin-top: 7vh; /*This pushes the first object down as to not be covered by the nav bar*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: orange;
+}
+
+/*links*/
+a:hover {
+    color: orange;
+}
+
+a {
+    color: black;
+}
+
+/*Buttons General*/
+button {
+    padding: 1vh 1vw 1vh 1vw;
+    background-color: var(--primaryOne);
+    color: black;
+    border-radius: 10%;
+    border-width: 10px;
+}
+
+button:hover {
+    background-color: var(--accentOne);
+    color: var(--primaryOne);
+}
+
+/*Navigation Bar*/
+header { /*This is the actual Bar spanning the top*/
+    padding: 0;
+    position: fixed;
+    border-bottom: solid #555 2px;
+    box-shadow: 0 10px 10px -10px #555;
+    top: 0;
+    width: 100vw;
+    background: var(--primaryOne);
+}
+
+#NavigationBarTitle {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 3vh;
+    font-family: serif;
+    margin: 2vh 2vw 2vh 2vw;
+}
+
+#Hamburger { /*Div that holds the hamburger Button. Deligates position of button*/
+    float: right;
+    margin-right: 1vw;
+}
+
+#HamburgerMenu button { /*This is the actual hamburger button held within the div*/
+    padding: 2vh 2vh 2vh 2vh;
+    font-size: 3vh;
+    border: none;
+    background: linear-gradient(to left, white, var(--primaryOne));
+    border-radius: 15%;
+}
+
+#HamburgerMenu Button:hover { /*The color that ocurrs when you hover over the button*/
+    background-color: var(--accentOne);
+}
+
+/*Dropdown Menu with navigation buttons 
+that is opened bu clicking the HamburgerMenue Button*/
+#NavButtonsBlock {
+    display: none;
+    text-align: center;
+}
+
+#NavButtonsBlock button {
+    width: 50vw;
+    border: none;
+    margin-bottom: 1vh;
+    background-color: var(--primaryOne);
+    color: black;
+    font-weight: bold;
+    font-size: 3vh;
+    border-radius: 0;
+}
+
+#NavButtonsBlock button:hover {
+    background-color: var(--accentOne);
+    color: var(--primaryOne);
+}
+
+nav ul li {
+    list-style: none;
+}
+
+#NavButtonsBlock ul {
+    padding: 0;
+}
+
+/*Information Sections*/
+.InfoSection {
+    padding: 10px 10px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.InfoSection h1 {
+    font-size: 35px;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.InfoSection p {
+    font-size: 20px;
+}
+
+/*Article within the information sections*/
+.InfoSection article{
+    background-color: var(--primaryOne);
+    box-shadow: 0 10px 10px -10px #555;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+}

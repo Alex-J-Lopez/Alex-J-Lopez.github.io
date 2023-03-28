@@ -1,6 +1,11 @@
+/*Article color #008ce4*/
+
 body {
     background-color: white;
+    background: repeating-linear-gradient(180deg, white, black 100%);
     color: black;
+    margin: 0;
+    font-family: sans-serif;
 }
 
 html {
@@ -28,10 +33,10 @@ header {
 }
 
 #HamburgerMenu Button:hover {
-    background-color: rgb(252, 198, 98);
+    background-color: #008ce4;
 }
 
-#NavHeader {
+#NavigationBarTitle {
     display: inline-block;
     box-sizing: border-box;
     font-size: 4vh;
@@ -41,6 +46,10 @@ header {
 #NavButtonsBlock {
     display: none;
     text-align: center;
+}
+
+#NavButtonsBlock ul {
+    padding: 0;
 }
 
 #NavButtonsBlock button {
@@ -53,7 +62,7 @@ header {
 }
 
 #NavButtonsBlock button:hover {
-    background-color: rgb(252, 198, 98);
+    background-color: #008ce4;
 }
 
 nav ul li {
@@ -75,7 +84,7 @@ nav ul li {
 }
 
 .InfoSection article{
-    background-color: orange;
+    background-color: #008ce4;
     box-shadow: 0 10px 10px -10px #555;
     margin: 10px 10px 10px 10px;
     border-radius: 15px;

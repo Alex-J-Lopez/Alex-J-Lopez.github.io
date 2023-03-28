@@ -1,11 +1,12 @@
 /* For the background color: #A4B3C1
-For the article colors: #008ce4 */
+For the article colors: #008ce4
+Button hover color #1e90ff */
 
 body {
     background: repeating-linear-gradient(180deg, white, black 100%);
     margin: 0;
     color: black;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {

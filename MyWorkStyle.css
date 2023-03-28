@@ -2,7 +2,7 @@ body {
     background: repeating-linear-gradient(180deg, white, black 100%);
     margin: 0;
     color: black;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {

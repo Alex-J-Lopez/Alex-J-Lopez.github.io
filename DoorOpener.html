@@ -9,9 +9,9 @@
     </head>
     <body>
         <header>
-            <h1 id="NavHeader">IOT Door Opener</h1>
+            <h1 id="NavigationBarTitle">IOT Door Opener</h1>
             <div id="Hamburger">
-                <a href="javascript:void(0)" onclick="myFunction()" id="HamburgerMenu"><button>|||</button></a>
+                <a href="javascript:void(0)" onmouseover="exposeHamburger()" onclick="exposeHamburger()" id="HamburgerMenu"><button>|||</button></a>
             </div>
             <nav id="NavButtonsBlock">
                 <ul>
@@ -43,30 +43,38 @@
         </section>
         <section class="InfoSection" id="Process">
             <h1>Process</h1>
-            <article>
-                <p><strong>Prototype One</strong></p>
-                <img src="Media\DoorOpener\PrototypeOne.jpg" alt="Image not supported" class="ProjectImage">
-                <p>The first prototpe consisted of one NodeMCU and a relay module with 4 relays. The relays would 
-                    be used to modulate the poles of a two pole stepper motor by using the Stepper.h library 
-                    included with the Arduino IDE.</p>
-            </article>
-            <article>
-                <p><strong>A better solution</strong></p>
-                <img src="Media\DoorOpener\BreadboardNodeAndStepperDriver.jpg" alt="Image not supported" class="ProjectImage">
-                <p>After testing the relay module method, I realized the correct solution to the problem was to use a stepper 
-                    driver to control the stepper motor. The driver chosen was the A4988 Stepper Driver. This was due to its 
-                    low cost and versatility.</p>
-            </article>
-            <article>
-                <p><strong>A new design</strong></p>
-                <img src="Media\DoorOpener\StartingNewPCBDesign.jpg" alt="Image not supported" class="ProjectImage">
-                <img src="Media\DoorOpener\BreadBoardPCBFrontSideDesign.jpg" alt="Image not supported" class="ProjectImage">
-                <img src="Media\DoorOpener\FinishedPCBSoldering.jpg" alt="Image not supported" class="ProjectImage">
-                <img src="Media\DoorOpener\PCBBreadBoardFinished.jpg" alt="Image not supported" class="ProjectImage">
-                <p>The new design was soldered onto a breadboard pcb in order to make it more robust for testing the machine 
-                    on the door. The problem with the breadboard before was that it was prone to falling apart when 
-                    mounted vertically.</p>
-            </article>
+            <div class="processCardContainer">
+                <article>
+                    <p><strong>Prototype One</strong></p>
+                    <div class="projectImageContainer">
+                        <img src="Media\DoorOpener\PrototypeOne.jpg" alt="Image not supported" class="ProjectImage">
+                    </div>
+                    <p>The first prototpe consisted of one NodeMCU and a relay module with 4 relays. The relays would 
+                        be used to modulate the poles of a two pole stepper motor by using the Stepper.h library 
+                        included with the Arduino IDE.</p>
+                </article>
+                <article>
+                    <p><strong>A better solution</strong></p>
+                    <div class="projectImageContainer">
+                        <img src="Media\DoorOpener\BreadboardNodeAndStepperDriver.jpg" alt="Image not supported" class="ProjectImage">
+                    </div>
+                    <p>After testing the relay module method, I realized the correct solution to the problem was to use a stepper 
+                        driver to control the stepper motor. The driver chosen was the A4988 Stepper Driver. This was due to its 
+                        low cost and versatility.</p>
+                </article>
+                <article>
+                    <p><strong>A new design</strong></p>
+                    <div class="projectImageContainer">
+                        <img src="Media\DoorOpener\StartingNewPCBDesign.jpg" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\DoorOpener\BreadBoardPCBFrontSideDesign.jpg" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\DoorOpener\FinishedPCBSoldering.jpg" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\DoorOpener\PCBBreadBoardFinished.jpg" alt="Image not supported" class="ProjectImage">
+                    </div>
+                    <p>The new design was soldered onto a breadboard pcb in order to make it more robust for testing the machine 
+                        on the door. The problem with the breadboard before was that it was prone to falling apart when 
+                        mounted vertically.</p>
+                </article>
+            </div>
             <article>
                 <p><strong>First Sucessful working machine</strong></p>
             </article>
@@ -74,7 +82,7 @@
     </body>
 </html>
 <script>
-    function myFunction() {
+    function exposeHamburger() {
         var x = document.getElementById("NavButtonsBlock");
         if (x.style.display === "block") {
             x.style.display = "none";

@@ -11,7 +11,7 @@
         <header>
             <h1 id="NavigationBarTitle">Alexander Lopez</h1>
             <div id="Hamburger"> <!--This Div holds a link with a button inside it that triggers the myFunction script-->
-                <a href="javascript:void(0)" onclick="myFunction()" id="HamburgerMenu"><button>|||</button></a>
+                <a href="javascript:void(0)" onmouseenter="exposeHamburger()" onclick="exposeHamburger()" id="HamburgerMenu"><button>| | |</button></a>
             </div>
             <nav id="NavButtonsBlock"> <!--The nav block is enabled on click of the button held in the div above-->
                 <ul>
@@ -38,6 +38,22 @@
             </section>
         </div>
         <div id="backgroundSkillsSection">
+            <section class="InfoSection" id="WorkExperience">
+                <h1>Work Experience</h1>
+                <article>
+                    <h2>Software Consultant</h2>
+                    <p>Worked with <a href="https://lselectric.com">L & S Electric, INC.</a> as an independent contractor to build several software applications. My projects ranged from VR tours of the company's traction motor 
+                        refurbishment plant to virtual showcases for products and project sites. I also worked on custom software installers.</p>
+                    <p>Duration: 2018-2021</p>
+                </article>
+                <article>
+                    <h2>Collections Dialer - Aqua Finance INC.</h2>
+                    <p>I worked for aqua finance for roughly two years as a collections dialer. During that time I was promoted to the dialer one position and spent most months in the top three 
+                        performers in my department. I also assisted with the training process for new hires by doing side by sides and allowing new hires to get hands on experience with the 
+                        collections process.</p>
+                    <p>Duration: 2020-2022</p>
+                </article>
+            </section>
             <section class="InfoSection" id="Skills">
                 <h1>Skills</h1>
                 <article>
@@ -71,33 +87,17 @@
                 </article>
             </section>
         </div>
-        
-        <section class="InfoSection" id="WorkExperience">
-            <h1>Work Experience</h1>
-            <article>
-                <h2>AR/VR application developer - L & S Electric, INC.</h2>
-                <p>I developed stand alone vr applications for the marketing team to use at international conventions such as Hydrovision International, Clear Water, and Powergen.
-                    I also worked on implementing mixed reality solutions in the work place using a Microsoft Hololens to display lifesize models of CAD files for collaboration 
-                    between engineers.</p>
-                <p>Duration: 2018-2021</p>
-            </article>
-            <article>
-                <h2>Collections Dialer - Aqua Finance INC.</h2>
-                <p>I worked for aqua finance for roughly two years as a collections dialer. During that time I was promoted to the dialer one position and spent most months in the top three 
-                    performers in my department. I also assisted with the training process for new hires by doing side by sides and allowing new hires to get hands on experience with the 
-                    collections process.</p>
-                <p>Duration: 2020-2022</p>
-            </article>
-        </section>
         <section class="InfoSection" id="Portfolio">
             <h1>Portfolio</h1>
             <h3>Welcome to my portfolio, below are some of my personal projects that I find to be representative of some of my skills. Please feel free to explore. Click the "more 
                 info" buttons to get an indepth look at the project.</h3>
             <article>
                 <h2>IOT Door Opening Machine</h2>
-                <img src="Media\DoorOpener\MachineOnDoor.jpg" alt="Img not supported" class="ProjectImage">
-                <img src="Media\DoorOpener\PCBOnDoor.jpg" alt="Img not supported" class="ProjectImage">
-                <img src="Media\DoorOpener\FinalClientSideWebsite.jpg" alt="Img not supported" class="ProjectImage">
+                <div class="projectImageContainer">
+                    <img src="Media\DoorOpener\MachineOnDoor.jpg" alt="Img not supported" class="ProjectImage">
+                    <img src="Media\DoorOpener\PCBOnDoor.jpg" alt="Img not supported" class="ProjectImage">
+                    <img src="Media\DoorOpener\FinalClientSideWebsite.jpg" alt="Img not supported" class="ProjectImage">
+                </div>
                 <p><strong>Problem Statement</strong></p>
                 <p>Upon moving into my college dorm room, I quickly realized that my room mate and I had a nack for losing our keys. 
                     Naturally we decided to build a machine to open our door for us so that we could reduce the chance of being locked out.</p>
@@ -109,9 +109,11 @@
             </article>
             <article>
                 <h2>IOT Plant Monitor</h2>
-                <img src="Media\PlantMonitor\IMG_4001.JPEG" alt="Img not supported" class="ProjectImage">
-                <img src="Media\PlantMonitor\IMG_4002.PNG" alt="Img not supported" class="ProjectImage">
-                <img src="Media\PlantMonitor\IMG_3628.jpeg" alt="Img not supported" class="ProjectImage">
+                <div class="projectImageContainer">
+                    <img src="Media\PlantMonitor\IMG_4001.JPEG" alt="Img not supported" class="ProjectImage">
+                    <img src="Media\PlantMonitor\IMG_4002.PNG" alt="Img not supported" class="ProjectImage">
+                    <img src="Media\PlantMonitor\IMG_3628.jpeg" alt="Img not supported" class="ProjectImage">
+                </div>
                 <p><strong>Problem Statement</strong></p>
                 <p>I was having touble remembering to water my plants and I needed a solution. I decided, instead of just setting a reminder, to build an 
                     internet connected plant water level monitor.</p>
@@ -122,13 +124,15 @@
             </article>
             <article>
                 <h2>Personal Website</h2>
-                <img src="Media\WebsiteDesign\IMG_3711.JPG" alt="Img not supported" class="ProjectImage">
-                <img src="Media\WebsiteDesign\IMG_3728.JPEG" alt="Img not supported" class="ProjectImage">
-                <img src="Media\WebsiteDesign\IMG_3895.JPEG" alt="Img not supported" class="ProjectImage">
+                <div class="projectImageContainer">
+                    <img src="Media\WebsiteDesign\IMG_3711.JPG" alt="Img not supported" class="ProjectImage">
+                    <img src="Media\WebsiteDesign\IMG_3728.JPEG" alt="Img not supported" class="ProjectImage">
+                    <img src="Media\WebsiteDesign\IMG_3895.JPEG" alt="Img not supported" class="ProjectImage">
+                </div>
                 <p><strong>Objective</strong></p>
                 <p>The objective for this project was to create a website to promote myself and display my skills.
                     Futhermore, I wanted to make a website that would let me give anyone a summary of who I am and 
-                    what my interests are.</p>
+                    what my interests are. This website also serves as a good example of my front end development skills.</p>
             </article>
         </section>
         <section class="InfoSection" id="ContactInfo">
@@ -142,7 +146,7 @@
     </body>
 </html>
 <script>
-    function myFunction() {
+    function exposeHamburger() {
         var x = document.getElementById("NavButtonsBlock");
         if (x.style.display === "block") {
             x.style.display = "none";

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project: IOT Plant Monitor</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="globalAttributes.css" media="screen and (min-device-width: 760px)">
+        <link rel="stylesheet" href="MyWorkStyle.css" media="screen and (min-device-width: 760px)">
+        <link rel="stylesheet" href="MyWorkStyleMobile.css" media="screen and (max-device-width: 759px)">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><h1 id="NavigationBarTitle">Alexander Lopez</h1></a>
+            <div id="Hamburger">
+                <a href="javascript:void(0)" onclick="exposeHamburger()" id="HamburgerMenu"><button>|||</button></a>
+            </div>
+            <nav id="NavButtonsBlock">
+                <ul>
+                    <li><a href="index.html"><button>Home</button></a></li>
+                    <li><a href="https://alex-j-lopez.github.io/#Portfolio"><button>Portfolio</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="projectTitle">
+            Internet Connected Plant Monitor
+        </div>
+        <section class="InfoSection" id="Overview">
+            <h1>Project Overview</h1>
+            <article>
+                <p><strong>Problem Statement</strong></p>
+                <p>When I moved into my college dorm I wanted to have a few plants to make it feel more at home. As it turned out, keeping these plants 
+                    watered was going to be a challenge for me. I was inexperienced with caring for plants and I nearly killed a few of my plants within 
+                    a month of moving in. I needed a solution.
+                </p>
+                <p><strong>Solution</strong></p>
+                <p>I figured I could make a machine to remind me or at least give me insight on when to water my plants. I built an aparatus to help 
+                    me do so. The machine would be able to read water level and display it to a client on a web interface.
+                </p>
+                <p>Moreover, the parts and skills used are as follows:</p>
+                <ul>
+                    <li>NodeMCU v1.0 ESP8266</li>
+                    <li>Water Measurent Sensor</li>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </article>
+        </section>
+        <section class="InfoSection" id="Process">
+            <h1>Development Process</h1>
+            <div class="processCardContainer">
+                <article>
+                    <p><strong>Version 1</strong></p>
+                    <div class="projectImageContainer">
+                        <img src="Media\PlantMonitor\IMG_3625.jpeg" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\PlantMonitor\IMG_3628.jpeg" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\PlantMonitor\IMG_3633.jpeg" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\PlantMonitor\IMG_3997.PNG" alt="Image not supported" class="ProjectImage">
+                    </div>
+                    <p>The first version of the plant monitor was a proof of concept. I set up my water sensors and a NodeMCU esp8266. Then I realized 
+                        that there was only a single analog sensor on the NodeMCU. The solution to this problem was to add an arduino to modulate which 
+                        water sensor would be read when polled by the user. The prototype web interface is depicted as well.
+                    </p>
+                </article>
+                <article>
+                    <p><strong>Version 2</strong></p>
+                    <div class="projectImageContainer">
+                        <img src="Media\PlantMonitor\IMG_4001.JPG" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\PlantMonitor\IMG_3998.JPG" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\PlantMonitor\IMG_3999.PNG" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\PlantMonitor\IMG_4002.PNG" alt="Image not supported" class="ProjectImage">
+                    </div>
+                    <p>Version two focused heavily on the user experience. The total hardware package was reduced to a single NodeMCU and one to two 
+                        water sensors. The web interface was heavily reworked and the backend server technology was changed as well. This was the final 
+                        variant of the Plant Monitoring system. Unfortunately, I was not able to determine if the water sensor would kill the plants if 
+                        the system was actually put into use. Therefore the project was abandoned at this point. I learned a lot about web graphics and 
+                        backend server code during this project and thereby I find it to be somewhat of a sucess.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </body>
+</html>
+<script>
+    function exposeHamburger() {
+        var x = document.getElementById("NavButtonsBlock");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>

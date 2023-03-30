@@ -87,11 +87,3 @@ I set the background here so that it does not obstruct the mobile site*/
     height: 30vh;
     width: auto;
 }
-
-
-#ContactArticle {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-}

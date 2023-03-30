@@ -3,9 +3,9 @@ Date Created: 3/28/2023*/
 
 /*
 Desktop General CSS 
-For the background color: #A4B3C1
 For primary: LightGray
-Button hover color #3c3f41 */
+Secondary #3c3f41 
+*/
 
 /*Body and HTML*/
 :root {
@@ -58,10 +58,10 @@ button:hover {
 /*Navigation Bar*/
 header { /*This is the actual Bar spanning the top*/
     padding: 0;
+    top: 0;
     position: fixed;
     border-bottom: solid #555 2px;
     box-shadow: 0 10px 10px -10px #555;
-    top: 0;
     width: 100vw;
     background: var(--primaryOne);
 }
@@ -146,4 +146,16 @@ nav ul li {
     margin: 10px 10px 10px 10px;
     border-radius: 15px;
     padding: 10px 20px 10px 20px;
+}
+
+/*Contact Footer article*/
+#ContactArticle {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+#ContactArticle h1{
+    color: black;
 }

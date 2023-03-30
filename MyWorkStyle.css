@@ -1,7 +1,3 @@
-.InfoSection article {
-    max-height: 70vh; /*This makes the project cards not get too long.*/
-}
-
 .InfoSection h1 {
     color: white;
 }
@@ -13,9 +9,8 @@
 
 .processCardContainer article {
     flex: 1;
-    overflow-y: scroll;
     min-width: 22vw;
-    max-height: 50vh;
+    max-height: fit-content;
     width: auto;
 }
 
@@ -29,6 +24,15 @@
 }
 
 .ProjectImage {
-    height: 25vh;
+    height: 30vh;
     width: auto;
+}
+
+.projectTitle {
+    padding-top: 2vh;
+    color: white;
+    font-size: 5vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }

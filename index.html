@@ -12,7 +12,7 @@
         <header>
             <h1 id="NavigationBarTitle">Alexander Lopez</h1>
             <div id="Hamburger"> <!--This Div holds a link with a button inside it that triggers the myFunction script-->
-                <a href="javascript:void(0)" onmouseenter="exposeHamburger()" onclick="exposeHamburger()" id="HamburgerMenu"><button>| | |</button></a>
+                <a href="javascript:void(0)" onclick="exposeHamburger()" id="HamburgerMenu"><button>| | |</button></a>
             </div>
             <nav id="NavButtonsBlock"> <!--The nav block is enabled on click of the button held in the div above-->
                 <ul>
@@ -43,7 +43,7 @@
                 <h1>Work Experience</h1>
                 <article>
                     <h2>Software Consultant</h2>
-                    <p>Worked with <a href="https://lselectric.com">L & S Electric, INC.</a> as an independent contractor to build several software applications. My projects ranged from VR tours of the company's traction motor 
+                    <p>Worked with <a href="https://lselectric.com" target="blank">L & S Electric, INC.</a> as an independent contractor to build several software applications. My projects ranged from VR tours of the company's traction motor 
                         refurbishment plant to virtual showcases for products and project sites. I also worked on custom software installers.</p>
                     <p>Duration: 2018-2021</p>
                 </article>
@@ -95,18 +95,34 @@
             <article>
                 <h2>IOT Door Opening Machine</h2>
                 <div class="projectImageContainer">
-                    <img src="Media\DoorOpener\MachineOnDoor.jpg" alt="Img not supported" class="ProjectImage">
-                    <img src="Media\DoorOpener\PCBOnDoor.jpg" alt="Img not supported" class="ProjectImage">
-                    <img src="Media\DoorOpener\FinalClientSideWebsite.jpg" alt="Img not supported" class="ProjectImage">
+                    <img src="Media\DoorOpener\Version3ZoomedOut.png" alt="Image not supported" class="ProjectImage">
+                    <img src="Media\DoorOpener\Version3StepperMotorOnDoor.png" alt="Image not supported" class="ProjectImage">
+                    <img src="Media\DoorOpener\Version3Final.png" alt="Image not supported" class="ProjectImage">
+                    <img src="Media\DoorOpener\Version3ClientSide.png" alt="Image not supported" class="ProjectImage">
                 </div>
                 <p><strong>Problem Statement</strong></p>
-                <p>Upon moving into my college dorm room, I quickly realized that my room mate and I had a nack for losing our keys. 
-                    Naturally we decided to build a machine to open our door for us so that we could reduce the chance of being locked out.</p>
+                <p>When I moved into my college dorm room, I quickly realized that my roommate and I had a nack for losing our keys. 
+                    As a result we decided to build a machine to open our door for us; therefore, we could reduce the chance of being locked out.</p>
                 <p><strong>Solution</strong></p>
                 <p>The solution to the problem was an internet connected machine with a stepper driver connected to a stepper motor attached to a piece of a 3d printer 
                     that was repurposed for this task. The micro controller used was a NodeMCU ESP8266 from Expressif. When clients from the internet connect to the 
-                    Node IP address they are presented with the website shown above where they can click "Cycle Door" to open the door from outside the room.</p>
+                    Node IP address they are presented with the website shown above where they can click "Cycle Door" to open the door from outside the room.
+                </p>
                 <a href="DoorOpener.html"><button>More Info</button></a>
+            </article>
+            <article>
+                <h2>Personal Website</h2>
+                <div class="projectImageContainer">
+                    <img src="Media\WebsiteDesign\IMG_3711.JPG" alt="Img not supported" class="ProjectImage">
+                    <img src="Media\WebsiteDesign\IMG_3728.JPG" alt="Img not supported" class="ProjectImage">
+                    <img src="Media\WebsiteDesign\IMG_3895.JPG" alt="Img not supported" class="ProjectImage">
+                </div>
+                <p><strong>Objective</strong></p>
+                <p>The objective for this project was to create a website to promote myself and display my skills.
+                    Futhermore, I wanted to make a website that would let me give anyone a summary of who I am and 
+                    what my interests are. This website also serves as a good example of my front end development skills.
+                </p>
+                <a href="PersonalWebsiteProject.html"><button>More Info</button></a>
             </article>
             <article>
                 <h2>IOT Plant Monitor</h2>
@@ -121,19 +137,9 @@
                 <p><strong>Solution</strong></p>
                 <p>In order to monitor the plants from afar I used a NodeMCU ESP8266 from Expressif that connects to the internet and allows clients to check the water level
                     using an interactive webpage shown above. The NodeMCU is connected to an analog water detector that changes output based on resistance from the 
-                    water it is touching.</p>
-            </article>
-            <article>
-                <h2>Personal Website</h2>
-                <div class="projectImageContainer">
-                    <img src="Media\WebsiteDesign\IMG_3711.JPG" alt="Img not supported" class="ProjectImage">
-                    <img src="Media\WebsiteDesign\IMG_3728.JPEG" alt="Img not supported" class="ProjectImage">
-                    <img src="Media\WebsiteDesign\IMG_3895.JPEG" alt="Img not supported" class="ProjectImage">
-                </div>
-                <p><strong>Objective</strong></p>
-                <p>The objective for this project was to create a website to promote myself and display my skills.
-                    Futhermore, I wanted to make a website that would let me give anyone a summary of who I am and 
-                    what my interests are. This website also serves as a good example of my front end development skills.</p>
+                    water it is touching.
+                </p>
+                <a href="PlantMonitor.html"><button>More Info</button></a>
             </article>
         </section>
         <section class="InfoSection" id="ContactInfo">
@@ -141,7 +147,7 @@
                 <h1>Contact Me</h1>
                 <a href="https://github.com/Alex-J-Lopez" target="blank"><button>Github</button></a>
                 <a href="https://www.linkedin.com/in/alexander-lopez-j" target="blank"><button>Linkedin</button></a>
-                <a href="about:blank" target="blank"><button>Handshake</button></a> <!--Need to get my Handshake URL-->
+                <a href="mailto:lopezaj@msoe.edu"><button>Email</button></a>
             </article>
         </section>
     </body>

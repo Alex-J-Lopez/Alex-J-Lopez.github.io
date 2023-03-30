@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project: Personal Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="globalAttributes.css" media="screen and (min-device-width: 760px)">
+        <link rel="stylesheet" href="MyWorkStyle.css" media="screen and (min-device-width: 760px)">
+        <link rel="stylesheet" href="MyWorkStyleMobile.css" media="screen and (max-device-width: 759px)">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><h1 id="NavigationBarTitle">Alexander Lopez</h1></a>
+            <div id="Hamburger">
+                <a href="javascript:void(0)" onclick="exposeHamburger()" id="HamburgerMenu"><button>|||</button></a>
+            </div>
+            <nav id="NavButtonsBlock">
+                <ul>
+                    <li><a href="index.html"><button>Home</button></a></li>
+                    <li><a href="https://alex-j-lopez.github.io/#Portfolio"><button>Portfolio</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="projectTitle">
+            Personal Portfolio Website
+        </div>
+        <section class="InfoSection" id="Overview">
+            <h1>Project Overview</h1>
+            <article>
+                <p><strong>Problem Statement</strong></p>
+                <p>Having just started my freshman year at university in the fall of 2022, I had far reaching ambitions for myself. I quickly began doing 
+                    personal projects in order to improve my skills. I needed a place where I could keep a record of each of my projects and my creative 
+                    process.
+                </p>
+                <p><strong>Solution</strong></p>
+                <p>There were a few solutions to my problem. I could purchase a subscription to a website making application and create my website that way. 
+                    I could give prospective employeers a link to a google drive with all my projects. Or, I could improve my web development skills and create 
+                    my own website. As you can tell by now, the thrid choice was both the most professional and also the choice I decided upon. I learned HTML, CSS, 
+                    and some javascript in order to make this idea happen.
+                </p>
+                <p>Skills Used for This Project:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Responsive Web Design</li>
+                </ul>
+            </article>
+        </section>
+        <section class="InfoSection" id="Process">
+            <h1>Development Process</h1>
+            <div class="processCardContainer">
+                <article>
+                    <p><strong>Version 1</strong></p>
+                    <div class="projectImageContainer">
+                        <img src="Media\WebsiteDesign\IMG_3711.JPG" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\WebsiteDesign\IMG_3727.JPG" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\WebsiteDesign\IMG_3728.JPG" alt="Image not supported" class="ProjectImage">
+                    </div>
+                    <p>The fist version of my website was extremely basic. I realized there were a lot of components that went into 
+                        making a professional looking website and that I would need to be organized. As you can see in the images, 
+                        my first website look a bit like something from 2004.
+                    </p>
+                </article>
+                <article>
+                    <p><strong>Intermediate Version 1-2</strong></p>
+                    <div class="projectImageContainer">
+                        <img src="Media\WebsiteDesign\IMG_3895.JPG" alt="Image not supported" class="ProjectImage">
+                    </div>
+                    <p>Due to the dated look of Version 1, I decided to abandon it. Imaged is the prototyping of the new design. I wanted to 
+                        make the information flow and make sense while looking modern and sleek. I started by making a standard hierarchy of sections 
+                        followed by articles. This would allow me to contain and position articles of text while allowing me to position several 
+                        related articles at once via the section parent.
+                    </p>
+                </article>
+                <article>
+                    <p><strong>Version 2</strong></p>
+                    <div class="projectImageContainer">
+                        <img src="Media\WebsiteDesign\Version2LandingPage.png" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\WebsiteDesign\Version2NavigationBar.png" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\WebsiteDesign\Version2PortfolioSection.png" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\WebsiteDesign\Version2IOTProjectPage.png" alt="Image not supported" class="ProjectImage">
+                    </div>
+                    <p>Pictured above is the second version of my website. I went with an orange and white style because it was not distracting. 
+                        I felt that this version of the site was when it began to look somewhat modern. The main issue with this version of the 
+                        website was that it lacked space efficiency, was not particularly responsive to different resolutions, and had rampant 
+                        code repetition which made it nearly impossible to change the styling quickly.
+                    </p>
+                </article>
+                <article>
+                    <p><strong>Version 3</strong></p>
+                        <div class="projectImageContainer">
+                            <img src="Media\WebsiteDesign\Version3LandingPage.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\WebsiteDesign\Version3NavigationBar.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\WebsiteDesign\Version3WorkExperienceAndSkillsSection.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\WebsiteDesign\Version3PortfolioSection.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\WebsiteDesign\Version3IOTProjectPage.png" alt="Image not supported" class="ProjectImage">
+                        </div>
+                        <p>For version three I wanted to make a strong move towards a modern look. With code repetition rampant, the first course of action 
+                            was to completely rework the CSS files. I created a unified globalAttributes.css file where I could manage the color scheme 
+                            of all objects as well as mandate site wide visual consistency. This helped with branding and overall improved the development 
+                            process. Next, I focused on making an impact. Using images as a background and choosing a color that was striking were my main 
+                            focus. Problems with this version were not so obvious: the color scheme was not ideal, the mobile site's background was 
+                            intrusive to the readability, and resolution responsive design was not yet complete.
+                        </p>
+                </article>
+                <article>
+                    <p><strong>Version 4</strong></p>
+                        <div class="projectImageContainer">
+                            <img src="Media\WebsiteDesign\Version4LandingPage.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\WebsiteDesign\Version4NavigationBarAndWorkSkillsSection.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\WebsiteDesign\Version4PortfolioSection.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\WebsiteDesign\Version4IOTProjectPage.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\WebsiteDesign\Version4ProjectDevelopmentSteps.png" alt="Image not supported" class="ProjectImage">
+                        </div>
+                        <p>This is the current version and state of the website. The color scheme was changed to grey and graphite colors which match 
+                            the creative vision that I had for this site. All parts of the website respond appropriately to the resolution changes 
+                            I was capable of testing, the project Pages were substantially improved, and the overall user experience was improved.
+                        </p>
+                </article>
+            </div>
+        </section>
+    </body>
+</html>
+<script>
+    function exposeHamburger() {
+        var x = document.getElementById("NavButtonsBlock");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>

@@ -10,9 +10,9 @@
     </head>
     <body>
         <header>
-            <h1 id="NavigationBarTitle">IOT Door Opener</h1>
+            <a href="index.html"><h1 id="NavigationBarTitle">Alexander Lopez</h1></a>
             <div id="Hamburger">
-                <a href="javascript:void(0)" onmouseover="exposeHamburger()" onclick="exposeHamburger()" id="HamburgerMenu"><button>|||</button></a>
+                <a href="javascript:void(0)" onclick="exposeHamburger()" id="HamburgerMenu"><button>|||</button></a>
             </div>
             <nav id="NavButtonsBlock">
                 <ul>
@@ -21,6 +21,9 @@
                 </ul>
             </nav>
         </header>
+        <div class="projectTitle">
+            Internet Connected Door Opener
+        </div>
         <section class="InfoSection" id="Overview">
             <h1>Project Overview</h1>
             <article>
@@ -43,7 +46,7 @@
             </article>
         </section>
         <section class="InfoSection" id="Process">
-            <h1>Process</h1>
+            <h1>Development Process</h1>
             <div class="processCardContainer">
                 <article>
                     <p><strong>Prototype One</strong></p>
@@ -58,13 +61,14 @@
                     <p><strong>A better solution</strong></p>
                     <div class="projectImageContainer">
                         <img src="Media\DoorOpener\BreadboardNodeAndStepperDriver.jpg" alt="Image not supported" class="ProjectImage">
+                        <img src="Media\DoorOpener\MachineOnDoor.jpg" alt="Image not supported" class="ProjectImage">
                     </div>
                     <p>After testing the relay module method, I realized the correct solution to the problem was to use a stepper 
                         driver to control the stepper motor. The driver chosen was the A4988 Stepper Driver. This was due to its 
                         low cost and versatility.</p>
                 </article>
                 <article>
-                    <p><strong>A new design</strong></p>
+                    <p><strong>Starting Version 2</strong></p>
                     <div class="projectImageContainer">
                         <img src="Media\DoorOpener\StartingNewPCBDesign.jpg" alt="Image not supported" class="ProjectImage">
                         <img src="Media\DoorOpener\BreadBoardPCBFrontSideDesign.jpg" alt="Image not supported" class="ProjectImage">
@@ -75,10 +79,50 @@
                         on the door. The problem with the breadboard before was that it was prone to falling apart when 
                         mounted vertically.</p>
                 </article>
+                <article>
+                    <p><strong>Version 2 completed</strong></p>
+                        <div class="projectImageContainer">
+                            <img src="Media\DoorOpener\PCBOnDoor.jpg" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\PCBOnDoorZoomedOut.jpg" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\PCBOnDoorAssemblyShown.jpg" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\LCDOutsideOfDoor.jpg" alt="Image not supported" class="ProjectImage">
+                        </div>
+                        <p>The first working version of the door opener is pictured above. The first version of the door opener was inefficient 
+                            with space because it used a very large assembly to pull on the door handle. Unfortunately, at the time, 
+                            this was all we had to solve the problem.
+                        </p>
+                </article>
+                <article>
+                    <p><strong>Starting Version 3</strong></p>
+                        <div class="projectImageContainer">
+                            <img src="Media\DoorOpener\WiringSchematic.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\PCBDesign.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\NewDesign.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\Version3StartingToSolder.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\Version3FinishedWiring.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\Version3IOPorts.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\Version3FirstBoot.png" alt="Image not supported" class="ProjectImage">
+                        </div>
+                        <p>After identifyig the shortcommings of Version 2, I decided to move on to a custom solution. This allowed me 
+                            to move away from the soldered breadboard and create a custom housing for the new pcb design. It also gave 
+                            my roommate and I the opprotunituy to address the problem regarding the size of the machine that physically opened the door.
+                        </p>
+                </article>
+                <article>
+                    <p><strong>Version 3 Complete</strong></p>
+                        <div class="projectImageContainer">
+                            <img src="Media\DoorOpener\Version3StressTesting.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\Version3ZoomedOut.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\Version3StepperMotorOnDoor.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\Version3Final.png" alt="Image not supported" class="ProjectImage">
+                            <img src="Media\DoorOpener\Version3ClientSide.png" alt="Image not supported" class="ProjectImage">
+                        </div>
+                        <p>Depicted in the images is the current version of the door opener, Version 3. At this point most of the issues with previous 
+                            versions have been addressed. The size of the apparatus that pulls on the door handle has been decreased to the size of a 
+                            single stepper motor, the web interface has been refined, and the computer itself appears sleek and clean.
+                        </p>
+                </article>
             </div>
-            <article>
-                <p><strong>First Sucessful working machine</strong></p>
-            </article>
         </section>
     </body>
 </html>

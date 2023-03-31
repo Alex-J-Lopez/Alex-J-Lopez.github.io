@@ -5,7 +5,7 @@ For primary: LightGray
 Button hover color #3c3f41 
 */
 body {
-    background: white;
+    background: repeating-linear-gradient(75deg, var(--accentOne), var(--primaryOne) 33%);
 }
 
 .InfoSection {
@@ -17,13 +17,13 @@ body {
     margin-right: 0;
 }
 
-#MyPictureInside {
-    height: 100vw;
-    width: auto;
-    border-radius: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#mobileAboutMeImage {
+    background-image: linear-gradient(to bottom, transparent, var(--accentOne)), url(media/PersonalImages/IMG_4677.JPG);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height: 30vh;
 }
 
 #Summary {

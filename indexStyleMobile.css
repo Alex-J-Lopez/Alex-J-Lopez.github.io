@@ -4,19 +4,6 @@ For the background color: #A4B3C1
 For primary: LightGray
 Button hover color #3c3f41 
 */
-body {
-    background: repeating-linear-gradient(75deg, var(--accentOne), var(--primaryOne) 33%);
-}
-
-.InfoSection {
-    padding: 10px 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 0;
-    margin-right: 0;
-}
-
 #mobileAboutMeImage {
     background-image: linear-gradient(to bottom, transparent, var(--accentOne)), url(media/PersonalImages/IMG_4677.JPG);
     background-size: cover;
@@ -32,19 +19,4 @@ body {
 
 #Skills {
     display: block;
-}
-
-.ProjectImage {
-    width: auto;
-    height: 40vh;
-    display: inline-block;
-}
-
-.projectImageContainer {
-    white-space: nowrap;
-    overflow-x: scroll;
-    max-width: 75vw;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5%;
 }

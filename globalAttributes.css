@@ -13,11 +13,22 @@ Secondary #3c3f41
     --accentOne: #3c3f41; /* Graphite grey */
 }
 
-body {
-    background: repeating-linear-gradient(45deg, var(--accentOne), black 50%);
-    margin: 0;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@media only screen and (min-width: 760px) {
+    body {
+        background: repeating-linear-gradient(45deg, var(--accentOne), black 50%);
+        margin: 0;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media only screen and (max-width: 759px) {
+    body {
+        background: repeating-linear-gradient(75deg, var(--accentOne), var(--primaryOne) 33%);
+        margin: 0;
+        color: black;
+        font-family: sans-serif;
+    }
 }
 
 body:nth-child(2) { /*First object that isnt the nav bar*/
@@ -123,10 +134,23 @@ nav ul li {
 }
 
 /*Information Sections*/
-.InfoSection {
-    padding: 10px 10px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+@media only screen and (min-width: 760px){
+    .InfoSection {
+        padding: 10px 10px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 759px){
+    .InfoSection {
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .InfoSection h1 {
@@ -158,4 +182,37 @@ nav ul li {
 
 #ContactArticle h1{
     color: black;
+}
+
+/*Project Images and their parent div for horizontal scrolling*/
+@media only screen and (max-width: 759px) { /*Mobile only*/
+    .projectImageContainer {
+        white-space: nowrap;
+        overflow-x: scroll;
+        max-width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5%;
+    }
+    .ProjectImage {
+        width: auto;
+        height: 40vh;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 760px) { /*Desktop only*/
+    .projectImageContainer {
+        white-space: nowrap;
+        overflow-x: scroll;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5%;
+    }
+    
+    .ProjectImage {
+        height: 30vh;
+        width: auto;
+    }
 }

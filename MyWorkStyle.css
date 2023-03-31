@@ -14,19 +14,7 @@
     width: auto;
 }
 
-.projectImageContainer {
-    white-space: nowrap;
-    overflow-x: scroll;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5%;
-}
 
-.ProjectImage {
-    height: 30vh;
-    width: auto;
-}
 
 .projectTitle {
     padding-top: 2vh;

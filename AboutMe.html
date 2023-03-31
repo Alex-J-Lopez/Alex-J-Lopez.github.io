@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Alex Lopez's CV</title>
+        <link rel="stylesheet" href="globalAttributes.css">
+        <link rel="stylesheet" href="AboutMe.css" media="screen and (min-device-width: 760px)">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><h1 id="NavigationBarTitle">Alexander Lopez</h1></a>
+            <div id="Hamburger">
+                <a href="javascript:void(0)" onclick="exposeHamburger()" id="HamburgerMenu"><button>| | |</button></a>
+            </div>
+            <nav id="NavButtonsBlock">
+                <ul>
+                    <li><a href="index.html"><button>Home</button></a></li>
+                    <li><a href="AboutMe.html"><button>About Me</button></a></li>
+                    <li><a href="https://alex-j-lopez.github.io/#Portfolio"><button>Portfolio</button></a></li>
+                    <li><a href="#ContactInfo"><button>Contact Me</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="backgroundAboutMe">
+            <div id="mobileAboutMeImage"></div>
+            <section class="InfoSection" id="AboutMe">
+                <article id="Summary">
+                    <h1>Welcome,<br/>My Name is Alex Lopez</h1>
+                    <p>I am a student at the Milwaukee School of Engineering in the BS Software Engineering program. 
+                        My interests include: Front end development, game development, and stand alone application development.
+                        In my free time I like to learn new programing languages and improve my skillset though personal
+                            projects such as this website. When im not doing personal projects, I usually fill the time by 
+                            attending club meetings like Game Development club and AI club to name a few.
+                    </p>
+                </article>
+            </section>
+        </div>
+        <section class="InfoSection" id="WhoAmI">
+            <article>
+                <h1>Who am I?</h1>
+                <p> I'm a person who loves nature, adventure, and technology. I grew up in Wausau, Wisconsin, a city surrounded by forests, lakes, and hills. 
+                    I spent my childhood exploring the outdoors with my Boyscout troop, biking, hiking, camping, and enjoying the beauty of nature. I also 
+                    developed an interest in electronics and engineering, inspired by my father who is a mechanical engineer. 
+                    He taught me how to build and repair various devices, such as computer fans, motors, and to solve problems. He also encouraged me to pursue my passion 
+                    for software engineering, which is what I'm doing now. I went to Wausau East High School, where I excelled in math and science. I am a Full IB Deploma Holder. 
+                    I also joined the local STEM ROV robotics club and the Tech Crew, where I met some of my best friends. After graduating from high school, 
+                    I decided to pursue a degree in software engineering at Milwaukee School of Engineering (MSOE). I'm currently in my freshman year and I'm loving every moment of it.
+                     I'm learning new skills and concepts every day, working on exciting projects and experiments, and collaborating with other talented students and professors. 
+                     I'm also involved in several extracurricular activities, such as the Game Development Club and the AI club. My goal is to become a successful 
+                     software engineer who can create innovative solutions for real-world problems. I'm also passionate about traveling and learning 
+                     about different cultures and perspectives. I hope to visit many places around the world and make a positive impact wherever I go. That's who I am: 
+                     a curious, adventurous, and creative person who loves life and wants to make a difference.</p>
+            </article>
+        </section>
+        <section class="InfoSection" id="Resume">
+            <article>
+                <h1>Resume</h1>
+                <p>Please feel free to take a look at my resume below</p>
+                <iframe src="Media\ResumeLopezaj2023.pdf"></iframe>
+            </article>
+        </section>
+        <section class="InfoSection" id="ContactInfo">
+            <article id="ContactArticle">
+                <h1>Contact Me</h1>
+                <a href="https://github.com/Alex-J-Lopez" target="blank"><button>Github</button></a>
+                <a href="https://www.linkedin.com/in/alexander-lopez-j" target="blank"><button>Linkedin</button></a>
+                <a href="mailto:lopezaj@msoe.edu"><button>Email</button></a>
+            </article>
+        </section>
+    </body>
+</html>
+<script>
+    function exposeHamburger() {
+        var x = document.getElementById("NavButtonsBlock");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>

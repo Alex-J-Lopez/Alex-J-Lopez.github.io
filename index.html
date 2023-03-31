@@ -4,30 +4,29 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Alex Lopez's CV</title>
-        <link rel="stylesheet" href="globalAttributes.css" media="screen and (min-device-width: 760px)">
+        <link rel="stylesheet" href="globalAttributes.css">
         <link rel="stylesheet" href="indexStyle.css" media="screen and (min-device-width: 760px)">
         <link rel="stylesheet" href="indexStyleMobile.css" media="screen and (max-device-width: 759px)">
     </head>
     <body>
         <header>
-            <h1 id="NavigationBarTitle">Alexander Lopez</h1>
-            <div id="Hamburger"> <!--This Div holds a link with a button inside it that triggers the myFunction script-->
+            <a href="index.html"><h1 id="NavigationBarTitle">Alexander Lopez</h1></a>
+            <div id="Hamburger">
                 <a href="javascript:void(0)" onclick="exposeHamburger()" id="HamburgerMenu"><button>| | |</button></a>
             </div>
-            <nav id="NavButtonsBlock"> <!--The nav block is enabled on click of the button held in the div above-->
+            <nav id="NavButtonsBlock">
                 <ul>
-                    <li><a href="#AboutMe"><button>About Me</button></a></li>
-                    <li><a href="#Skills"><button>Skills</button></a></li>
+                    <li><a href="index.html"><button>Home</button></a></li>
+                    <li><a href="AboutMe.html"><button>About Me</button></a></li>
                     <li><a href="#Portfolio"><button>Portfolio</button></a></li>
                     <li><a href="#ContactInfo"><button>Contact Me</button></a></li>
                 </ul>
             </nav>
         </header>
         <div id="backgroundAboutMe">
+            <div id="mobileAboutMeImage"></div>
             <section class="InfoSection" id="AboutMe">
                 <article id="Summary">
-                    <!-- Inside image displays on mobile. -->
-                    <img src="Media\PersonalImages\IMG_4679.JPG" alt="Img not supported: Pictured, Alexander Lopez" id="MyPictureInside">
                     <h1>Welcome,<br/>My Name is Alex Lopez</h1>
                     <p>I am a student at the Milwaukee School of Engineering in the BS Software Engineering program. 
                         My interests include: Front end development, game development, and stand alone application development.
@@ -127,7 +126,7 @@
             <article>
                 <h2>IOT Plant Monitor</h2>
                 <div class="projectImageContainer">
-                    <img src="Media\PlantMonitor\IMG_4001.JPEG" alt="Img not supported" class="ProjectImage">
+                    <img src="Media\PlantMonitor\IMG_4001.JPG" alt="Img not supported" class="ProjectImage">
                     <img src="Media\PlantMonitor\IMG_4002.PNG" alt="Img not supported" class="ProjectImage">
                     <img src="Media\PlantMonitor\IMG_3628.jpeg" alt="Img not supported" class="ProjectImage">
                 </div>

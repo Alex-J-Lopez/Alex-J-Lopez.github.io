@@ -3,9 +3,9 @@ Date Created: 3/28/2023*/
 
 /*
 Desktop General CSS 
-For the background color: #A4B3C1
 For primary: LightGray
-Button hover color #3c3f41 */
+Secondary #3c3f41 
+*/
 
 /*Body and HTML*/
 :root {
@@ -13,11 +13,22 @@ Button hover color #3c3f41 */
     --accentOne: #3c3f41; /* Graphite grey */
 }
 
-body {
-    background: repeating-linear-gradient(45deg, var(--accentOne), black 50%);
-    margin: 0;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@media only screen and (min-width: 760px) {
+    body {
+        background: repeating-linear-gradient(45deg, var(--accentOne), black 50%);
+        margin: 0;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media only screen and (max-width: 759px) {
+    body {
+        background: repeating-linear-gradient(75deg, var(--accentOne), var(--primaryOne) 33%);
+        margin: 0;
+        color: black;
+        font-family: sans-serif;
+    }
 }
 
 body:nth-child(2) { /*First object that isnt the nav bar*/
@@ -58,10 +69,10 @@ button:hover {
 /*Navigation Bar*/
 header { /*This is the actual Bar spanning the top*/
     padding: 0;
+    top: 0;
     position: fixed;
     border-bottom: solid #555 2px;
     box-shadow: 0 10px 10px -10px #555;
-    top: 0;
     width: 100vw;
     background: var(--primaryOne);
 }
@@ -123,10 +134,23 @@ nav ul li {
 }
 
 /*Information Sections*/
-.InfoSection {
-    padding: 10px 10px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+@media only screen and (min-width: 760px){
+    .InfoSection {
+        padding: 10px 10px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 759px){
+    .InfoSection {
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .InfoSection h1 {
@@ -146,4 +170,49 @@ nav ul li {
     margin: 10px 10px 10px 10px;
     border-radius: 15px;
     padding: 10px 20px 10px 20px;
+}
+
+/*Contact Footer article*/
+#ContactArticle {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+#ContactArticle h1{
+    color: black;
+}
+
+/*Project Images and their parent div for horizontal scrolling*/
+@media only screen and (max-width: 759px) { /*Mobile only*/
+    .projectImageContainer {
+        white-space: nowrap;
+        overflow-x: scroll;
+        max-width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5%;
+    }
+    .ProjectImage {
+        width: auto;
+        height: 40vh;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 760px) { /*Desktop only*/
+    .projectImageContainer {
+        white-space: nowrap;
+        overflow-x: scroll;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5%;
+    }
+    
+    .ProjectImage {
+        height: 30vh;
+        width: auto;
+    }
 }

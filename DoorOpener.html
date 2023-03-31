@@ -4,7 +4,7 @@
         <title>Project: IOT Door Opener</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="globalAttributes.css" media="screen and (min-device-width: 760px)">
+        <link rel="stylesheet" href="globalAttributes.css">
         <link rel="stylesheet" href="MyWorkStyle.css" media="screen and (min-device-width: 760px)">
         <link rel="stylesheet" href="MyWorkStyleMobile.css" media="screen and (max-device-width: 759px)">
     </head>
@@ -12,12 +12,14 @@
         <header>
             <a href="index.html"><h1 id="NavigationBarTitle">Alexander Lopez</h1></a>
             <div id="Hamburger">
-                <a href="javascript:void(0)" onclick="exposeHamburger()" id="HamburgerMenu"><button>|||</button></a>
+                <a href="javascript:void(0)" onclick="exposeHamburger()" id="HamburgerMenu"><button>| | |</button></a>
             </div>
             <nav id="NavButtonsBlock">
                 <ul>
                     <li><a href="index.html"><button>Home</button></a></li>
+                    <li><a href="AboutMe.html"><button>About Me</button></a></li>
                     <li><a href="https://alex-j-lopez.github.io/#Portfolio"><button>Portfolio</button></a></li>
+                    <li><a href="#ContactInfo"><button>Contact Me</button></a></li>
                 </ul>
             </nav>
         </header>
@@ -31,18 +33,22 @@
                 <p>When I moved into my college dorm room, I quickly realized that my roommate and I had a nack for losing our keys. 
                     As a result we decided to build a machine to open our door for us; therefore, we could reduce the chance of being locked out.</p>
                 <p><strong>Solution</strong></p>
-                <p>The solution to the problem was an internet connected machine with a stepper driver connected to a stepper motor attached to a piece of a 3d printer 
-                    that was repurposed for this task. The micro controller used was a NodeMCU ESP8266 from Expressif. When clients from the internet connect to the 
-                    Node IP address they are presented with a website where they can click "Cycle Door" to open the door from outside the room.</p>
-                <p>Moreover, the full parts list was as follows.</p>
+                <p>The solution to the problem was a machine that would be able to open my door for me. I thought about the possible ways to achive this and 
+                    eventually settled on the idea of having a web interface and a machine that would operate remotely from that interface. The machine would 
+                    eventually consist of a stepper motor, an ESP8266 NodeMCU, and a few other parts. This machine is attached to the door, and then acts 
+                    as a server that responds to clients. When a client presses a button on the website, the server responds by turning on the stepper motor.
+                </p>
+                <p>Moreover, the full parts list and skills required are as follows.</p>
                 <ul>
                     <li>NodeMCU v1.0 ESP8266</li>
                     <li>A4988 Stepper Driver</li>
                     <li>Nema 17 Stepper Motor</li>
                     <li>8x2 LCD Display</li>
-                    <li>2 Limit Switches</li>
-                    <li>Repurposed 3D Printer Extruded Aluminum</li>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                 </ul>
+                <p>Code can be found at my <a href="https://github.com/Alex-J-Lopez/DoorOpeningMachine-V2" target="blank">github</a>.</p>
             </article>
         </section>
         <section class="InfoSection" id="Process">
@@ -123,6 +129,14 @@
                         </p>
                 </article>
             </div>
+        </section>
+        <section class="InfoSection" id="ContactInfo">
+            <article id="ContactArticle">
+                <h1>Contact Me</h1>
+                <a href="https://github.com/Alex-J-Lopez" target="blank"><button>Github</button></a>
+                <a href="https://www.linkedin.com/in/alexander-lopez-j" target="blank"><button>Linkedin</button></a>
+                <a href="mailto:lopezaj@msoe.edu"><button>Email</button></a>
+            </article>
         </section>
     </body>
 </html>

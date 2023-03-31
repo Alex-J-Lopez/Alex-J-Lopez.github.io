@@ -5,7 +5,7 @@ For primary: LightGray
 Button hover color #3c3f41 
 */
 #mobileAboutMeImage {
-    background-image: linear-gradient(to bottom, transparent, var(--accentOne)), url(media/PersonalImages/IMG_4677.JPG);
+    background-image: linear-gradient(to bottom, transparent, var(--accentOne)), url(Media/PersonalImages/IMG_4677.JPG);
     background-size: cover;
     background-position-x: center;
     background-position-y: top;

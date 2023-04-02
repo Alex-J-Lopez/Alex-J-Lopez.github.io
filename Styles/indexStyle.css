@@ -1,7 +1,7 @@
 /*This div holds the summary article in the about me
 I set the background here so that it does not obstruct the mobile site*/
 #backgroundAboutMe {
-    background-image: url(Media/PersonalImages/IMG_4677.JPG);
+    background-image: url(../Media/PersonalImages/IMG_4677.JPG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ I set the background here so that it does not obstruct the mobile site*/
 
 /*This div holds the skills and work experience sections*/
 #backgroundSkillsSection {
-    background-image: linear-gradient(to bottom, transparent, var(--accentOne)), url(Media/PersonalImages/IMG_4676.JPG);
+    background-image: linear-gradient(to bottom, transparent, var(--accentOne)), url(../Media/PersonalImages/IMG_4676.JPG);
     background-size: cover;
     background-position-x: center;
     background-position-y: center;

@@ -4,8 +4,19 @@ For the background color: #A4B3C1
 For primary: LightGray
 Button hover color #3c3f41 
 */
+/* Image above the about me section */
 #mobileAboutMeImage {
     background-image: linear-gradient(to bottom, transparent, var(--accentOne)), url(../Media/PersonalImages/IMG_4677.JPG);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+/* Image above the skills section*/
+#mobileSkillsSectionImage {
+    background-image: linear-gradient(to bottom, transparent, var(--accentOne)), url(../Media/PersonalImages/IMG_4676.JPG);
     background-size: cover;
     background-position-x: center;
     background-position-y: top;

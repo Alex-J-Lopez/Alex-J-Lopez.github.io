@@ -91,7 +91,7 @@ header { /*This is the actual Bar spanning the top*/
     margin-right: 1vw;
 }
 
-#HamburgerMenu button { /*This is the actual hamburger button held within the div*/
+#HamburgerMenu { /*This is the actual hamburger button held within the div*/
     padding: 2vh 2vh 2vh 2vh;
     font-size: 3vh;
     border: none;
@@ -99,7 +99,7 @@ header { /*This is the actual Bar spanning the top*/
     border-radius: 15%;
 }
 
-#HamburgerMenu Button:hover { /*The color that ocurrs when you hover over the button*/
+#HamburgerMenu:hover { /*The color that ocurrs when you hover over the button*/
     background-color: var(--accentOne);
 }
 

@@ -6,12 +6,13 @@
         <title>Alex Lopez's CV</title>
         <link rel="stylesheet" href="..\Styles\globalAttributes.css">
         <link rel="stylesheet" href="..\Styles\AboutMe.css" media="screen and (min-device-width: 760px)">
+        <script src="../Scripts/PageBehavior.js"></script>
     </head>
     <body>
         <header>
             <a href="../index.html"><h1 id="NavigationBarTitle">Alexander Lopez</h1></a>
             <div id="Hamburger">
-                <a href="javascript:void(0)" onclick="exposeHamburger()" id="HamburgerMenu"><button>| | |</button></a>
+                <button id="HamburgerMenu" onclick="exposeHamburger()">| | |</button>
             </div>
             <nav id="NavButtonsBlock">
                 <ul>
@@ -70,13 +71,3 @@
         </section>
     </body>
 </html>
-<script>
-    function exposeHamburger() {
-        var x = document.getElementById("NavButtonsBlock");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
-</script>

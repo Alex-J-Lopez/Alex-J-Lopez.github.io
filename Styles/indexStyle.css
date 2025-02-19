@@ -57,6 +57,12 @@ I set the background here so that it does not obstruct the mobile site*/
     height: auto;
     border-radius: 15px;
     overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#WorkExperience::-webkit-scrollbar {
+    display: none;
 }
 
 #WorkExperience h1 {

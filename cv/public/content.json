@@ -138,6 +138,41 @@
                     "stepDescription": "Depicted in the images is the current version of the door opener, Version 3. Most issues from previous versions have been addressed: the size of the apparatus that pulls on the door handle has been decreased, the web interface has been refined, and the embedded system is visually appealing."
                 }
             ]
+        },
+        {
+            "projectTitle": "IOT Plant Monitor",
+            "problemStatement": "When I moved into my college dorm I wanted to have a few plants to make it feel more at home. Keeping these plants watered was a challenge and I needed a solution.",
+            "solution": "I built an apparatus to read water level and display it to a client on a web interface using a NodeMCU ESP8266. The device reports measurements to the web UI where users can check water levels remotely.",
+            "skillsUsed": [
+                "NodeMCU v1.0 ESP8266",
+                "Water Measurement Sensor",
+                "C++",
+                "HTML",
+                "CSS"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Version 1",
+                    "images": [
+                        "/media/PlantMonitor/IMG_3625.jpeg",
+                        "/media/PlantMonitor/IMG_3628.jpeg",
+                        "/media/PlantMonitor/IMG_3633.jpeg",
+                        "/media/PlantMonitor/IMG_3997.PNG"
+                    ],
+                    "stepDescription": "The first version was a proof of concept using water sensors and a NodeMCU ESP8266. I discovered the NodeMCU had only a single analog pin available, which led to adding an Arduino to multiplex multiple sensors. The prototype web interface is shown in images."
+                },
+                {
+                    "stepName": "Version 2",
+                    "images": [
+                        "/media/PlantMonitor/IMG_4001.JPG",
+                        "/media/PlantMonitor/IMG_3998.JPG",
+                        "/media/PlantMonitor/IMG_3999.PNG",
+                        "/media/PlantMonitor/IMG_4002.PNG"
+                    ],
+                    "stepDescription": "Version two improved the user experience and reduced hardware to a single NodeMCU with one or two water sensors. The web interface and backend were reworked. The project was later abandoned due to uncertainty about sensor effects on plants, but it was a valuable learning experience."
+                }
+            ]
         }
     ]
 }

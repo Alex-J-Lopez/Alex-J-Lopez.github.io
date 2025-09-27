@@ -1,0 +1,67 @@
+{
+    "projects": [
+        {
+            "projectTitle": "Personal Portfolio Website",
+            "problemStatement": "Having just started my freshman year at university in the fall of 2022, I had far reaching ambitions for myself. I quickly began doing personal projects in order to improve my skills. I needed a place where I could keep a record of each of my projects and my creative process.",
+            "solution": "There were a few solutions to my problem. I could purchase a subscription to a website making application and create my website that way. I could give prospective employeers a link to a google drive with all my projects. Or, I could improve my web development skills and create my own website. As you can tell by now, the thrid choice was both the most professional and also the choice I decided upon. I learned HTML, CSS, and some javascript in order to make this idea happen.",
+            "skillsUsed": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Responsive Web Design"
+            ],
+            "projectSourceCodeLink": "https://github.com/Alex-J-Lopez/Alex-J-Lopez.github.io",
+            "developmentProcess": [
+                {
+                    "stepName": "Version 1",
+                    "images": [
+                        "/media/WebsiteDesign/IMG_3711.JPG",
+                        "/media/WebsiteDesign/IMG_3727.JPG",
+                        "/media/WebsiteDesign/IMG_3728.JPG"
+                    ],
+                    "stepDescription": "The first version of my website was extremely basic. I realized there were a lot of components that went into making a professional looking website and that I would need to be organized. As you can see in the images, my first website look a bit like something from 2004."
+                },
+                {
+                    "stepName": "Intermediate Version 1-2",
+                    "images": [
+                        "/media/WebsiteDesign/IMG_3895.JPG"
+                    ],
+                    "stepDescription": "Due to the dated look of Version 1, I decided to abandon it. Imaged is the prototyping of the new design. I wanted to make the information flow and make sense while looking modern and sleek. I started by making a standard hierarchy of sections followed by articles. This would allow me to contain and position articles of text while allowing me to position several related articles at once via the section parent."
+                },
+                {
+                    "stepName": "Version 2",
+                    "images": [
+                        "/media/WebsiteDesign/Version2LandingPage.png",
+                        "/media/WebsiteDesign/Version2NavigationBar.png",
+                        "/media/WebsiteDesign/Version2PortfolioSection.png",
+                        "/media/WebsiteDesign/Version2IOTProjectPage.png"
+                    ],
+                    "stepDescription": "Pictured above is the second version of my website. I went with an orange and white style because it was not distracting. I felt that this version of the site was when it began to look somewhat modern. The main issue with this version of the website was that it lacked space efficiency, was not particularly responsive to different resolutions, and had rampant code repetition which made it nearly impossible to change the styling quickly."
+                },
+                {
+                    "stepName": "Version 3",
+                    "images": [
+                        "/media/WebsiteDesign/Version3LandingPage.png",
+                        "/media/WebsiteDesign/Version3NavigationBar.png",
+                        "/media/WebsiteDesign/Version3WorkExperienceAndSkillsSection.png",
+                        "/media/WebsiteDesign/Version3PortfolioSection.png",
+                        "/media/WebsiteDesign/Version3IOTProjectPage.png"
+                    ],
+                    "stepDescription": "For version three I wanted to make a strong move towards a modern look. With code repetition rampant, the first course of action was to completely rework the CSS files. I created a unified globalAttributes.css file where I could manage the color scheme of all objects as well as mandate site wide visual consistency. This helped with branding and overall improved the development process. Next, I focused on making an impact. Using images as a background and choosing a color that was striking were my main focus. Problems with this version were not so obvious: the color scheme was not ideal, the mobile site's background was intrusive to the readability, and resolution responsive design was not yet complete."
+                },
+                {
+                    "stepName": "Version 4",
+                    "images": [
+                        "/media/WebsiteDesign/Version4LandingPage.png",
+                        "/media/WebsiteDesign/Version4NavigationBarAndWorkSkillsSection.png",
+                        "/media/WebsiteDesign/Version4PortfolioSection.png",
+                        "/media/WebsiteDesign/Version4IOTProjectPage.png",
+                        "/media/WebsiteDesign/Version4ProjectDevelopmentSteps.png"
+                    ],
+                    "stepDescription": "This is the current version and state of the website. The color scheme was changed to grey and graphite colors which match the creative vision that I had for this site. All parts of the website respond appropriately to the resolution changes I was capable of testing, the project Pages were substantially improved, and the overall user experience was improved."
+                }
+            ]
+        }
+
+    ]
+}

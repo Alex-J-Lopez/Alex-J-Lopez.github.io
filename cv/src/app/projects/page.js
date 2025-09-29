@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import ProjectPreview from '../../components/projectPreview';
+import ProjectPreview from '../../components/ProjectPreview';
 
 const ProjectsPage = () => {
     const [projects, setProjects] = useState([]);

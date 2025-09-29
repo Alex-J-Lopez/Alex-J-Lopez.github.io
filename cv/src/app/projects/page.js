@@ -1,5 +1,6 @@
-"use client";
+"use client"
 import React, { useEffect, useState } from 'react';
+import ProjectPreview from '../../components/projectPreview';
 
 const ProjectsPage = () => {
     const [projects, setProjects] = useState([]);
@@ -19,17 +20,14 @@ const ProjectsPage = () => {
     }, []);
 
     return (
-        <div>
-            <h1>Projects</h1>
-            <ul>
+        <div className="container mx-auto px-4 py-8">
+            <h1 className="text-4xl font-bold mb-4">Project Catalog</h1>
+            <p className="text-lg mb-8">Welcome to my project catalog! Here, you'll find a collection of projects I've worked on in the past. Feel free to explore each one in more depth by clicking on the "More Details" link.</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((project, index) => (
-                    <li key={index}>
-                        <h2>{project.projectTitle}</h2>
-                        <p>{project.problemStatement}</p>
-                        <a href={`/projects/${index}`}>More Details</a>
-                    </li>
+                    <ProjectPreview key={index} title={project.projectTitle} problemStatement={project.problemStatement} href={`/projects/${index}`} />
                 ))}
-            </ul>
+            </div>
         </div>
     );
 };

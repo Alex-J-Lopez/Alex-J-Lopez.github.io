@@ -102,11 +102,30 @@ export default function About() {
         <article>
           <h1 className="text-3xl font-bold mb-6">Resume</h1>
           <p className="text-lg mb-8">Please feel free to take a look at my resume below</p>
-          <iframe
-            src="/Resume_Alexander_lopez.pdf"
-            title="Resume"
-            className="w-full md:w-11/12 h-[80vh] border-0 rounded-lg mx-auto"
-          ></iframe>
+
+          <div className="max-w-4xl mx-auto">
+            {/* Show iframe on medium+ screens; many mobile browsers block or don't render PDFs in iframes reliably */}
+            <div className="hidden md:block">
+              <iframe
+                src="/Resume_Alexander_Lopez.pdf"
+                title="Resume"
+                className="w-full md:w-11/12 h-[80vh] border-0 rounded-lg mx-auto"
+              ></iframe>
+            </div>
+
+            {/* Mobile fallback: explicit link to open/download the PDF */}
+            <div className="md:hidden text-center">
+              <a
+                href="/Resume_Alexander_Lopez.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block bg-rose-600 hover:bg-rose-500 text-white px-4 py-2 rounded-md shadow"
+              >
+                Open Resume (PDF)
+              </a>
+              <p className="text-sm text-slate-300 mt-3">If the preview doesn't appear on your device, tap the link above to open or download the PDF.</p>
+            </div>
+          </div>
         </article>
       </section>
     </div>

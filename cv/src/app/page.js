@@ -16,7 +16,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-3">
               <Link href="/about" className="inline-block bg-rose-600 hover:bg-rose-500 text-white px-5 py-3 rounded-md shadow">About</Link>
               <Link href="/projects" className="inline-block border border-slate-400 text-slate-200 px-5 py-3 rounded-md hover:bg-white/5">Projects</Link>
-              <a href="/about#resume" target="_blank" rel="noreferrer" className="inline-block text-sm text-slate-300 px-4 py-3">Resume</a>
+              <a href="/about#resume" rel="noreferrer" className="inline-block text-sm text-slate-300 px-4 py-3">Resume</a>
             </div>
           </div>
 
@@ -36,24 +36,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* Features / quick links */}
-        <section className="mt-16">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <article className="bg-white/5 p-6 rounded-lg shadow">
-              <h3 className="text-xl font-semibold mb-2">Featured Projects</h3>
-              <p className="text-slate-200">A selection of recent work blending UI, game logic, and hardware integrations.</p>
-            </article>
-            <article className="bg-white/5 p-6 rounded-lg shadow">
-              <h3 className="text-xl font-semibold mb-2">Photography</h3>
-              <p className="text-slate-200">I document projects and nature — photos are used throughout this site.</p>
-            </article>
-            <article className="bg-white/5 p-6 rounded-lg shadow">
-              <h3 className="text-xl font-semibold mb-2">Get in touch</h3>
-              <p className="text-slate-200">Email or connect on GitHub / LinkedIn — links are available on every page.</p>
-            </article>
-          </div>
-        </section>
       </div>
     </div>
   );

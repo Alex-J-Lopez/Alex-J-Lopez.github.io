@@ -28,7 +28,7 @@ const NavBar = () => {
                             </Link>
                         ))}
 
-                        <a href="/about#resume" target="_blank" rel="noreferrer" className="ml-2 inline-flex items-center bg-rose-600 hover:bg-rose-500 text-white px-3 py-2 rounded-md shadow">Resume</a>
+                        <a href="/about#resume" rel="noreferrer" className="ml-2 inline-flex items-center bg-rose-600 hover:bg-rose-500 text-white px-3 py-2 rounded-md shadow">Resume</a>
                     </div>
 
                     {/* mobile toggle */}

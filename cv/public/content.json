@@ -17,23 +17,34 @@
             "developmentProcess": [
                 {
                     "stepName": "Initial Research",
-                    "images": [],
+                    "images": [
+                        "/media/BradyInnovationLab/ModelRequirementsWhiteboard.jpeg",
+                        "/media/BradyInnovationLab/UserStories1.png",
+                        "/media/BradyInnovationLab/Requirements.png"                        
+                    ],
                     "stepDescription": "The first step in the development process was to research the problem and come up with a plan. We researched existing solutions and technologies that could be used to solve the problem. We also researched the requirements and constraints of the project. We identified datasets that existed for training machine learning models to identify liquid levels in containers. Crucially, we interviewed the sponsor to determine business requirements which lead us to run our ML models locally as opposed to in the cloud."
                 },
                 {
                     "stepName": "Prototyping",
-                    "images": [],
+                    "images": [
+                        "/media/BradyInnovationLab/Wireframes.png"
+                    ],
                     "stepDescription": "The next step was to create a prototype of the software. We created a basic version of the software that included the core functionality. This prototype was used to test the feasibility of the solution and to gather feedback from the sponsor."
                 },
                 {
                     "stepName": "Development",
-                    "images": [],
+                    "images": [
+                        "/media/BradyInnovationLab/ScanningUI.png",
+                        "/media/BradyInnovationLab/TestingResults.png"
+                    ],
                     "stepDescription": "After gathering feedback from the sponsor, we began the development process. We used an agile development process to iteratively develop the software. We used GitHub for version control and collaboration. We also used ONNX Runtime to run our machine learning models locally on the device."
                 },
                 {
                     "stepName": "Testing",
                     "images": [
-                        "/media/BradyInnovationLab/SoftwareDemonstration.jpg"
+                        "/media/BradyInnovationLab/SoftwareDemonstration.jpg",
+                        "/media/BradyInnovationLab/LabTest.png",
+                        "/media/BradyInnovationLab/LabTestScan.png"
                     ],
                     "stepDescription": "Once the software was developed, we began testing it. We tested the software for functionality, usability, and performance. We also tested the machine learning models to ensure they were accurate and reliable."
                 },
@@ -45,6 +56,38 @@
                         "/media/BradyInnovationLab/AllFinalistsGroupPicture.jpg"                        
                     ],
                     "stepDescription": "The final step was to present the software. We created a presentation that included a demo of the software and a summary of the development process. We presented the software at the Brady Corp Innovation Lab final event where we got 1st place in the competition for our solution."
+                }
+            ]
+        },
+        {
+            "projectTitle": "Discovery World Milwaukee Accessability Project, MSOE A.I. Club Fall Hackathon",
+            "problemStatement": "Discovery World Milwaukee is a science and technology museum that is dedicated to inspiring the next generation of innovators. The museum is committed to making its exhibits and programs accessible to all visitors, including those with language, mobility, age, and other accessibility requirements. The museum wanted a software solution that would help improve accessibility for visitors all visitors; specifically targeting key areas like language translation, accessibility, and age-appropriate context and explanations.",
+            "solution": "My team created a mobile application that uses bluetooth low energy (BLE) beacons to triangulate, with high precision, the location of visitors within the museum. Location context was mapped to prompts which were passed to an LLM with the users age, interests, and langugage as context. This allowed the LLM to tell the user about the area that they are in with relevant information that they can understand in their language, and at their level of comprehension based on their age. The app also includes features like text-to-speech to improve accessibility for visitors with visual impairments. The app was designed to be user-friendly and easy to navigate, with a simple interface that allows visitors to quickly find the information they need. Another key feature of the app is the ability to inform users with sound sensitivities when they are about to approach an area that may be loud or overwhelming. This is done using the BLE beacons to determine the user's location and provide a warning if they are approaching a potentially loud area.",
+            "skillsUsed": [
+                "C#",
+                "C++",
+                "C",
+                ".NET MAUI",
+                "Android Development",
+                "iOS Development",
+                "ESP32",
+                "Embedded Systems",
+                "FastAPI",
+                "Bluetooth Low Energy (BLE) Beacons",
+                "GitHub",
+                "Agile Development"
+            ],
+            "projectSourceCodeLink": "https://github.com/xDazld/HacksGiving-2024/tree/main",
+            "developmentProcess": [
+                {
+                    "stepName": "Hackathon kickoff",
+                    "images": [],
+                    "stepDescription": "We started the process by researching the problem space. We found out that 47% of discovery world tickers are purchased for minors. This guided our development to focus on making content easy to understand for children."
+                },
+                {
+                    "stepName": "Gathering Requirements and Field Research",
+                    "images": [],
+                    "stepDescription": "We interviewed the workers at Discovery World to gather requirements and constraints. We also visited the museum to get a better understanding of the layout and the exhibits. This helped us identify key areas where accessibility could be improved."
                 }
             ]
         },

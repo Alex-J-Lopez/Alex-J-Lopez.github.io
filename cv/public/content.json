@@ -1,6 +1,54 @@
 {
     "projects": [
         {
+            "projectTitle": "Brady Corp Innovation Lab",
+            "problemStatement": "Brady Corp wanted a software and A.I. solution that focuses on solving critical industry problems related to liquid measurement and analysis. Teams were tasked with designing AI-based solutions to predict liquid levels in containers using images. Additionally, teams were encouraged to explore attributes like liquid color, container dimensions, and other innovative applications that expand the problem's scope.",
+            "solution": "I worked on a team to create a comprehensive software solution that runs machine learning models locally with no internet connection. This software is used to track containers in a lab environment. It uses computer vision to identify containers and measure liquid levels. The software also includes a user-friendly GUI for easy interaction and data visualization.",
+            "skillsUsed": [
+                "C#",
+                ".NET MAUI",
+                "Android Development",
+                "Desktop Development",
+                "ONNX Runtime",
+                "GitHub",
+                "Agile Development"
+            ],
+            "projectSourceCodeLink": "https://github.com/24-25-Fall-Innovation-Lab/solution-team2_liquidboogaloo",
+            "developmentProcess": [
+                {
+                    "stepName": "Initial Research",
+                    "images": [],
+                    "stepDescription": "The first step in the development process was to research the problem and come up with a plan. We researched existing solutions and technologies that could be used to solve the problem. We also researched the requirements and constraints of the project. We identified datasets that existed for training machine learning models to identify liquid levels in containers. Crucially, we interviewed the sponsor to determine business requirements which lead us to run our ML models locally as opposed to in the cloud."
+                },
+                {
+                    "stepName": "Prototyping",
+                    "images": [],
+                    "stepDescription": "The next step was to create a prototype of the software. We created a basic version of the software that included the core functionality. This prototype was used to test the feasibility of the solution and to gather feedback from the sponsor."
+                },
+                {
+                    "stepName": "Development",
+                    "images": [],
+                    "stepDescription": "After gathering feedback from the sponsor, we began the development process. We used an agile development process to iteratively develop the software. We used GitHub for version control and collaboration. We also used ONNX Runtime to run our machine learning models locally on the device."
+                },
+                {
+                    "stepName": "Testing",
+                    "images": [
+                        "/media/BradyInnovationLab/SoftwareDemonstration.jpg"
+                    ],
+                    "stepDescription": "Once the software was developed, we began testing it. We tested the software for functionality, usability, and performance. We also tested the machine learning models to ensure they were accurate and reliable."
+                },
+                {
+                    "stepName": "Presentation",
+                    "images": [
+                        "/media/BradyInnovationLab/TeamPictureAfterWinningCompetition.jpg",
+                        "/media/BradyInnovationLab/FinalDayTeamTestingSoftware.jpg",
+                        "/media/BradyInnovationLab/AllFinalistsGroupPicture.jpg"                        
+                    ],
+                    "stepDescription": "The final step was to present the software. We created a presentation that included a demo of the software and a summary of the development process. We presented the software at the Brady Corp Innovation Lab final event where we got 1st place in the competition for our solution."
+                }
+            ]
+        },
+        {
             "projectTitle": "Personal Portfolio Website",
             "problemStatement": "Having just started my freshman year at university in the fall of 2022, I had far reaching ambitions for myself. I quickly began doing personal projects in order to improve my skills. I needed a place where I could keep a record of each of my projects and my creative process.",
             "solution": "There were a few solutions to my problem. I could purchase a subscription to a website making application and create my website that way. I could give prospective employeers a link to a google drive with all my projects. Or, I could improve my web development skills and create my own website. As you can tell by now, the thrid choice was both the most professional and also the choice I decided upon. I learned HTML, CSS, and some javascript in order to make this idea happen.",
@@ -58,7 +106,12 @@
                         "/media/WebsiteDesign/Version4IOTProjectPage.png",
                         "/media/WebsiteDesign/Version4ProjectDevelopmentSteps.png"
                     ],
-                    "stepDescription": "This is the current version and state of the website. The color scheme was changed to grey and graphite colors which match the creative vision that I had for this site. All parts of the website respond appropriately to the resolution changes I was capable of testing, the project Pages were substantially improved, and the overall user experience was improved."
+                    "stepDescription": "The color scheme was changed to grey and graphite colors which match the creative vision that I had for this site. All parts of the website respond appropriately to the resolution changes I was capable of testing, the project Pages were substantially improved, and the overall user experience was improved."
+                },
+                {
+                    "stepName": "Version 5",
+                    "images": [],
+                    "stepDescription": "The previous versions of this website used plain HTML, CSS, and some JavaScript. This made the development process tedious and time consuming. For version 5 I decided to use the Next.js framework with React and TailwindCSS. This allowed me to create reusable components which drastically reduced code repetition and improved the development process. Futhermore, the site now dynamically builds project pages from a JSON file which makes adding new projects much easier."
                 }
             ]
         }

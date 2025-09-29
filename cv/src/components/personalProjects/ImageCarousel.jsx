@@ -12,6 +12,10 @@ export default function ImageCarousel({ images }) {
         setImgIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
     };
 
+    if (images.length === 0) {
+        return (<></>);
+    }
+
     return (
         <div className="relative flex-grow mb-3">
             <img src={images[imgIndex]} alt={`Image ${imgIndex + 1}`} className="w-full object-cover rounded" />

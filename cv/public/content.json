@@ -49,7 +49,7 @@
                     "stepDescription": "Once the software was developed, we began testing it. We tested the software for functionality, usability, and performance. We also tested the machine learning models to ensure they were accurate and reliable."
                 },
                 {
-                    "stepName": "Presentation",
+                    "stepName": "Presentation and Awards",
                     "images": [
                         "/media/BradyInnovationLab/TeamPictureAfterWinningCompetition.jpg",
                         "/media/BradyInnovationLab/FinalDayTeamTestingSoftware.jpg",
@@ -81,13 +81,39 @@
             "developmentProcess": [
                 {
                     "stepName": "Hackathon kickoff",
-                    "images": [],
+                    "images": [
+                        "/media/HacksGiving2024/kickoff.jpg"
+                    ],
                     "stepDescription": "We started the process by researching the problem space. We found out that 47% of discovery world tickers are purchased for minors. This guided our development to focus on making content easy to understand for children."
                 },
                 {
                     "stepName": "Gathering Requirements and Field Research",
-                    "images": [],
-                    "stepDescription": "We interviewed the workers at Discovery World to gather requirements and constraints. We also visited the museum to get a better understanding of the layout and the exhibits. This helped us identify key areas where accessibility could be improved."
+                    "images": [
+                        "/media/HacksGiving2024/FieldResearch.png",
+                        "/media/HacksGiving2024/AccessibilityKit.JPG"
+                    ],
+                    "stepDescription": "We interviewed the workers at Discovery World to gather requirements and constraints. We also visited the museum to get a better understanding of the layout and the exhibits. This helped us identify key areas where accessibility could be improved. When we visited Discovery world, we were given an accessibility kit that included items like noise cancelling headphones, fidget toys, and visual aids. This helped us understand the needs of visitors with disabilities and how we could design our app to better serve them."
+                },
+                {
+                    "stepName": "Development",
+                    "images": [
+                        "/media/HacksGiving2024/TeamHardAtWork.jpg",
+                        "/media/HacksGiving2024/Wireframes.jpg",
+                        "/media/HacksGiving2024/HardwareChoice.png",
+                        "/media/HacksGiving2024/UIDesigns1.png",
+                        "/media/HacksGiving2024/UIDesigns2.png"
+                    ],
+                    "stepDescription": "We got right to work and developed the applicaiton using extreme programming methods. UX work was done in parallel with backend and embedded systems development. We used GitHub for version control and collaboration. We also used FastAPI to create a backend server that would handle requests from the mobile app and communicate with the LLM. The embedded system was built using an ESP32 microcontroller and BLE beacons to provide location context to the app."
+                },
+                {
+                    "stepName":"Presentation and Awards",
+                    "images": [
+                        "/media/HacksGiving2024/Presentation.png",
+                        "/media/HacksGiving2024/TeamPresenting.png",
+                        "/media/HacksGiving2024/GroupPictureAfterWinningSecondPlace.jpg",
+                        "/media/HacksGiving2024/AllFinalistsGroupPicture.jpg"
+                    ],
+                    "stepDescription": "The final step was to present the app. We created a presentation that included a demo of the app and a summary of the development process. We presented the app at the HacksGiving 2024 final event where we got 2nd place in the competition for our solution!"
                 }
             ]
         },

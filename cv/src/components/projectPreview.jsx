@@ -1,15 +1,28 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
-const ProjectPreview = ({ title, problemStatement, href }) => {
+const ProjectPreview = ({ title, problemStatement, href, image }) => {
     return (
-        <div className="border rounded-lg p-4 bg-white dark:bg-[var(--accent)] shadow-sm">
-            <h2 className="text-2xl font-bold mb-2">{title}</h2>
-            <p className="text-white mb-4">{problemStatement}</p>
-            <Link href={href}>
-                <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">More Details</button>
-            </Link>
-        </div>
+        <article className="bg-white/5 hover:bg-white/6 transition-transform hover:-translate-y-1 transform rounded-2xl overflow-hidden shadow-sm">
+            {image ? (
+                <div className="relative h-44 w-full">
+                    <Image src={image} alt={title} fill className="object-cover" />
+                </div>
+            ) : (
+                <div className="h-44 w-full bg-gradient-to-br from-rose-700 via-rose-600 to-rose-500" />
+            )}
+
+            <div className="p-5">
+                <h3 className="text-xl font-semibold text-slate-50 mb-2">{title}</h3>
+                <p className="text-slate-200 text-sm mb-4 line-clamp-3">{problemStatement}</p>
+
+                <div className="flex items-center justify-between">
+                    <Link href={href} className="inline-flex items-center gap-2 bg-rose-600 hover:bg-rose-500 text-white px-3 py-2 rounded-md shadow">More details</Link>
+                    <span className="text-xs text-white/60">View project →</span>
+                </div>
+            </div>
+        </article>
     );
 };
 

@@ -28,7 +28,7 @@ const ProjectsPage = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {projects.map((project, index) => (
-                            <ProjectPreview key={index} title={project.projectTitle} problemStatement={project.problemStatement} href={`/projects/${index}`} />
+                            <ProjectPreview key={index} title={project.projectTitle} problemStatement={project.problemStatement} href={`/projects/${index}`} image={project.featuredImage}/>
                         ))}
                     </div>
                 </div>

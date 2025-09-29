@@ -2,6 +2,7 @@
     "projects": [
         {
             "projectTitle": "Brady Corp Innovation Lab",
+            "featuredImage": "/media/BradyInnovationLab/ScanningUI.png",
             "problemStatement": "Brady Corp wanted a software and A.I. solution that focuses on solving critical industry problems related to liquid measurement and analysis. Teams were tasked with designing AI-based solutions to predict liquid levels in containers using images. Additionally, teams were encouraged to explore attributes like liquid color, container dimensions, and other innovative applications that expand the problem's scope.",
             "solution": "I worked on a team to create a comprehensive software solution that runs machine learning models locally with no internet connection. This software is used to track containers in a lab environment. It uses computer vision to identify containers and measure liquid levels. The software also includes a user-friendly GUI for easy interaction and data visualization.",
             "skillsUsed": [
@@ -61,6 +62,7 @@
         },
         {
             "projectTitle": "Discovery World Milwaukee Accessability Project, MSOE A.I. Club Fall Hackathon",
+            "featuredImage": "/media/Hacksgiving2024/Presentation.png",
             "problemStatement": "Discovery World Milwaukee is a science and technology museum that is dedicated to inspiring the next generation of innovators. The museum is committed to making its exhibits and programs accessible to all visitors, including those with language, mobility, age, and other accessibility requirements. The museum wanted a software solution that would help improve accessibility for visitors all visitors; specifically targeting key areas like language translation, accessibility, and age-appropriate context and explanations.",
             "solution": "My team created a mobile application that uses bluetooth low energy (BLE) beacons to triangulate, with high precision, the location of visitors within the museum. Location context was mapped to prompts which were passed to an LLM with the users age, interests, and langugage as context. This allowed the LLM to tell the user about the area that they are in with relevant information that they can understand in their language, and at their level of comprehension based on their age. The app also includes features like text-to-speech to improve accessibility for visitors with visual impairments. The app was designed to be user-friendly and easy to navigate, with a simple interface that allows visitors to quickly find the information they need. Another key feature of the app is the ability to inform users with sound sensitivities when they are about to approach an area that may be loud or overwhelming. This is done using the BLE beacons to determine the user's location and provide a warning if they are approaching a potentially loud area.",
             "skillsUsed": [
@@ -119,6 +121,7 @@
         },
         {
             "projectTitle": "Personal Portfolio Website",
+            "featuredImage": "/media/WebsiteDesign/IMG_3711.JPG",
             "problemStatement": "Having just started my freshman year at university in the fall of 2022, I had far reaching ambitions for myself. I quickly began doing personal projects in order to improve my skills. I needed a place where I could keep a record of each of my projects and my creative process.",
             "solution": "There were a few solutions to my problem. I could purchase a subscription to a website making application and create my website that way. I could give prospective employeers a link to a google drive with all my projects. Or, I could improve my web development skills and create my own website. As you can tell by now, the thrid choice was both the most professional and also the choice I decided upon. I learned HTML, CSS, and some javascript in order to make this idea happen.",
             "skillsUsed": [
@@ -183,10 +186,10 @@
                     "stepDescription": "The previous versions of this website used plain HTML, CSS, and some JavaScript. This made the development process tedious and time consuming. For version 5 I decided to use the Next.js framework with React and TailwindCSS. This allowed me to create reusable components which drastically reduced code repetition and improved the development process. Futhermore, the site now dynamically builds project pages from a JSON file which makes adding new projects much easier."
                 }
             ]
-        }
-        ,
+        },
         {
             "projectTitle": "IOT Door Opening Machine",
+            "featuredImage": "/media/DoorOpener/Version3Final.png",
             "problemStatement": "When I moved into my college dorm room, I quickly realized that my roommate and I had a nack for losing our keys. As a result I decided to build a machine to open our door for us; therefore, I could reduce the chance of being locked out.",
             "solution": "The solution to the problem was a machine that would be able to open my door for me. I settled on a web interface backed by an embedded system attached to the door that acts as a server. Clients press a button on the website and the machine (an ESP8266/NodeMCU) responds by operating a stepper motor to open the door.",
             "skillsUsed": [
@@ -263,6 +266,7 @@
         },
         {
             "projectTitle": "IOT Plant Monitor",
+            "featuredImage": "/media/PlantMonitor/IMG_3633.jpeg",
             "problemStatement": "When I moved into my college dorm I wanted to have a few plants to make it feel more at home. Keeping these plants watered was a challenge and I needed a solution.",
             "solution": "I built an apparatus to read water level and display it to a client on a web interface using a NodeMCU ESP8266. The device reports measurements to the web UI where users can check water levels remotely.",
             "skillsUsed": [

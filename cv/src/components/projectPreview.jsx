@@ -18,8 +18,7 @@ const ProjectPreview = ({ title, problemStatement, href, image }) => {
                 <p className="text-slate-200 text-sm mb-4 line-clamp-3">{problemStatement}</p>
 
                 <div className="flex items-center justify-between">
-                    <Link href={href} className="inline-flex items-center gap-2 bg-rose-600 hover:bg-rose-500 text-white px-3 py-2 rounded-md shadow">More details</Link>
-                    <span className="text-xs text-white/60">View project →</span>
+                    <Link href={href} className="inline-flex items-center gap-2 bg-rose-600 hover:bg-rose-500 text-white px-3 py-2 rounded-md shadow">View Project</Link>
                 </div>
             </div>
         </article>

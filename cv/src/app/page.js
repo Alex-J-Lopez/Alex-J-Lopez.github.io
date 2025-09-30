@@ -24,7 +24,7 @@ export default function Home() {
           {/* Image column */}
           <div className="space-y-4">
             <div className="relative rounded-xl overflow-hidden shadow-xl bg-gray-200" style={{ aspectRatio: '3 / 2' }}>
-              <img src="/media/PersonalImages/Headshots/Selfie.jpg" alt="Portrait of Alexander Lopez" fill className="object-cover" />
+              <img src="/media/PersonalImages/Headshots/Selfie.jpg" alt="Portrait of Alexander Lopez" className="object-cover w-full h-full absolute inset-0" />
             </div>
           </div>
         </div>

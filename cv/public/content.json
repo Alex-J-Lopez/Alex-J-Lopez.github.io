@@ -1,0 +1,341 @@
+{
+    "projects": [
+        {
+            "projectTitle": "Brady Corp Innovation Lab",
+            "featuredImage": "/media/BradyInnovationLab/ScanningUI.png",
+            "problemStatement": "Brady Corp wanted a software and A.I. solution that focuses on solving critical industry problems related to liquid measurement and analysis. Teams were tasked with designing AI-based solutions to predict liquid levels in containers using images. Additionally, teams were encouraged to explore attributes like liquid color, container dimensions, and other innovative applications that expand the problem's scope.",
+            "solution": "I worked on a team to create a comprehensive software solution that runs machine learning models locally with no internet connection. This software is used to track containers in a lab environment. It uses computer vision to identify containers and measure liquid levels. The software also includes a user-friendly GUI for easy interaction and data visualization.",
+            "skillsUsed": [
+                "C#",
+                ".NET MAUI",
+                "Android Development",
+                "Desktop Development",
+                "ONNX Runtime",
+                "GitHub",
+                "Agile Development"
+            ],
+            "projectSourceCodeLink": "https://github.com/24-25-Fall-Innovation-Lab/solution-team2_liquidboogaloo",
+            "developmentProcess": [
+                {
+                    "stepName": "Initial Research",
+                    "images": [
+                        "/media/BradyInnovationLab/ModelRequirementsWhiteboard.jpeg",
+                        "/media/BradyInnovationLab/UserStories1.png",
+                        "/media/BradyInnovationLab/Requirements.png"                        
+                    ],
+                    "stepDescription": "The first step in the development process was to research the problem and come up with a plan. We researched existing solutions and technologies that could be used to solve the problem. We also researched the requirements and constraints of the project. We identified datasets that existed for training machine learning models to identify liquid levels in containers. Crucially, we interviewed the sponsor to determine business requirements which lead us to run our ML models locally as opposed to in the cloud."
+                },
+                {
+                    "stepName": "Prototyping",
+                    "images": [
+                        "/media/BradyInnovationLab/Wireframes.png"
+                    ],
+                    "stepDescription": "The next step was to create a prototype of the software. We created a basic version of the software that included the core functionality. This prototype was used to test the feasibility of the solution and to gather feedback from the sponsor."
+                },
+                {
+                    "stepName": "Development",
+                    "images": [
+                        "/media/BradyInnovationLab/ScanningUI.png",
+                        "/media/BradyInnovationLab/TestingResults.png"
+                    ],
+                    "stepDescription": "After gathering feedback from the sponsor, we began the development process. We used an agile development process to iteratively develop the software. We used GitHub for version control and collaboration. We also used ONNX Runtime to run our machine learning models locally on the device."
+                },
+                {
+                    "stepName": "Testing",
+                    "images": [
+                        "/media/BradyInnovationLab/SoftwareDemonstration.jpg",
+                        "/media/BradyInnovationLab/LabTest.png",
+                        "/media/BradyInnovationLab/LabTestScan.png"
+                    ],
+                    "stepDescription": "Once the software was developed, we began testing it. We tested the software for functionality, usability, and performance. We also tested the machine learning models to ensure they were accurate and reliable."
+                },
+                {
+                    "stepName": "Presentation and Awards",
+                    "images": [
+                        "/media/BradyInnovationLab/TeamPictureAfterWinningCompetition.jpg",
+                        "/media/BradyInnovationLab/FinalDayTeamTestingSoftware.jpg",
+                        "/media/BradyInnovationLab/AllFinalistsGroupPicture.jpg"                        
+                    ],
+                    "stepDescription": "The final step was to present the software. We created a presentation that included a demo of the software and a summary of the development process. We presented the software at the Brady Corp Innovation Lab final event where we got 1st place in the competition for our solution."
+                }
+            ]
+        },
+        {
+            "projectTitle": "Discovery World Milwaukee Accessability Project, MSOE A.I. Club Fall Hackathon",
+            "featuredImage": "/media/Hacksgiving2024/Presentation.png",
+            "problemStatement": "Discovery World Milwaukee is a science and technology museum that is dedicated to inspiring the next generation of innovators. The museum is committed to making its exhibits and programs accessible to all visitors, including those with language, mobility, age, and other accessibility requirements. The museum wanted a software solution that would help improve accessibility for visitors all visitors; specifically targeting key areas like language translation, accessibility, and age-appropriate context and explanations.",
+            "solution": "My team created a mobile application that uses bluetooth low energy (BLE) beacons to triangulate, with high precision, the location of visitors within the museum. Location context was mapped to prompts which were passed to an LLM with the users age, interests, and langugage as context. This allowed the LLM to tell the user about the area that they are in with relevant information that they can understand in their language, and at their level of comprehension based on their age. The app also includes features like text-to-speech to improve accessibility for visitors with visual impairments. The app was designed to be user-friendly and easy to navigate, with a simple interface that allows visitors to quickly find the information they need. Another key feature of the app is the ability to inform users with sound sensitivities when they are about to approach an area that may be loud or overwhelming. This is done using the BLE beacons to determine the user's location and provide a warning if they are approaching a potentially loud area.",
+            "skillsUsed": [
+                "C#",
+                "C++",
+                "C",
+                ".NET MAUI",
+                "Android Development",
+                "iOS Development",
+                "ESP32",
+                "Embedded Systems",
+                "FastAPI",
+                "Bluetooth Low Energy (BLE) Beacons",
+                "GitHub",
+                "Agile Development"
+            ],
+            "projectSourceCodeLink": "https://github.com/xDazld/HacksGiving-2024/tree/main",
+            "developmentProcess": [
+                {
+                    "stepName": "Hackathon kickoff",
+                    "images": [
+                        "/media/HacksGiving2024/kickoff.jpg"
+                    ],
+                    "stepDescription": "We started the process by researching the problem space. We found out that 47% of discovery world tickers are purchased for minors. This guided our development to focus on making content easy to understand for children."
+                },
+                {
+                    "stepName": "Gathering Requirements and Field Research",
+                    "images": [
+                        "/media/HacksGiving2024/FieldResearch.png",
+                        "/media/HacksGiving2024/AccessibilityKit.JPG"
+                    ],
+                    "stepDescription": "We interviewed the workers at Discovery World to gather requirements and constraints. We also visited the museum to get a better understanding of the layout and the exhibits. This helped us identify key areas where accessibility could be improved. When we visited Discovery world, we were given an accessibility kit that included items like noise cancelling headphones, fidget toys, and visual aids. This helped us understand the needs of visitors with disabilities and how we could design our app to better serve them."
+                },
+                {
+                    "stepName": "Development",
+                    "images": [
+                        "/media/HacksGiving2024/TeamHardAtWork.jpg",
+                        "/media/HacksGiving2024/Wireframes.jpg",
+                        "/media/HacksGiving2024/HardwareChoice.png",
+                        "/media/HacksGiving2024/UIDesigns1.png",
+                        "/media/HacksGiving2024/UIDesigns2.png"
+                    ],
+                    "stepDescription": "We got right to work and developed the applicaiton using extreme programming methods. UX work was done in parallel with backend and embedded systems development. We used GitHub for version control and collaboration. We also used FastAPI to create a backend server that would handle requests from the mobile app and communicate with the LLM. The embedded system was built using an ESP32 microcontroller and BLE beacons to provide location context to the app."
+                },
+                {
+                    "stepName":"Presentation and Awards",
+                    "images": [
+                        "/media/HacksGiving2024/Presentation.png",
+                        "/media/HacksGiving2024/TeamPresenting.png",
+                        "/media/HacksGiving2024/GroupPictureAfterWinningSecondPlace.jpg",
+                        "/media/HacksGiving2024/AllFinalistsGroupPicture.jpg"
+                    ],
+                    "stepDescription": "The final step was to present the app. We created a presentation that included a demo of the app and a summary of the development process. We presented the app at the HacksGiving 2024 final event where we got 2nd place in the competition for our solution!"
+                }
+            ]
+        },
+        {
+            "projectTitle": "Personal Portfolio Website",
+            "featuredImage": "/media/WebsiteDesign/IMG_3711.JPG",
+            "problemStatement": "Having just started my freshman year at university in the fall of 2022, I had far reaching ambitions for myself. I quickly began doing personal projects in order to improve my skills. I needed a place where I could keep a record of each of my projects and my creative process.",
+            "solution": "There were a few solutions to my problem. I could purchase a subscription to a website making application and create my website that way. I could give prospective employeers a link to a google drive with all my projects. Or, I could improve my web development skills and create my own website. As you can tell by now, the thrid choice was both the most professional and also the choice I decided upon. I learned HTML, CSS, and some javascript in order to make this idea happen.",
+            "skillsUsed": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Responsive Web Design"
+            ],
+            "projectSourceCodeLink": "https://github.com/Alex-J-Lopez/Alex-J-Lopez.github.io",
+            "developmentProcess": [
+                {
+                    "stepName": "Version 1",
+                    "images": [
+                        "/media/WebsiteDesign/IMG_3711.JPG",
+                        "/media/WebsiteDesign/IMG_3727.JPG",
+                        "/media/WebsiteDesign/IMG_3728.JPG"
+                    ],
+                    "stepDescription": "The first version of my website was extremely basic. I realized there were a lot of components that went into making a professional looking website and that I would need to be organized. As you can see in the images, my first website look a bit like something from 2004."
+                },
+                {
+                    "stepName": "Intermediate Version 1-2",
+                    "images": [
+                        "/media/WebsiteDesign/IMG_3895.JPG"
+                    ],
+                    "stepDescription": "Due to the dated look of Version 1, I decided to abandon it. Imaged is the prototyping of the new design. I wanted to make the information flow and make sense while looking modern and sleek. I started by making a standard hierarchy of sections followed by articles. This would allow me to contain and position articles of text while allowing me to position several related articles at once via the section parent."
+                },
+                {
+                    "stepName": "Version 2",
+                    "images": [
+                        "/media/WebsiteDesign/Version2LandingPage.png",
+                        "/media/WebsiteDesign/Version2NavigationBar.png",
+                        "/media/WebsiteDesign/Version2PortfolioSection.png",
+                        "/media/WebsiteDesign/Version2IOTProjectPage.png"
+                    ],
+                    "stepDescription": "Pictured above is the second version of my website. I went with an orange and white style because it was not distracting. I felt that this version of the site was when it began to look somewhat modern. The main issue with this version of the website was that it lacked space efficiency, was not particularly responsive to different resolutions, and had rampant code repetition which made it nearly impossible to change the styling quickly."
+                },
+                {
+                    "stepName": "Version 3",
+                    "images": [
+                        "/media/WebsiteDesign/Version3LandingPage.png",
+                        "/media/WebsiteDesign/Version3NavigationBar.png",
+                        "/media/WebsiteDesign/Version3WorkExperienceAndSkillsSection.png",
+                        "/media/WebsiteDesign/Version3PortfolioSection.png",
+                        "/media/WebsiteDesign/Version3IOTProjectPage.png"
+                    ],
+                    "stepDescription": "For version three I wanted to make a strong move towards a modern look. With code repetition rampant, the first course of action was to completely rework the CSS files. I created a unified globalAttributes.css file where I could manage the color scheme of all objects as well as mandate site wide visual consistency. This helped with branding and overall improved the development process. Next, I focused on making an impact. Using images as a background and choosing a color that was striking were my main focus. Problems with this version were not so obvious: the color scheme was not ideal, the mobile site's background was intrusive to the readability, and resolution responsive design was not yet complete."
+                },
+                {
+                    "stepName": "Version 4",
+                    "images": [
+                        "/media/WebsiteDesign/Version4LandingPage.png",
+                        "/media/WebsiteDesign/Version4NavigationBarAndWorkSkillsSection.png",
+                        "/media/WebsiteDesign/Version4PortfolioSection.png",
+                        "/media/WebsiteDesign/Version4IOTProjectPage.png",
+                        "/media/WebsiteDesign/Version4ProjectDevelopmentSteps.png"
+                    ],
+                    "stepDescription": "The color scheme was changed to grey and graphite colors which match the creative vision that I had for this site. All parts of the website respond appropriately to the resolution changes I was capable of testing, the project Pages were substantially improved, and the overall user experience was improved."
+                },
+                {
+                    "stepName": "Version 5",
+                    "images": [],
+                    "stepDescription": "The previous versions of this website used plain HTML, CSS, and some JavaScript. This made the development process tedious and time consuming. For version 5 I decided to use the Next.js framework with React and TailwindCSS. This allowed me to create reusable components which drastically reduced code repetition and improved the development process. Futhermore, the site now dynamically builds project pages from a JSON file which makes adding new projects much easier."
+                }
+            ]
+        },
+        {
+            "projectTitle": "IOT Door Opening Machine",
+            "featuredImage": "/media/DoorOpener/Version3Final.png",
+            "problemStatement": "When I moved into my college dorm room, I quickly realized that my roommate and I had a nack for losing our keys. As a result I decided to build a machine to open our door for us; therefore, I could reduce the chance of being locked out.",
+            "solution": "The solution to the problem was a machine that would be able to open my door for me. I settled on a web interface backed by an embedded system attached to the door that acts as a server. Clients press a button on the website and the machine (an ESP8266/NodeMCU) responds by operating a stepper motor to open the door.",
+            "skillsUsed": [
+                "NodeMCU (ESP8266, ESP32)",
+                "A4988 Stepper Driver",
+                "Nema 17 Stepper Motor",
+                "8x2 LCD Display",
+                "C++",
+                "HTML",
+                "CSS"
+            ],
+            "projectSourceCodeLink": "https://github.com/Alex-J-Lopez/DoorOpeningMachine-V2",
+            "developmentProcess": [
+                {
+                    "stepName": "Prototype One",
+                    "images": [
+                        "/media/DoorOpener/PrototypeOne.jpg"
+                    ],
+                    "stepDescription": "The first prototype consisted of one NodeMCU and a relay module with 4 relays. The relays would be used to modulate the poles of a two pole stepper motor by using the Stepper.h library included with the Arduino IDE."
+                },
+                {
+                    "stepName": "A better solution",
+                    "images": [
+                        "/media/DoorOpener/BreadboardNodeAndStepperDriver.jpg",
+                        "/media/DoorOpener/MachineOnDoor.jpg"
+                    ],
+                    "stepDescription": "After testing the relay module method, I realized the correct solution to the problem was to use a stepper driver to control the stepper motor. The driver chosen was the A4988 Stepper Driver due to its low cost and versatility."
+                },
+                {
+                    "stepName": "Starting Version 2",
+                    "images": [
+                        "/media/DoorOpener/StartingNewPCBDesign.jpg",
+                        "/media/DoorOpener/BreadBoardPCBFrontSideDesign.jpg",
+                        "/media/DoorOpener/FinishedPCBSoldering.jpg",
+                        "/media/DoorOpener/PCBBreadBoardFinished.jpg"
+                    ],
+                    "stepDescription": "The new design was soldered onto a breadboard PCB to make it more robust for testing the machine on the door. The previous breadboard approach was prone to falling apart when mounted vertically."
+                },
+                {
+                    "stepName": "Version 2 completed",
+                    "images": [
+                        "/media/DoorOpener/PCBOnDoor.jpg",
+                        "/media/DoorOpener/PCBOnDoorZoomedOut.jpg",
+                        "/media/DoorOpener/PCBOnDoorAssemblyShown.jpg",
+                        "/media/DoorOpener/LCDOutsideOfDoor.jpg"
+                    ],
+                    "stepDescription": "The first working version of the door opener is pictured above. The first version was inefficient with space because it used a very large assembly to pull on the door handle. At the time, this was all we had to solve the problem."
+                },
+                {
+                    "stepName": "Starting Version 3",
+                    "images": [
+                        "/media/DoorOpener/WiringSchematic.png",
+                        "/media/DoorOpener/PCBDesign.png",
+                        "/media/DoorOpener/NewDesign.png",
+                        "/media/DoorOpener/Version3StartingToSolder.png",
+                        "/media/DoorOpener/Version3FinishedWiring.png",
+                        "/media/DoorOpener/Version3IOPorts.png",
+                        "/media/DoorOpener/Version3FirstBoot.png"
+                    ],
+                    "stepDescription": "After identifying the shortcomings of Version 2, I moved on to a custom solution which allowed me to move away from the soldered breadboard and create a custom housing for the new PCB design. It also gave the opportunity to address the size issue of the machine that physically opened the door."
+                },
+                {
+                    "stepName": "Version 3 Complete",
+                    "images": [
+                        "/media/DoorOpener/Version3StressTesting.png",
+                        "/media/DoorOpener/Version3ZoomedOut.png",
+                        "/media/DoorOpener/Version3StepperMotorOnDoor.png",
+                        "/media/DoorOpener/Version3Final.png",
+                        "/media/DoorOpener/Version3ClientSide.png"
+                    ],
+                    "stepDescription": "Depicted in the images is the current version of the door opener, Version 3. Most issues from previous versions have been addressed: the size of the apparatus that pulls on the door handle has been decreased, the web interface has been refined, and the embedded system is visually appealing."
+                }
+            ]
+        },
+        {
+            "projectTitle": "IOT Plant Monitor",
+            "featuredImage": "/media/PlantMonitor/IMG_3633.jpeg",
+            "problemStatement": "When I moved into my college dorm I wanted to have a few plants to make it feel more at home. Keeping these plants watered was a challenge and I needed a solution.",
+            "solution": "I built an apparatus to read water level and display it to a client on a web interface using a NodeMCU ESP8266. The device reports measurements to the web UI where users can check water levels remotely.",
+            "skillsUsed": [
+                "NodeMCU v1.0 ESP8266",
+                "Water Measurement Sensor",
+                "C++",
+                "HTML",
+                "CSS"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Version 1",
+                    "images": [
+                        "/media/PlantMonitor/IMG_3625.jpeg",
+                        "/media/PlantMonitor/IMG_3628.jpeg",
+                        "/media/PlantMonitor/IMG_3633.jpeg",
+                        "/media/PlantMonitor/IMG_3997.PNG"
+                    ],
+                    "stepDescription": "The first version was a proof of concept using water sensors and a NodeMCU ESP8266. I discovered the NodeMCU had only a single analog pin available, which led to adding an Arduino to multiplex multiple sensors. The prototype web interface is shown in images."
+                },
+                {
+                    "stepName": "Version 2",
+                    "images": [
+                        "/media/PlantMonitor/IMG_4001.JPG",
+                        "/media/PlantMonitor/IMG_3998.JPG",
+                        "/media/PlantMonitor/IMG_3999.PNG",
+                        "/media/PlantMonitor/IMG_4002.PNG"
+                    ],
+                    "stepDescription": "Version two improved the user experience and reduced hardware to a single NodeMCU with one or two water sensors. The web interface and backend were reworked. The project was later abandoned due to uncertainty about sensor effects on plants, but it was a valuable learning experience."
+                }
+            ]
+        }
+    ],
+    "workHistory": [
+        {
+            "title": "Developer Consultant (Contract)",
+            "company": "Juno.",
+            "companyUrl": "https://juno.tax",
+            "description": "Developed a custom PDF viewer component in Next.js for a tax AI platform, enabling accountants to annotate documents and apply tax stamps interactively. Collaborated cross-functionally as a developer consultant to deliver scalable front-end solutions in Next.js tailored to complex tax documentation workflows.",
+            "duration": "August 2025 - Present"
+        },
+        {
+            "title": "Software Engineer Intern",
+            "company": "Skyward, Inc.",
+            "companyUrl": "https://skyward.com",
+            "description": "Worked on an agile team to develop, maintain, and modify components of an ASP.NET Core MVC full stack application and a database migration tool in response to stakeholder feedback and requests. Reduced redundant database reads and writes to improve database migration times.",
+            "duration": "July 2024 - August 2025"
+        },
+        {
+            "title": "Software Engineer Intern",
+            "company": "L & S Electric, Inc.",
+            "companyUrl": "https://lselectric.com",
+            "description": "Developed a full stack enterprise application that is deployed internationally. Had full control over product development from concept to delivery and worked in a small team with a UX consultant. Designed and implemented a standalone desktop application in .NET MAUI and optimized data management using complex data structures and multithreading to improve performance.",
+            "duration": "May 2023 - Present (Part Time)"
+        },
+        {
+            "title": "Software Consultant",
+            "company": "Self Employed",
+            "companyUrl": "",
+            "description": "Worked with L & S Electric, Inc. and other clients as an independent contractor to build software applications ranging from VR tours to virtual showcases and custom installers.",
+            "duration": "2018 - 2021"
+        },
+        {
+            "title": "Collections Dialer",
+            "company": "Aqua Finance INC.",
+            "companyUrl": "",
+            "description": "Worked as a collections dialer for two years, promoted to dialer one, consistently a top performer, and assisted with training new hires through hands-on side-by-side mentoring.",
+            "duration": "2020 - 2022"
+        }
+    ]
+}

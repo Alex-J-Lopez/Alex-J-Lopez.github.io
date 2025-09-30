@@ -1,6 +1,60 @@
 {
     "projects": [
         {
+            "projectTitle": "TruePrep.ai Innovation Lab",
+            "featuredImage": "/media/JunoInnovationLab/UploadUI.png",
+            "problemStatement": "Juno. (formerly TruePrep.ai) is an A.I. tax preparation company that sponsored an innovation lab for students to create solutions that improve their tax preparation process. The problem statement was to create a software solution that improves the accuracy and efficiency of tax document review and research.",
+            "solution": "I worked with my team to build a comprehensive review workflow to review tax documents that had been prepared by an AI. The workflow included multiple steps to confirm the customers information which was passed to an A.I. agent which reviews the prepared documents. If anything is amiss, it gets flagged by the agent and identified in the review step. We also implemented a deep research agent to ask questions about hypothetical tax situations. The entire workflow was built in a web application using Next.js.",
+            "skillsUsed": [
+                "Next.js",
+                "React",
+                "JavaScript",
+                "TailwindCSS",
+                "OpenAI API",
+                "FastAPI",
+                "GitHub",
+                "Agile Development"
+            ],
+            "projectSourceCodeLink": "https://github.com/MAIC-Innovation-Labs/2024-2025-trueprep-innovation-lab-falseunprep",
+            "developmentProcess": [
+                {
+                    "stepName": "Planning",
+                    "images": [
+                        "/media/JunoInnovationLab/ReviewAgentArchitecture.png",
+                        "/media/JunoInnovationLab/WorkflowDesign.png"
+                    ],
+                    "stepDescription": "The first step in the development process was to plan out the workflow and architecture of the solution. We researched existing solutions and technologies that could be used to solve the problem. We also researched the requirements and constraints of the project. We identified key features that would be needed in the solution and created a plan for how to implement them."
+                },
+                {
+                    "stepName": "Prototyping",
+                    "images": [
+                        "/media/JunoInnovationLab/UploadPrototype.png",
+                        "/media/JunoInnovationLab/UpdatedStylePrototype.png",
+                        "/media/JunoInnovationLab/MobilePrototype.png",
+                        "/media/JunoInnovationLab/DemonstratingUploadWorking.png"
+                    ],
+                    "stepDescription": "The next step was to create a prototype of the software. We created a basic version of the software that included the core functionality. This prototype was used to test the feasibility of the solution and to gather feedback from the sponsor."
+                },
+                {
+                    "stepName":"Development",
+                    "images": [
+                        "/media/JunoInnovationLab/UploadUI.png",
+                        "/media/JunoInnovationLab/ReviewStep.png",
+                        "/media/JunoInnovationLab/DeepResearchMode.png"
+                    ],
+                    "stepDescription": "After gathering feedback from the sponsor, we began the development process. We used an agile development process to iteratively develop the software. We used GitHub for version control and collaboration. We also used FastAPI to create a backend server that would handle requests from the web app and communicate with the OpenAI API."
+                },
+                {
+                    "stepName":"Presentation and Awards",
+                    "images": [
+                        "/media/JunoInnovationLab/AllFinalistsGroupPhoto.jpg",
+                        "/media/JunoInnovationLab/ChosenAsFinalist.jpg"
+                    ],
+                    "stepDescription": "The final step was to present the software. We created a presentation that included a demo of the software and a summary of the development process. We presented the software at the Innovation Lab final event where we got 3rd place in the competition for our solution."
+                }
+            ]
+        },
+        {
             "projectTitle": "Brady Corp Innovation Lab",
             "featuredImage": "/media/BradyInnovationLab/ScanningUI.png",
             "problemStatement": "Brady Corp wanted a software and A.I. solution that focuses on solving critical industry problems related to liquid measurement and analysis. Teams were tasked with designing AI-based solutions to predict liquid levels in containers using images. Additionally, teams were encouraged to explore attributes like liquid color, container dimensions, and other innovative applications that expand the problem's scope.",
@@ -61,7 +115,7 @@
             ]
         },
         {
-            "projectTitle": "Discovery World Milwaukee Accessibility Project, MSOE A.I. Club Fall Hackathon",
+            "projectTitle": "Discovery World Milwaukee Accessibility Project, MSOE A.I. Club HacksGiving 2024 Hackathon",
             "featuredImage": "/media/DiscoveryWorldHackathon/Presentation.png",
             "problemStatement": "Discovery World Milwaukee is a science and technology museum that is dedicated to inspiring the next generation of innovators. The museum is committed to making its exhibits and programs accessible to all visitors, including those with language, mobility, age, and other accessibility requirements. The museum wanted a software solution that would help improve accessibility for visitors all visitors; specifically targeting key areas like language translation, accessibility, and age-appropriate context and explanations.",
             "solution": "My team created a mobile application that uses bluetooth low energy (BLE) beacons to triangulate, with high precision, the location of visitors within the museum. Location context was mapped to prompts which were passed to an LLM with the users age, interests, and langugage as context. This allowed the LLM to tell the user about the area that they are in with relevant information that they can understand in their language, and at their level of comprehension based on their age. The app also includes features like text-to-speech to improve accessibility for visitors with visual impairments. The app was designed to be user-friendly and easy to navigate, with a simple interface that allows visitors to quickly find the information they need. Another key feature of the app is the ability to inform users with sound sensitivities when they are about to approach an area that may be loud or overwhelming. This is done using the BLE beacons to determine the user's location and provide a warning if they are approaching a potentially loud area.",
@@ -116,6 +170,35 @@
                         "/media/DiscoveryWorldHackathon/AllFinalistsGroupPicture.jpg"
                     ],
                     "stepDescription": "The final step was to present the app. We created a presentation that included a demo of the app and a summary of the development process. We presented the app at the HacksGiving 2024 final event where we got 2nd place in the competition for our solution!"
+                }
+            ]
+        },
+        {
+            "projectTitle": "Next Step Clinic, MSOE A.I. Club HacksGiving 2023 Hackathon",
+            "featuredImage": "",
+            "problemStatement": "Next Step Clinic helps families in Milwaukee who have concerns about the mental health and developmental health of their children, including family navigation, screening and evaluation for autism, therapy services, training and more. The clinic was looking for an A.I.-driven solution that could enhance operational efficiency, minimize wait times and provide educational value to patients. Students were challenged to develop a tool that would support health care staff by predicting the level of care required, offering preliminary guidance and preparing patients for their appointments, thereby improving overall patient flow and satisfaction.",
+            "solution": "My team created a web application that uses a large language model (LLM) to provide preliminary guidance and information to patients before their appointments. The app allows patients to input their symptoms, concerns, and demographics, and the LLM provides relevant information and resources based on the input. The app was designed to be user-friendly and easy to navigate, with a simple interface that allows patients to quickly find the information they need.",
+            "skillsUsed": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Express.js",
+                "Node.js",
+                "OpenAI API",
+                "FastAPI",
+                "GitHub"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Development",
+                    "images": [],
+                    "stepDescription": ""
+                },
+                {
+                    "stepName":"Presentation and Awards",
+                    "images": [],
+                    "stepDescription": ""
                 }
             ]
         },

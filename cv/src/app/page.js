@@ -5,7 +5,7 @@ import ProjectPreview from '@/components/personalProjects/projectPreview';
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-slate-100">
-      <div className="max-w-6xl mx-auto px-6 py-12 md:py-24">
+      <div className="max-w-6xl mx-auto px-6 py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Text column */}
           <div>

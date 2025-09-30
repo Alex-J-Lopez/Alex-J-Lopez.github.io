@@ -146,7 +146,9 @@
                     "stepName": "Gathering Requirements and Field Research",
                     "images": [
                         "/media/DiscoveryWorldHackathon/FieldResearch.png",
-                        "/media/DiscoveryWorldHackathon/AccessibilityKit.JPG"
+                        "/media/DiscoveryWorldHackathon/AccessibilityKit.JPG",
+                        "/media/DiscoveryWorldHackathon/DiscoveryWorldFieldResearch2.jpg",
+                        "/media/DiscoveryWorldHackathon/DiscoveryWorldFieldResearch3.jpg"
                     ],
                     "stepDescription": "We interviewed the workers at Discovery World to gather requirements and constraints. We also visited the museum to get a better understanding of the layout and the exhibits. This helped us identify key areas where accessibility could be improved. When we visited Discovery world, we were given an accessibility kit that included items like noise cancelling headphones, fidget toys, and visual aids. This helped us understand the needs of visitors with disabilities and how we could design our app to better serve them."
                 },
@@ -162,6 +164,14 @@
                     "stepDescription": "We got right to work and developed the applicaiton using extreme programming methods. UX work was done in parallel with backend and embedded systems development. We used GitHub for version control and collaboration. We also used FastAPI to create a backend server that would handle requests from the mobile app and communicate with the LLM. The embedded system was built using an ESP32 microcontroller and BLE beacons to provide location context to the app."
                 },
                 {
+                    "stepName": "Food Break",
+                    "images": [
+                        "/media/DiscoveryWorldHackathon/Hacksgiving2024FoodBreak.jpg",
+                        "/media/DiscoveryWorldHackathon/Hacksgiving2024FoodBreak2.jpg"
+                    ],
+                    "stepDescription": "We took a much-needed break to refuel and recharge before the final push to complete the project."
+                },
+                {
                     "stepName":"Presentation and Awards",
                     "images": [
                         "/media/DiscoveryWorldHackathon/Presentation.png",
@@ -175,7 +185,7 @@
         },
         {
             "projectTitle": "Next Step Clinic, MSOE A.I. Club HacksGiving 2023 Hackathon",
-            "featuredImage": "",
+            "featuredImage": "/media/NextStepClinicHackathon/NextAITeamPresenting.png",
             "problemStatement": "Next Step Clinic helps families in Milwaukee who have concerns about the mental health and developmental health of their children, including family navigation, screening and evaluation for autism, therapy services, training and more. The clinic was looking for an A.I.-driven solution that could enhance operational efficiency, minimize wait times and provide educational value to patients. Students were challenged to develop a tool that would support health care staff by predicting the level of care required, offering preliminary guidance and preparing patients for their appointments, thereby improving overall patient flow and satisfaction.",
             "solution": "My team created a web application that uses a large language model (LLM) to provide preliminary guidance and information to patients before their appointments. The app allows patients to input their symptoms, concerns, and demographics, and the LLM provides relevant information and resources based on the input. The app was designed to be user-friendly and easy to navigate, with a simple interface that allows patients to quickly find the information they need.",
             "skillsUsed": [
@@ -192,13 +202,21 @@
             "developmentProcess": [
                 {
                     "stepName": "Development",
-                    "images": [],
-                    "stepDescription": ""
+                    "images": [
+                        "/media/NextStepClinicHackathon/NextAITeamWorking.jpg"
+                    ],
+                    "stepDescription": "After the hackathon kickoff, we got right to work. We worked through the night and developed the proxy server, backend server, and frontend web application. We used GitHub for version control and collaboration. We also used FastAPI to create a backend server that would handle requests from the web app and communicate with the locally running LLM Llama 7b."
                 },
                 {
                     "stepName":"Presentation and Awards",
-                    "images": [],
-                    "stepDescription": ""
+                    "images": [
+                        "/media/NextStepClinicHackathon/NextAITeamPresenting.png",
+                        "/media/NextStepClinicHackathon/AllFinalistsGroupPicture.jpg",
+                        "/media/NextStepClinicHackathon/NextAITeam.jpg",
+                        "/media/NextStepClinicHackathon/NextAILiveDemoWelcomePage.png",
+                        "/media/NextStepClinicHackathon/NextAILiveDemoChatPage.png"
+                    ],
+                    "stepDescription": "We presented our project to the judges and audience. Our team was awarded 2nd place for our innovative solution."
                 }
             ]
         },

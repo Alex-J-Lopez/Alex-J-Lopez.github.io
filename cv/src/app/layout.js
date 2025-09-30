@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "AJL Portfolio",
+  title: "Alexander Lopez - Software Engineer",
   description: "Portfolio website for Alexander J. Lopez",
 };
 

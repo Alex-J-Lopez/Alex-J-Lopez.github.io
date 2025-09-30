@@ -300,5 +300,42 @@
                 }
             ]
         }
+    ],
+    "workHistory": [
+        {
+            "title": "Developer Consultant (Contract)",
+            "company": "Juno.",
+            "companyUrl": "https://juno.tax",
+            "description": "Developed a custom PDF viewer component in Next.js for a tax AI platform, enabling accountants to annotate documents and apply tax stamps interactively. Collaborated cross-functionally as a developer consultant to deliver scalable front-end solutions in Next.js tailored to complex tax documentation workflows.",
+            "duration": "August 2025 - Present"
+        },
+        {
+            "title": "Software Engineer Intern",
+            "company": "Skyward, Inc.",
+            "companyUrl": "https://skyward.com",
+            "description": "Worked on an agile team to develop, maintain, and modify components of an ASP.NET Core MVC full stack application and a database migration tool in response to stakeholder feedback and requests. Reduced redundant database reads and writes to improve database migration times.",
+            "duration": "July 2024 - August 2025"
+        },
+        {
+            "title": "Software Engineer Intern",
+            "company": "L & S Electric, Inc.",
+            "companyUrl": "https://lselectric.com",
+            "description": "Developed a full stack enterprise application that is deployed internationally. Had full control over product development from concept to delivery and worked in a small team with a UX consultant. Designed and implemented a standalone desktop application in .NET MAUI and optimized data management using complex data structures and multithreading to improve performance.",
+            "duration": "May 2023 - Present (Part Time)"
+        },
+        {
+            "title": "Software Consultant",
+            "company": "Self Employed",
+            "companyUrl": "",
+            "description": "Worked with L & S Electric, Inc. and other clients as an independent contractor to build software applications ranging from VR tours to virtual showcases and custom installers.",
+            "duration": "2018 - 2021"
+        },
+        {
+            "title": "Collections Dialer",
+            "company": "Aqua Finance INC.",
+            "companyUrl": "",
+            "description": "Worked as a collections dialer for two years, promoted to dialer one, consistently a top performer, and assisted with training new hires through hands-on side-by-side mentoring.",
+            "duration": "2020 - 2022"
+        }
     ]
 }

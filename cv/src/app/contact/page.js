@@ -44,9 +44,9 @@ export default function ContactPage() {
               <div className="bg-white/6 p-4 rounded-lg">
                 <h3 className="font-semibold text-lg mb-2">Quick links</h3>
                 <div className="flex flex-col gap-3">
-                  <a className="inline-block bg-rose-600 hover:bg-rose-500 text-white px-4 py-2 rounded-md text-center" href="https://github.com/Alex-J-Lopez" target="_blank" rel="noreferrer">GitHub</a>
-                  <a className="inline-block border border-slate-600 text-slate-200 px-4 py-2 rounded-md text-center hover:bg-white/5" href="https://www.linkedin.com/in/alexander-lopez-j" target="_blank" rel="noreferrer">LinkedIn</a>
-                  <a className="inline-block text-slate-200 px-4 py-2 rounded-md text-center hover:bg-white/5" href="mailto:alex.jlopez@outlook.com">Email</a>
+                  <a className="inline-block bg-rose-600 hover:bg-rose-500 text-white px-4 py-2 rounded-md text-center" href="https://www.linkedin.com/in/alexander-lopez-j" target="_blank" rel="noreferrer">LinkedIn</a>
+                  <a className="inline-block border border-slate-600 text-slate-200 px-4 py-2 rounded-md text-center hover:bg-white/5" href="https://github.com/Alex-J-Lopez" target="_blank" rel="noreferrer">GitHub</a>
+                  <a className="inline-block border border-slate-600 text-slate-200 px-4 py-2 rounded-md text-center hover:bg-white/5" href="mailto:alex.jlopez@outlook.com">Email</a>
                 </div>
               </div>
 

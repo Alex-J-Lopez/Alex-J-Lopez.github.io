@@ -26,18 +26,11 @@ export default function About() {
                   View Resume
                 </a>
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="inline-block border border-slate-400 text-slate-200 px-4 py-2 rounded-md hover:bg-white/5"
                 >
                   Contact
                 </a>
-              </div>
-
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm">
-                <div className="bg-white/3 p-3 rounded">Front-end</div>
-                <div className="bg-white/3 p-3 rounded">Game Dev</div>
-                <div className="bg-white/3 p-3 rounded">Embedded</div>
-                <div className="bg-white/3 p-3 rounded">Photography</div>
               </div>
             </div>
           </div>
@@ -51,23 +44,13 @@ export default function About() {
                   alt="Alex portrait vertical"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
-              </div>
-
-              <div className="grid grid-cols-2 gap-4">
-                <div className="relative rounded-lg overflow-hidden shadow bg-gray-200" style={{ aspectRatio: '1 / 1' }}>
-                  <img
-                    src="/media/PersonalImages/Headshots/Hiking.jpg"
-                    alt="Outdoors"
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                </div>
-                <div className="relative rounded-lg overflow-hidden shadow bg-gray-200" style={{ aspectRatio: '16 / 9' }}>
-                  <img
-                    src="/media/PersonalImages/Headshots/Selfie.jpg"
-                    alt="Landscape"
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                </div>
+              </div>              
+              <div className="relative rounded-lg overflow-hidden shadow bg-gray-200" style={{ aspectRatio: '16 / 9' }}>
+                <img
+                  src="/media/PersonalImages/Devcon 2024.jpg"
+                  alt="Alex standing at a booth at Devcon 2024 in Milwaukee Wisconsin"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
               </div>
             </div>
           </aside>
@@ -79,12 +62,12 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-4 text-center text-slate-50">Who am I?</h2>
             <div className="prose prose-invert max-w-none text-lg leading-relaxed">
               <p>
-                I'm a person who loves nature, adventure, and technology. I grew up in Wausau, Wisconsin — a place surrounded by forests, lakes, and hills.
+                I'm a person who loves technology, adventure, and nature. I grew up in Wausau, Wisconsin; a place surrounded by forests, lakes, and hills.
                 I spent my childhood exploring the outdoors, and I also developed an early interest in electronics and tinkering.
               </p>
               <p>
                 I pursued software engineering at Milwaukee School of Engineering. I enjoy combining software and physical systems,
-                whether that's building web experiences or experimenting with hardware projects. I also like photography and spending time with
+                whether that's building web experiences or experimenting with hardware projects. I also enjoy photography and spending time with
                 friends and family when I'm not working on projects.
               </p>
             </div>
@@ -93,7 +76,7 @@ export default function About() {
       </div>
 
       {/* Resume Section */}
-      <section id="resume" className="py-16 px-4 max-w-4xl mx-auto text-center">
+      <section id="resume" className="px-4 max-w-4xl mx-auto text-center">
         <article>
           <h1 className="text-3xl font-bold mb-6">Resume</h1>
           <p className="text-lg mb-8">Please feel free to take a look at my resume below</p>

@@ -8,28 +8,28 @@ export default function Footer() {
 
             <div className="flex justify-center gap-3">
               <a
-                href="https://github.com/Alex-J-Lopez"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-block bg-rose-600 hover:bg-rose-500 text-white px-4 py-2 rounded-md"
-              >
-                Github
-              </a>
-
-              <a
                 href="https://www.linkedin.com/in/alexander-lopez-j"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-block border border-slate-600 text-slate-200 px-4 py-2 rounded-md hover:bg-white/5"
+                className="inline-block bg-rose-600 hover:bg-rose-500 text-white px-4 py-2 rounded-md"
               >
                 Linkedin
               </a>
 
               <a
                 href="mailto:alex.jlopez@outlook.com"
-                className="inline-block text-slate-200 px-4 py-2 rounded-md border border-transparent hover:bg-white/5"
+                className="inline-block border border-slate-600 text-slate-200 px-4 py-2 rounded-md hover:bg-white/5"
               >
                 Email
+              </a>
+
+              <a
+                href="https://github.com/Alex-J-Lopez"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block border border-slate-600 text-slate-200 px-4 py-2 rounded-md hover:bg-white/5"
+              >
+                Github
               </a>
             </div>
           </article>

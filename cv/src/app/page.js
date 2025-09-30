@@ -15,23 +15,14 @@ export default function Home() {
             <div className="flex flex-wrap gap-3">
               <Link href="/about" className="inline-block bg-rose-600 hover:bg-rose-500 text-white px-5 py-3 rounded-md shadow">About</Link>
               <Link href="/projects" className="inline-block border border-slate-400 text-slate-200 px-5 py-3 rounded-md hover:bg-white/5">Projects</Link>
-              <a href="/about#resume" rel="noreferrer" className="inline-block text-sm text-slate-300 px-4 py-3">Resume</a>
+              <a href="/about#resume" rel="noreferrer" className="inline-block border border-slate-400 text-slate-200 px-5 py-3 rounded-md hover:bg-white/5">Resume</a>
             </div>
           </div>
 
-          {/* Image collage column */}
+          {/* Image column */}
           <div className="space-y-4">
-            <div className="relative rounded-xl overflow-hidden shadow-xl bg-gray-200" style={{ aspectRatio: '4 / 5' }}>
-              <img src="/media/PersonalImages/Headshots/Vertical.jpg" alt="Portrait" fill className="object-cover" />
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              <div className="relative rounded-lg overflow-hidden shadow bg-gray-200" style={{ aspectRatio: '1 / 1' }}>
-                <img src="/media/PersonalImages/Headshots/Hiking.jpg" alt="Hiking" fill className="object-cover" />
-              </div>
-              <div className="relative rounded-lg overflow-hidden shadow bg-gray-200" style={{ aspectRatio: '16 / 9' }}>
-                <img src="/media/PersonalImages/Headshots/Horizontal.jpg" alt="Landscape" fill className="object-cover" />
-              </div>
+            <div className="relative rounded-xl overflow-hidden shadow-xl bg-gray-200" style={{ aspectRatio: '3 / 2' }}>
+              <img src="/media/PersonalImages/Headshots/selfie.jpg" alt="Portrait of Alexander Lopez" fill className="object-cover" />
             </div>
           </div>
         </div>

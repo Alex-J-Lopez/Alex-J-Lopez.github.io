@@ -62,7 +62,7 @@ const NavBar = () => {
                                         {l.label}
                                     </Link>
                                 ))}
-                                <a href="/Media/ResumeLopezaj2023.pdf" target="_blank" rel="noreferrer" className="inline-block mt-2 bg-rose-600 hover:bg-rose-500 text-white px-4 py-2 rounded">Resume</a>
+                                <a href="/about#resume" rel="noreferrer" className="inline-block mt-2 bg-rose-600 hover:bg-rose-500 text-white px-4 py-2 rounded">Resume</a>
                             </div>
                         </div>
                     </div>

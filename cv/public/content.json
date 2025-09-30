@@ -415,6 +415,17 @@
             "company": "Juno.",
             "companyUrl": "https://juno.tax",
             "description": "Developed a custom PDF viewer component in Next.js for a tax AI platform, enabling accountants to annotate documents and apply tax stamps interactively. Collaborated cross-functionally as a developer consultant to deliver scalable front-end solutions in Next.js tailored to complex tax documentation workflows.",
+            "technologies": [
+                "Next.js",
+                "React.js",
+                "TypeScript React",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "PDF.js",
+                "PDF-lib",
+                "PDFME"
+            ],
             "duration": "August 2025 - Present"
         },
         {
@@ -422,6 +433,17 @@
             "company": "Skyward, Inc.",
             "companyUrl": "https://skyward.com",
             "description": "Worked on an agile team to develop, maintain, and modify components of an ASP.NET Core MVC full stack application and a database migration tool in response to stakeholder feedback and requests. Reduced redundant database reads and writes to improve database migration times.",
+            "technologies": [
+                "C#",
+                "SQL",
+                "Database Migrations",
+                ".NET Core",
+                "ASP.NET Core MVC",
+                "Entity Framework",
+                "Microsoft SQL Server",
+                "GitHub",
+                "Scrum"
+            ],
             "duration": "July 2024 - August 2025"
         },
         {
@@ -429,6 +451,17 @@
             "company": "L & S Electric, Inc.",
             "companyUrl": "https://lselectric.com",
             "description": "Developed a full stack enterprise application that is deployed internationally. Had full control over product development from concept to delivery and worked in a small team with a UX consultant. Designed and implemented a standalone desktop application in .NET MAUI and optimized data management using complex data structures and multithreading to improve performance.",
+            "technologies": [
+                "C#",
+                ".NET MAUI",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "XAML",
+                "MVVM",
+                "Desktop Application Development",
+                "TwinCAT Ads"
+            ],
             "duration": "May 2023 - Present (Part Time)"
         },
         {
@@ -436,6 +469,16 @@
             "company": "Self Employed",
             "companyUrl": "",
             "description": "Worked with L & S Electric, Inc. and other clients as an independent contractor to build software applications ranging from VR tours to virtual showcases and custom installers.",
+            "technologies": [
+                "C#",
+                "Unity3D",
+                "Blender",
+                "3D Modeling",
+                "Davinci Resolve",
+                "OpenXR",
+                "Microsoft Hololens 2 Development",
+                "Meta Quest Development"
+            ],
             "duration": "2018 - 2021"
         },
         {

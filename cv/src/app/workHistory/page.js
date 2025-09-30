@@ -31,6 +31,16 @@ export default function WorkHistory() {
 									) : null}
 								</h2>
 								{job.description && <p className="text-slate-200 mt-3">{job.description}</p>}
+								{job.technologies && job.technologies.length > 0 && (
+									<div>
+										<p className="mt-2 font-semibold">Skills Used:</p>
+										<ul className="mt-1 flex flex-wrap gap-2">
+											{job.technologies.map((skill, index) => (
+												<li key={index} className="px-3 py-1 bg-white/10 rounded-full text-sm">{skill}</li>
+											))}
+										</ul>
+									</div>
+								)}
 								{job.duration && <p className="text-sm text-slate-400 mt-3">Duration: {job.duration}</p>}
 							</article>
 						))}

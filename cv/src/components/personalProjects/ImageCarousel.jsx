@@ -11,7 +11,7 @@ export default function ImageCarousel({ images = [] }) {
 
     return (
         <div className="relative w-full">
-            <div className="w-full flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-rose-800 via-rose-700 to-rose-600">
+            <div className="w-full flex items-center justify-center overflow-hidden rounded-lg bg-slate-800">
                 {/* use native img to respect intrinsic height; constrain with max-height so tall images shrink to fit */}
                 <img src={images[imgIndex]} alt={`Step image ${imgIndex + 1}`} className="mx-auto w-auto max-h-56 sm:max-h-64 md:max-h-44 lg:max-h-56 object-contain" />
             </div>

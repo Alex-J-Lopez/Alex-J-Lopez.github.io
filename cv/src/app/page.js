@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
@@ -23,15 +22,15 @@ export default function Home() {
           {/* Image collage column */}
           <div className="space-y-4">
             <div className="relative rounded-xl overflow-hidden shadow-xl bg-gray-200" style={{ aspectRatio: '4 / 5' }}>
-              <Image src="/media/PersonalImages/Headshots/Vertical.jpg" alt="Portrait" fill className="object-cover" />
+              <img src="/media/PersonalImages/Headshots/Vertical.jpg" alt="Portrait" fill className="object-cover" />
             </div>
 
             <div className="grid grid-cols-2 gap-4">
               <div className="relative rounded-lg overflow-hidden shadow bg-gray-200" style={{ aspectRatio: '1 / 1' }}>
-                <Image src="/media/PersonalImages/Headshots/Hiking.jpg" alt="Hiking" fill className="object-cover" />
+                <img src="/media/PersonalImages/Headshots/Hiking.jpg" alt="Hiking" fill className="object-cover" />
               </div>
               <div className="relative rounded-lg overflow-hidden shadow bg-gray-200" style={{ aspectRatio: '16 / 9' }}>
-                <Image src="/media/PersonalImages/Headshots/Horizontal.jpg" alt="Landscape" fill className="object-cover" />
+                <img src="/media/PersonalImages/Headshots/Horizontal.jpg" alt="Landscape" fill className="object-cover" />
               </div>
             </div>
           </div>

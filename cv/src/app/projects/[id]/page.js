@@ -1,10 +1,15 @@
-"use client";
 import React from 'react';
 import content from '../../../../public/content.json';
 import StepCard from '@/components/personalProjects/StepCard';
 
+export function generateStaticParams() {
+    return content.projects.map((_, index) => ({
+        id: index.toString(),
+    }));
+}
+
 const ProjectDetails = ({ params }) => {
-    const { id } = React.use(params);
+    const { id } = params;
 
     // Ensure the project ID is valid
     const project = content.projects[id];

@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function About() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-slate-100">
@@ -48,29 +46,26 @@ export default function About() {
           <aside className="md:col-span-1">
             <div className="space-y-4">
               <div className="relative rounded-xl overflow-hidden shadow-xl bg-gray-200" style={{ aspectRatio: '4 / 5' }}>
-                <Image
+                <img
                   src="/media/PersonalImages/Headshots/Horizontal.jpg"
                   alt="Alex portrait vertical"
-                  fill
-                  className="object-cover"
+                  className="absolute inset-0 w-full h-full object-cover"
                 />
               </div>
 
               <div className="grid grid-cols-2 gap-4">
                 <div className="relative rounded-lg overflow-hidden shadow bg-gray-200" style={{ aspectRatio: '1 / 1' }}>
-                  <Image
+                  <img
                     src="/media/PersonalImages/Headshots/Hiking.jpg"
                     alt="Outdoors"
-                    fill
-                    className="object-cover"
+                    className="absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
                 <div className="relative rounded-lg overflow-hidden shadow bg-gray-200" style={{ aspectRatio: '16 / 9' }}>
-                  <Image
+                  <img
                     src="/media/PersonalImages/Headshots/Selfie.jpg"
                     alt="Landscape"
-                    fill
-                    className="object-cover"
+                    className="absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
               </div>

@@ -62,7 +62,7 @@
         },
         {
             "projectTitle": "Discovery World Milwaukee Accessability Project, MSOE A.I. Club Fall Hackathon",
-            "featuredImage": "/media/Hacksgiving2024/Presentation.png",
+            "featuredImage": "/media/DiscoveryWorldHackathon/Presentation.png",
             "problemStatement": "Discovery World Milwaukee is a science and technology museum that is dedicated to inspiring the next generation of innovators. The museum is committed to making its exhibits and programs accessible to all visitors, including those with language, mobility, age, and other accessibility requirements. The museum wanted a software solution that would help improve accessibility for visitors all visitors; specifically targeting key areas like language translation, accessibility, and age-appropriate context and explanations.",
             "solution": "My team created a mobile application that uses bluetooth low energy (BLE) beacons to triangulate, with high precision, the location of visitors within the museum. Location context was mapped to prompts which were passed to an LLM with the users age, interests, and langugage as context. This allowed the LLM to tell the user about the area that they are in with relevant information that they can understand in their language, and at their level of comprehension based on their age. The app also includes features like text-to-speech to improve accessibility for visitors with visual impairments. The app was designed to be user-friendly and easy to navigate, with a simple interface that allows visitors to quickly find the information they need. Another key feature of the app is the ability to inform users with sound sensitivities when they are about to approach an area that may be loud or overwhelming. This is done using the BLE beacons to determine the user's location and provide a warning if they are approaching a potentially loud area.",
             "skillsUsed": [
@@ -84,36 +84,36 @@
                 {
                     "stepName": "Hackathon kickoff",
                     "images": [
-                        "/media/HacksGiving2024/kickoff.jpg"
+                        "/media/DiscoveryWorldHackathon/kickoff.jpg"
                     ],
                     "stepDescription": "We started the process by researching the problem space. We found out that 47% of discovery world tickers are purchased for minors. This guided our development to focus on making content easy to understand for children."
                 },
                 {
                     "stepName": "Gathering Requirements and Field Research",
                     "images": [
-                        "/media/HacksGiving2024/FieldResearch.png",
-                        "/media/HacksGiving2024/AccessibilityKit.JPG"
+                        "/media/DiscoveryWorldHackathon/FieldResearch.png",
+                        "/media/DiscoveryWorldHackathon/AccessibilityKit.JPG"
                     ],
                     "stepDescription": "We interviewed the workers at Discovery World to gather requirements and constraints. We also visited the museum to get a better understanding of the layout and the exhibits. This helped us identify key areas where accessibility could be improved. When we visited Discovery world, we were given an accessibility kit that included items like noise cancelling headphones, fidget toys, and visual aids. This helped us understand the needs of visitors with disabilities and how we could design our app to better serve them."
                 },
                 {
                     "stepName": "Development",
                     "images": [
-                        "/media/HacksGiving2024/TeamHardAtWork.jpg",
-                        "/media/HacksGiving2024/Wireframes.jpg",
-                        "/media/HacksGiving2024/HardwareChoice.png",
-                        "/media/HacksGiving2024/UIDesigns1.png",
-                        "/media/HacksGiving2024/UIDesigns2.png"
+                        "/media/DiscoveryWorldHackathon/TeamHardAtWork.jpg",
+                        "/media/DiscoveryWorldHackathon/Wireframes.jpg",
+                        "/media/DiscoveryWorldHackathon/HardwareChoice.png",
+                        "/media/DiscoveryWorldHackathon/UIDesigns1.png",
+                        "/media/DiscoveryWorldHackathon/UIDesigns2.png"
                     ],
                     "stepDescription": "We got right to work and developed the applicaiton using extreme programming methods. UX work was done in parallel with backend and embedded systems development. We used GitHub for version control and collaboration. We also used FastAPI to create a backend server that would handle requests from the mobile app and communicate with the LLM. The embedded system was built using an ESP32 microcontroller and BLE beacons to provide location context to the app."
                 },
                 {
                     "stepName":"Presentation and Awards",
                     "images": [
-                        "/media/HacksGiving2024/Presentation.png",
-                        "/media/HacksGiving2024/TeamPresenting.png",
-                        "/media/HacksGiving2024/GroupPictureAfterWinningSecondPlace.jpg",
-                        "/media/HacksGiving2024/AllFinalistsGroupPicture.jpg"
+                        "/media/DiscoveryWorldHackathon/Presentation.png",
+                        "/media/DiscoveryWorldHackathon/TeamPresenting.png",
+                        "/media/DiscoveryWorldHackathon/GroupPictureAfterWinningSecondPlace.jpg",
+                        "/media/DiscoveryWorldHackathon/AllFinalistsGroupPicture.jpg"
                     ],
                     "stepDescription": "The final step was to present the app. We created a presentation that included a demo of the app and a summary of the development process. We presented the app at the HacksGiving 2024 final event where we got 2nd place in the competition for our solution!"
                 }

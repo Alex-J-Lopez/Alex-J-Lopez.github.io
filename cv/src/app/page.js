@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import content from '../../public/content.json';
+import ProjectPreview from '@/components/personalProjects/projectPreview';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-slate-100">
-      <div className="max-w-6xl mx-auto px-6 py-24">
+      <div className="max-w-6xl mx-auto px-6 py-12 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Text column */}
           <div>
@@ -13,7 +15,7 @@ export default function Home() {
             </p>
 
             <div className="flex flex-wrap gap-3">
-              <Link href="/about" className="inline-block bg-rose-600 hover:bg-rose-500 text-white px-5 py-3 rounded-md shadow">About</Link>
+              <Link href="/about" className="inline-block bg-rose-600 hover:bg-rose-500 text-white px-5 py-3 rounded-md shadow">Biography</Link>
               <Link href="/projects" className="inline-block border border-slate-400 text-slate-200 px-5 py-3 rounded-md hover:bg-white/5">Projects</Link>
               <a href="/about#resume" rel="noreferrer" className="inline-block border border-slate-400 text-slate-200 px-5 py-3 rounded-md hover:bg-white/5">Resume</a>
             </div>
@@ -26,6 +28,12 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="max-w-6xl mx-auto px-6 pb-24">
+        <h2 className="text-3xl md:text-4xl font-extrabold mb-6">Featured Project</h2>
+        {content.projects && content.projects.length > 0 && (
+          <ProjectPreview key={4} title={content.projects[4].projectTitle} problemStatement={content.projects[4].problemStatement} href={`/projects/4`} image={content.projects[4].featuredImage} />
+        )}
       </div>
     </div>
   );

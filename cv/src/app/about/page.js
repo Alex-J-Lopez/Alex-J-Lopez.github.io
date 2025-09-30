@@ -14,7 +14,7 @@ export default function About() {
               <p className="text-lg text-slate-200 mb-6">
                 I'm studying Software Engineering at the Milwaukee School of Engineering. I enjoy building polished front-end
                 experiences, learning new languages and tools, and creating projects that combine hardware and software.
-                When I'm not coding I like exploring outdoors with a camera in hand and tackling hands-on electronics work.
+                When I'm not coding I enjoy exploring the outdoors with a camera in hand and tackling hands-on electronics work.
               </p>
 
               <div className="flex flex-wrap gap-3 mb-6">

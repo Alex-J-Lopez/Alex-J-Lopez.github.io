@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "projectTitle": "TruePrep.ai Innovation Lab",
+            "projectTitle": "TruePrep.ai Innovation Lab (3rd Place)",
             "featuredImage": "/media/JunoInnovationLab/UploadUI.png",
             "problemStatement": "Juno. (formerly TruePrep.ai) is an A.I. tax preparation company that sponsored an innovation lab for students to create solutions that improve their tax preparation process. The problem statement was to create a software solution that improves the accuracy and efficiency of tax document review and research.",
             "solution": "I worked with my team to build a comprehensive review workflow to review tax documents that had been prepared by an AI. The workflow included multiple steps to confirm the customers information which was passed to an A.I. agent which reviews the prepared documents. If anything is amiss, it gets flagged by the agent and identified in the review step. We also implemented a deep research agent to ask questions about hypothetical tax situations. The entire workflow was built in a web application using Next.js.",
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "projectTitle": "Brady Corp Innovation Lab",
+            "projectTitle": "Brady Corp Innovation Lab (1st Place)",
             "featuredImage": "/media/BradyInnovationLab/ScanningUI.png",
             "problemStatement": "Brady Corp wanted a software and A.I. solution that focuses on solving critical industry problems related to liquid measurement and analysis. Teams were tasked with designing AI-based solutions to predict liquid levels in containers using images. Additionally, teams were encouraged to explore attributes like liquid color, container dimensions, and other innovative applications that expand the problem's scope.",
             "solution": "I worked on a team to create a comprehensive software solution that runs machine learning models locally with no internet connection. This software is used to track containers in a lab environment. It uses computer vision to identify containers and measure liquid levels. The software also includes a user-friendly GUI for easy interaction and data visualization.",
@@ -115,7 +115,7 @@
             ]
         },
         {
-            "projectTitle": "Discovery World Milwaukee Accessibility Project, MSOE A.I. Club HacksGiving 2024 Hackathon",
+            "projectTitle": "Discovery World Milwaukee (2nd Place), MSOE A.I. Club HacksGiving 2024 Hackathon",
             "featuredImage": "/media/DiscoveryWorldHackathon/Presentation.png",
             "problemStatement": "Discovery World Milwaukee is a science and technology museum that is dedicated to inspiring the next generation of innovators. The museum is committed to making its exhibits and programs accessible to all visitors, including those with language, mobility, age, and other accessibility requirements. The museum wanted a software solution that would help improve accessibility for visitors all visitors; specifically targeting key areas like language translation, accessibility, and age-appropriate context and explanations.",
             "solution": "My team created a mobile application that uses bluetooth low energy (BLE) beacons to triangulate, with high precision, the location of visitors within the museum. Location context was mapped to prompts which were passed to an LLM with the users age, interests, and langugage as context. This allowed the LLM to tell the user about the area that they are in with relevant information that they can understand in their language, and at their level of comprehension based on their age. The app also includes features like text-to-speech to improve accessibility for visitors with visual impairments. The app was designed to be user-friendly and easy to navigate, with a simple interface that allows visitors to quickly find the information they need. Another key feature of the app is the ability to inform users with sound sensitivities when they are about to approach an area that may be loud or overwhelming. This is done using the BLE beacons to determine the user's location and provide a warning if they are approaching a potentially loud area.",
@@ -184,7 +184,7 @@
             ]
         },
         {
-            "projectTitle": "Next Step Clinic, MSOE A.I. Club HacksGiving 2023 Hackathon",
+            "projectTitle": "Next Step Clinic (2nd Place), MSOE A.I. Club HacksGiving 2023 Hackathon",
             "featuredImage": "/media/NextStepClinicHackathon/NextAITeamPresenting.png",
             "problemStatement": "Next Step Clinic helps families in Milwaukee who have concerns about the mental health and developmental health of their children, including family navigation, screening and evaluation for autism, therapy services, training and more. The clinic was looking for an A.I.-driven solution that could enhance operational efficiency, minimize wait times and provide educational value to patients. Students were challenged to develop a tool that would support health care staff by predicting the level of care required, offering preliminary guidance and preparing patients for their appointments, thereby improving overall patient flow and satisfaction.",
             "solution": "My team created a web application that uses a large language model (LLM) to provide preliminary guidance and information to patients before their appointments. The app allows patients to input their symptoms, concerns, and demographics, and the LLM provides relevant information and resources based on the input. The app was designed to be user-friendly and easy to navigate, with a simple interface that allows patients to quickly find the information they need.",
@@ -223,13 +223,20 @@
         {
             "projectTitle": "Personal Portfolio Website",
             "featuredImage": "/media/WebsiteDesign/IMG_3711.JPG",
-            "problemStatement": "Having just started my freshman year at university in the fall of 2022, I had far reaching ambitions for myself. I quickly began doing personal projects in order to improve my skills. I needed a place where I could keep a record of each of my projects and my creative process.",
+            "problemStatement": "When I started my freshman year at MSOE University in the fall of 2022, I had far reaching ambitions for myself. I quickly began doing personal projects to improve my skills, and I needed a place where I could keep a record of each of my projects and my creative process.",
             "solution": "There were a few solutions to my problem. I could purchase a subscription to a website making application and create my website that way. I could give prospective employeers a link to a google drive with all my projects. Or, I could improve my web development skills and create my own website. As you can tell by now, the thrid choice was both the most professional and also the choice I decided upon. I learned HTML, CSS, and some javascript in order to make this idea happen.",
             "skillsUsed": [
+                "React.js",
+                "Next.js",
+                "TailwindCSS",
+                "JSON",
                 "HTML",
                 "CSS",
                 "JavaScript",
-                "Responsive Web Design"
+                "Responsive Web Design",
+                "GitHub",
+                "CI/CD",
+                "Github Actions"
             ],
             "projectSourceCodeLink": "https://github.com/Alex-J-Lopez/Alex-J-Lopez.github.io",
             "developmentProcess": [
@@ -284,7 +291,7 @@
                 {
                     "stepName": "Version 5",
                     "images": [],
-                    "stepDescription": "The previous versions of this website used plain HTML, CSS, and some JavaScript. This made the development process tedious and time consuming. For version 5 I decided to use the Next.js framework with React and TailwindCSS. This allowed me to create reusable components which drastically reduced code repetition and improved the development process. Futhermore, the site now dynamically builds project pages from a JSON file which makes adding new projects much easier."
+                    "stepDescription": "The previous versions of this website used plain HTML, CSS, and some JavaScript. This made the development process tedious and time consuming. For version 5 I decided to use the Next.js framework with React.js and TailwindCSS. This allowed me to create reusable components which drastically reduced code repetition and improved the development process. Futhermore, the site now dynamically builds project pages from a JSON file which makes adding new projects much easier."
                 }
             ]
         },

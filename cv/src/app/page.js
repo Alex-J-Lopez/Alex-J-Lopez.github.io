@@ -1,8 +1,18 @@
+"use client";
 import Link from 'next/link';
 import content from '../../public/content.json';
 import ProjectPreview from '@/components/personalProjects/projectPreview';
+import React, { useEffect, useState } from 'react';
 
 export default function Home() {
+  const [projectIndex, setProjectIndex] = useState(0);
+  useEffect(() => {
+    let tempIndex = 0;
+    do {
+      tempIndex = Math.floor(Math.random() * content.projects.length);
+    } while (tempIndex === 4); //Avoid project 5 which is the project describing the development of this website.
+    setProjectIndex(tempIndex);
+  }, []);
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-slate-100">
       <div className="max-w-6xl mx-auto px-6 py-24">
@@ -32,7 +42,7 @@ export default function Home() {
       <div className="max-w-6xl mx-auto px-6 pb-24">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-6">Featured Project</h2>
         {content.projects && content.projects.length > 0 && (
-          <ProjectPreview key={4} title={content.projects[4].projectTitle} problemStatement={content.projects[4].problemStatement} href={`/projects/4`} image={content.projects[4].featuredImage} />
+          <ProjectPreview key={projectIndex} title={content.projects[projectIndex].projectTitle} problemStatement={content.projects[projectIndex].problemStatement} href={`/projects/${projectIndex}`} image={content.projects[projectIndex].featuredImage} />
         )}
       </div>
     </div>

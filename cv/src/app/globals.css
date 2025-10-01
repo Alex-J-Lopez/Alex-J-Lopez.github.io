@@ -2,8 +2,8 @@
 
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
   --selection-bg: rgba(244,63,94,0.90);
   --selection-fg: #ffffff;
 }

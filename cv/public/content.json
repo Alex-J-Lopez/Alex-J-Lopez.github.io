@@ -182,6 +182,69 @@
                     "stepDescription": "The final step was to present the app. We created a presentation that included a demo of the app and a summary of the development process. We presented the app at the HacksGiving 2024 final event where we got 2nd place in the competition for our solution!"
                 }
             ]
+        },{
+            "projectTitle": "LS-ACT - Hydro Power Excitation System Configuration & Control Application",
+            "featuredImage": "/media/LSACT/AutoControlPage.png",
+            "problemStatement": "L & S Electric needed a modern, comprehensive desktop application for hydro power excitation system configuration and control. The application needed to provide real-time data visualization, advanced scope analysis, COMTRADE file support for fault analysis, and automated control sequences. The solution had to be reliable, performant, and intuitive for electrical engineers and technicians working with complex power distribution systems.",
+            "solution": "I developed a full-stack enterprise desktop application using .NET MAUI that provides comprehensive power system monitoring, configuration, and control capabilities. The application features multiple specialized pages and modes for configuration of both the AES-110 and AES-1100 from L & S Electric, advanced multi-channel oscilloscope functionality with zoom bands, COMTRADE file parsing and visualization for fault analysis, synchroscope displays, capability curve monitoring, and detailed metering. The system communicates with L & S Electric's excitation systems using the TwinCAT ADS protocol and utilizes complex data structures and multithreading to handle real-time data streams efficiently.",
+            "skillsUsed": [
+                "C#",
+                ".NET MAUI",
+                "XAML",
+                "MVVM Architecture",
+                "JavaScript",
+                "Desktop Application Development",
+                "TwinCAT ADS",
+                "Real-time Data Processing",
+                "Multithreading",
+                "Asynchronous Programming",
+                "Data Structures",
+                "COMTRADE File Parsing",
+                "Industrial Control Systems",
+                "PLC Communication",
+                "Data Visualization",
+                "GitHub"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Pages - User Interface Design & Implementation",
+                    "images": [
+                        "/media/LSACT/AutoControlPage.png",
+                        "/media/LSACT/MeteringPage.png",
+                        "/media/LSACT/Synchroscope.png",
+                        "/media/LSACT/CapabilityCurve.png",
+                        "/media/LSACT/ConfigPage.png"
+                    ],
+                    "stepDescription": "Developed 110 total specialized pages for different monitoring and control functions. Each page was designed with input from UX consultants and electrical engineers to ensure intuitive operation and clear data presentation."
+                },
+                {
+                    "stepName": "Scope - Advanced Multi-Channel Oscilloscope",
+                    "images": [
+                        "/media/LSACT/ScopeMeasurement.jpg",
+                        "/media/LSACT/ScopeMultiDisplay.png",
+                        "/media/LSACT/ScopeMultiChannel.png",
+                        "/media/LSACT/ScopeWithZoomBand.jpg"
+                    ],
+                    "stepDescription": "Implemented a sophisticated oscilloscope feature for real-time waveform visualization and analysis. The scope supports multiple channels simultaneously, allowing engineers to monitor voltage and current waveforms across different phases. Features include configurable measurement displays showing RMS values, frequency, and phase relationships. The zoom band functionality enables detailed examination of specific time periods within the waveform data. Optimized data structures and multithreading ensure smooth rendering even with high-frequency data streams at a 2ms polling speed, providing engineers with the tools they need for precise power quality analysis."
+                },
+                {
+                    "stepName": "Comtrade - Fault Analysis & Data Import",
+                    "images": [
+                        "/media/LSACT/Comtrade2.jpg",
+                        "/media/LSACT/Comtrade1.jpg"
+                    ],
+                    "stepDescription": "Developed COMTRADE (Common Format for Transient Data Exchange) file parsing and visualization capabilities. This feature allows engineers to import and analyze fault recorder data from various power system protection devices. The application parses COMTRADE files according to IEEE standards and displays the waveform data with full oscilloscope functionality. Engineers can analyze historical fault events, compare waveforms across different channels, and identify the root causes of power system disturbances. This capability is critical for post-event analysis and improving system reliability."
+                },
+                {
+                    "stepName": "Sequence Diagrams - System Communication & Control Logic",
+                    "images": [
+                        "/media/LSACT/SD1.jpg",
+                        "/media/LSACT/SD2.jpg"
+                    ],
+                    "stepDescription": "Preliminary software design work included creating detailed sequence diagrams to map out system communication flows and control logic. Pictured above is the sequence diagram for the TwinCAT ADS Connection process. Generally, the diagrams illustrated how the application interacts with industrial PLCs using the TwinCAT ADS protocol, detailing the sequence of messages for data acquisition, command execution, and status updates. The diagrams also outlined the internal workflows for handling user interactions, data processing, and real-time updates across different application modules. This design work was essential for ensuring robust and reliable system architecture before development began."
+                }
+            ]
         },
         {
             "projectTitle": "Next Step Clinic (2nd Place), MSOE A.I. Club HacksGiving 2023 Hackathon",

@@ -10,12 +10,12 @@ export default function Home() {
     let tempIndex = 0;
     do {
       tempIndex = Math.floor(Math.random() * content.projects.length);
-    } while (tempIndex === 4); //Avoid project 5 which is the project describing the development of this website.
+    } while (tempIndex === 5); //Avoid project 5 which is the project describing the development of this website.
     setProjectIndex(tempIndex);
   }, []);
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-slate-100">
-      <div className="max-w-6xl mx-auto px-6 py-24">
+      <div className="max-w-6xl mx-auto px-6 py-12 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Text column */}
           <div>

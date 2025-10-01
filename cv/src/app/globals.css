@@ -2,7 +2,7 @@
 
 
 :root {
-  --background: #0a0a0a;
+  --background: oklch(20.8% 0.042 265.755);
   --foreground: #ededed;
   --selection-bg: rgba(244,63,94,0.90);
   --selection-fg: #ffffff;
@@ -17,7 +17,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: oklch(20.8% 0.042 265.755);
     --foreground: #ededed;
   }
 }

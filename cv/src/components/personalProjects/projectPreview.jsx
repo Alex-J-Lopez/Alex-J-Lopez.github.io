@@ -5,8 +5,8 @@ const ProjectPreview = ({ title, problemStatement, href, image }) => {
     return (
         <article className="bg-white/5 hover:bg-white/6 transition-transform hover:-translate-y-1 transform rounded-2xl overflow-hidden shadow-sm">
             {image ? (
-                <div className="relative h-44 w-full overflow-hidden">
-                    <img src={image} alt={title} className="absolute inset-0 w-full h-full object-cover" />
+                <div className="w-full flex items-center justify-center overflow-hidden rounded-lg bg-slate-800">
+                    <img src={image} alt={title} className="mx-auto w-auto max-h-56 sm:max-h-64 md:max-h-44 lg:max-h-56 object-contain" />
                 </div>
             ) : (
                 <div className="h-44 w-full bg-gradient-to-br from-rose-700 via-rose-600 to-rose-500" />

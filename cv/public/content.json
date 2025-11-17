@@ -470,6 +470,123 @@
                     "stepDescription": "Version two improved the user experience and reduced hardware to a single NodeMCU with one or two water sensors. The web interface and backend were reworked. The project was later abandoned due to uncertainty about sensor effects on plants, but it was a valuable learning experience."
                 }
             ]
+        },
+        {
+            "projectTitle": "L & S Engineering Building VR Tour (HydroVision Showcase)",
+            "featuredImage": "",
+            "problemStatement": "L & S Electric wanted an immersive way to showcase their engineering facility at HydroVision and other industry events, enabling attendees to experience the space and capabilities without a physical visit.",
+            "solution": "I built an Oculus Rift VR tour in Unity that guided users through the engineering building with narration. The experience was optimized for trade‑show reliability: baked lighting, asset optimization, and a simple operator flow for rapid resets and high throughput at the booth.",
+            "skillsUsed": [
+                "C#",
+                "Unity3D",
+                "Oculus Rift CV1",
+                "Davinci Resolve",
+                "3D Modeling",
+                "Performance Optimization",
+                "Event Demo Operations"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Discovery & Goals",
+                    "images": [],
+                    "stepDescription": "Aligned with stakeholders on booth flow, messaging, and technical constraints (offline, reliable resets, minimal operator steps)."
+                },
+                {
+                    "stepName": "Content Capture & Scene Build",
+                    "images": [],
+                    "stepDescription": "Prepared environment assets, built scenes in Unity, and created hotspots and guided paths to focus attention on key capabilities. Recorded narration and 360 video and integrated it into the experience."
+                },
+                {
+                    "stepName": "Optimization & QA",
+                    "images": [],
+                    "stepDescription": "Baked lighting and occlusion, and tested for stable 90 FPS with smooth UX."
+                },
+                {
+                    "stepName": "Event Deployment",
+                    "images": [],
+                    "stepDescription": "Packaged and deployed the build for HydroVision; validated on-site setup and supported booth operations."
+                }
+            ]
+        },
+        {
+            "projectTitle": "Quest 1 Traction Motor Refurbishment Showcase",
+            "featuredImage": "",
+            "problemStatement": "Communicate the rail traction motor refurbishment process interactively at conventions, highlighting L & S Electric’s process quality and expertise on a standalone headset.",
+            "solution": "I developed an Oculus Quest 1 application in Unity that walked users through the refurbishment workflow with step‑by‑step interactions, annotated stages, and controller‑driven navigation. The experience was tuned for offline demos with aggressive asset compression and baked lighting for smooth performance.",
+            "skillsUsed": [
+                "C#",
+                "Unity3D",
+                "Oculus Quest 1",
+                "OpenXR",
+                "Blender",
+                "3D Modeling",
+                "UX for XR",
+                "Davinci Resolve",
+                "Performance Optimization"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Workflow Design",
+                    "images": [],
+                    "stepDescription": "Mapped the refurbishment process into clear, interactive stages suitable for a short convention demo."
+                },
+                {
+                    "stepName": "Asset Pipeline",
+                    "images": [],
+                    "stepDescription": "Prepared/optimized models and textures for Quest; implemented LODs and baked lighting to maintain frame rate."
+                },
+                {
+                    "stepName": "Interaction & UX",
+                    "images": [],
+                    "stepDescription": "Implemented controller input, clear prompts, and quick resets to maximize attendee throughput."
+                },
+                {
+                    "stepName": "Packaging & Event Readiness",
+                    "images": [],
+                    "stepDescription": "Delivered side‑loadable builds, created simple operator instructions, and tested for robust offline use."
+                }
+            ]
+        },
+        {
+            "projectTitle": "HoloLens 2 CAD Viewer for HPUs and Hydraulic Valves",
+            "featuredImage": "",
+            "problemStatement": "Engineers needed to inspect large CAD assemblies (HPUs and hydraulic valves) at true scale with hands‑free interaction for reviews, training, and stakeholder demos.",
+            "solution": "I built a HoloLens 2 application using MRTK and OpenXR that loads prepared CAD models, supports inspection and part isolation, and provides intuitive gesture‑based controls. The app leveraged spatial mapping and anchored placements for stable viewing in real environments.",
+            "skillsUsed": [
+                "C#",
+                "Unity3D",
+                "MRTK (Mixed Reality Toolkit)",
+                "Microsoft HoloLens 2",
+                "OpenXR",
+                "CAD Visualization",
+                "Spatial Mapping",
+                "UX for AR"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Requirements & Model Prep",
+                    "images": [],
+                    "stepDescription": "Converted and decimated CAD assets, defined inspection use cases (explode, isolate, highlight), and set performance targets."
+                },
+                {
+                    "stepName": "Interaction Design",
+                    "images": [],
+                    "stepDescription": "Implemented MRTK-based gestures and tool panels; ensured discoverable controls with minimal onboarding."
+                },
+                {
+                    "stepName": "Anchoring & Spatial UX",
+                    "images": [],
+                    "stepDescription": "Used spatial mapping/anchors to place assemblies reliably and maintain alignment during sessions."
+                },
+                {
+                    "stepName": "Field Validation",
+                    "images": [],
+                    "stepDescription": "Tested in office and lab settings for stability, clarity, and comfort over extended viewing."
+                }
+            ]
         }
     ],
     "workHistory": [
@@ -528,19 +645,22 @@
             "duration": "May 2023 - Present (Part Time)"
         },
         {
-            "title": "Software Consultant",
+            "title": "VR/AR/XR Software Consultant",
             "company": "Self Employed",
             "companyUrl": "",
-            "description": "Worked with L & S Electric, Inc. and other clients as an independent contractor to build software applications ranging from VR tours to virtual showcases and custom installers.",
+            "description": "Independent contractor delivering production XR applications for L & S Electric, Inc. and other clients. Built an Oculus Rift CV1 VR tour of L & S’s engineering building showcased at HydroVision; created an Oculus Quest 1 application demonstrating the rail traction motor refurbishment process for industry events; and developed an MRTK/HoloLens 2 tool to view and interact with CAD models of HPUs and hydraulic valves for powerplant control. Also produced virtual showcases and custom installers.",
             "technologies": [
                 "C#",
                 "Unity3D",
+                "MRTK (Mixed Reality Toolkit)",
+                "OpenXR",
+                "Oculus Rift CV1",
+                "Oculus Quest 1",
+                "Microsoft HoloLens 2",
                 "Blender",
                 "3D Modeling",
-                "Davinci Resolve",
-                "OpenXR",
-                "Microsoft Hololens 2 Development",
-                "Meta Quest Development"
+                "CAD Visualization",
+                "Davinci Resolve"
             ],
             "duration": "2018 - 2021"
         },

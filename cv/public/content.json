@@ -472,6 +472,51 @@
             ]
         },
         {
+            "projectTitle": "Mixed Reality Winter Creatures Game Jam Demo (HoloLens 2, 1st Place)",
+            "featuredImage": "",
+            "problemStatement": "For a MSOE game development club winter game jam, the goal was to showcase interactive Mixed Reality by combining real-world spatial understanding with autonomous agents and user-controlled environmental effects on the HoloLens 2—demonstrating technical depth in a short build window.",
+            "solution": "I built a HoloLens 2 tech demo using MRTK2 and Microsoft Scene Understanding to generate a real‑world floor mesh which was converted into a runtime nav mesh. Users spawn winter‑themed wolves that obey gravity and randomly roam the mesh. A hand menu toggles snowfall particle systems, adjusts wind strength influencing snow drift, and spawns additional wolves. The project won 1st place for its innovative use of spatial understanding and intuitive hand‑tracked controls without peripherals.",
+            "skillsUsed": [
+                "C#",
+                "Unity3D",
+                "MRTK2",
+                "Microsoft HoloLens 2",
+                "Scene Understanding SDK",
+                "Runtime Nav Mesh Generation",
+                "Particle Systems",
+                "Hand Tracking UI",
+                "OpenXR"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Concept & Interaction Goals",
+                    "images": [],
+                    "stepDescription": "Defined core loop: spawn creatures + manipulate weather + observe roaming behavior; minimized friction via hand interactions."
+                },
+                {
+                    "stepName": "Scene Understanding & Floor Extraction",
+                    "images": [],
+                    "stepDescription": "Integrated Microsoft Scene Understanding to detect floor surfaces, filtered planes, and built a clean mesh for navigation."
+                },
+                {
+                    "stepName": "Runtime Nav Mesh & Wolf Movement",
+                    "images": [],
+                    "stepDescription": "Generated nav mesh at runtime; implemented simple random roaming with gravity compliance (no formal state machine)."
+                },
+                {
+                    "stepName": "Hand Menu & Controls",
+                    "images": [],
+                    "stepDescription": "Built MRTK2 hand menu to spawn wolves, toggle snow, and adjust wind force affecting particle velocity over lifetime."
+                },
+                {
+                    "stepName": "Recognition",
+                    "images": [],
+                    "stepDescription": "Received 1st place award for innovative integration of spatial mapping, procedural navigation, and intuitive MR interaction."
+                }
+            ]
+        },
+        {
             "projectTitle": "L & S Engineering Building VR Tour (HydroVision Showcase)",
             "featuredImage": "",
             "problemStatement": "L & S Electric wanted an immersive way to showcase their engineering facility at HydroVision and other industry events, enabling attendees to experience the space and capabilities without a physical visit.",

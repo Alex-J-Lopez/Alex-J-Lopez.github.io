@@ -472,8 +472,8 @@
             ]
         },
         {
-            "projectTitle": "Mixed Reality Winter Creatures Game Jam Demo (HoloLens 2, 1st Place)",
-            "featuredImage": "",
+            "projectTitle": "MSOE Winter Game Jam Mixed Reality Tech Demo HoloLens 2 (1st Place)",
+            "featuredImage": "/media/WinterGameJamXR/P2_Hand_Menu_Interaction.png",
             "problemStatement": "For a MSOE game development club winter game jam, the goal was to showcase interactive Mixed Reality by combining real-world spatial understanding with autonomous agents and user-controlled environmental effects on the HoloLens 2—demonstrating technical depth in a short build window.",
             "solution": "I built a HoloLens 2 tech demo using MRTK2 and Microsoft Scene Understanding to generate a real‑world floor mesh which was converted into a runtime nav mesh. Users spawn winter‑themed wolves that obey gravity and randomly roam the mesh. A hand menu toggles snowfall particle systems, adjusts wind strength influencing snow drift, and spawns additional wolves. The project won 1st place for its innovative use of spatial understanding and intuitive hand‑tracked controls without peripherals.",
             "skillsUsed": [
@@ -490,24 +490,33 @@
             "projectSourceCodeLink": "",
             "developmentProcess": [
                 {
-                    "stepName": "Concept & Interaction Goals",
-                    "images": [],
-                    "stepDescription": "Defined core loop: spawn creatures + manipulate weather + observe roaming behavior; minimized friction via hand interactions."
-                },
-                {
-                    "stepName": "Scene Understanding & Floor Extraction",
-                    "images": [],
-                    "stepDescription": "Integrated Microsoft Scene Understanding to detect floor surfaces, filtered planes, and built a clean mesh for navigation."
-                },
-                {
-                    "stepName": "Runtime Nav Mesh & Wolf Movement",
-                    "images": [],
-                    "stepDescription": "Generated nav mesh at runtime; implemented simple random roaming with gravity compliance (no formal state machine)."
+                    "stepName": "Prototyping Spatial Mesh Interactions and Hand Interactions",
+                    "images": [
+                        "/media/WinterGameJamXR/P1_Spatial_Mesh_Interaction.mp4",
+                        "/media/WinterGameJamXR/P1_Hand_Interaction.png",
+                        "/media/WinterGameJamXR/P1_Scene_Interaction.png"
+                    ],
+                    "stepDescription": "Created initial prototype with a placeholder low poly wolf model that was kinematic and was able to collide and be occluded by the spatial mesh. Implemented basic hand menu with MRTK2 to spawn wolves."
                 },
                 {
                     "stepName": "Hand Menu & Controls",
-                    "images": [],
-                    "stepDescription": "Built MRTK2 hand menu to spawn wolves, toggle snow, and adjust wind force affecting particle velocity over lifetime."
+                    "images": [
+                        "/media/WinterGameJamXR/P2_Hand_Menu_Gravity_Snow.mp4",
+                        "/media/WinterGameJamXR/P2_Hand_Menu.png",
+                        "/media/WinterGameJamXR/P2_Hand_Menu_Interaction.png",
+                        "/media/WinterGameJamXR/P2_Simple_Snow.png"
+                    ],
+                    "stepDescription": "Built MRTK2 hand menu to spawn wolves, toggle snow, and adjust wind force affecting particle direction."
+                },
+                {
+                    "stepName": "Scene Understanding + Runtime Nav Mesh",
+                    "images": ["/media/WinterGameJamXR/P3_Nav_Mesh.png"],
+                    "stepDescription": "Detected floor surfaces via Microsoft Scene Understanding, filtered planes to build a clean floor mesh, and generated a runtime nav mesh. Wolves roam randomly over the mesh with gravity compliance (no state machine)."
+                },
+                {
+                    "stepName": "Near Interaction and Constraints",
+                    "images": ["/media/WinterGameJamXR/P3_Near_Interaction_Constraints.mp4"],
+                    "stepDescription": "Added new wolf and near interaction handlers and constraints to allow users to pick up and move wolves around the environment naturally with their hands instead of the raycaster."
                 },
                 {
                     "stepName": "Recognition",

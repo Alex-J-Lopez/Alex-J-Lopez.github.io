@@ -1,6 +1,102 @@
 {
     "projects": [
         {
+            "projectTitle": "Mitchell Park Domes Hacksgiving (1st Place)",
+            "featuredImage": "",
+            "problemStatement": "The Mitchell Park Domes are a Milwaukee landmark that showcases a variety of plant species from around the world. The Domes wanted a software solution that would increase revenue by enhancing the visitor experience through partnerships, engagement, and accessibility. The challenge was to create a solution that would address these goals while also being user-friendly and easy to implement.",
+            "solution": "My team create a mobile application using React Native and Expo that uses Bluetooth Low Energy (BLE) beacons to provide location-based information and experiences to visitors. The app includes features such as Dome Detectives, which is an interactive scavenger hunt that encourages visitors to explore the Domes and learn about the plants and exhibits. The app also includes Botanical Tails, which are audio stories that provide stories and historical context about the plants and exhibits which were paced using the users location via the BLE location service. The app also includes a partnership feature called Sip & Seek that allows visitors to purchase drinks from the Domes cafe and receive an audio tour related to the plants used in the drinks. Finally, the app included a chat feature that allows visitors to ask questions and receive answers from an AI-powered chatbot. To address accessibility, the app includes features such as text-to-speech and adjustable font sizes as well as supporting 10 languages.",
+            "skillsUsed": [
+                "React Native",
+                "Expo",
+                "TypeScript",
+                "Node.js",
+                "JavaScript",
+                "Bluetooth Low Energy (BLE) Beacons",
+                "OpenAI API",
+                "GitHub",
+                "Localization"
+            ],
+            "projectSourceCodeLink": "https://github.com/xDazld/HacksGiving-2025",
+            "developmentProcess": [
+                {
+                    "stepName": "Hackathon Kickoff",
+                    "images": [
+                    ],
+                    "stepDescription": "We started the process by researching the problem space and brainstorming ideas. We decided to focus on creating a mobile application that would enhance the visitor experience through location-based information and experiences."
+                },
+                {
+                    "stepName": "Development",
+                    "images": [
+                        
+                    ],
+                    "stepDescription": "We got right to work and developed the mobile application using extreme programming methods. UX work was done in parallel with backend development. We used GitHub for version control and collaboration."
+                },
+                {
+                    "stepName": "Dinner Break #1",
+                    "images": [
+                        
+                    ],
+                    "stepDescription": "After a long day of development we got some food as a team."
+                },
+                {
+                    "stepName": "Post Dinner Development",
+                    "images": [
+                        
+                    ],
+                    "stepDescription": "We continued development after dinner, focusing on getting a working prototype for Dome Detective so we could test in the Domes the next day."
+                },
+                {
+                    "stepName": "Breakfast Break",
+                    "images": [
+                        
+                    ],
+                    "stepDescription": "We took a quick breakfast break to refuel before heading to the Domes for testing."
+                },
+                {
+                    "stepName": "Testing at the Domes",
+                    "images": [
+
+                    ],
+                    "stepDescription": "We went to the Domes to test our prototype of the Dome Detective feature. We established that the Vision Model and LLM were not prone to hallucinations and that the experience was engaging for users."
+                },
+                {
+                    "stepName": "Dinner #2",
+                    "images": [
+                        
+                    ],
+                    "stepDescription": "After testing at the Domes, we took another dinner break to recharge before the final development push."
+                },
+                {
+                    "stepName": "Implementing Botanical Tails and Sip & Seek",
+                    "images": [
+                        
+                    ],
+                    "stepDescription": "We focused on implementing the Botanical Tails and Sip & Seek features of the app. This involved creating an audio story generation service and using it as a dependency for the Botanical Tails and Sip & Seek features."
+                },
+                {
+                    "stepName": "Implementing the chat bot and localization features",
+                    "images": [
+                        
+                    ],
+                    "stepDescription": "We implemented the chat bot and localization features to enhance user interaction and accessibility."
+                },
+                {
+                    "stepName": "Final Development Push",
+                    "images": [
+                        
+                    ],
+                    "stepDescription": "After testing we made final adjustments and improvements to the app based on our findings. We focused on polishing the user experience and ensuring that all features were working correctly."
+                },
+                {
+                    "stepName":"Presentation and Awards",
+                    "images": [
+
+                    ],
+                    "stepDescription": "We presented our project to the judges and audience. Our team was awarded 1st place for our innovative solution which focused on revenue building strategies and recognized the future of the Domes."
+                }
+            ]
+        },
+        {
             "projectTitle": "TruePrep.ai Innovation Lab (3rd Place)",
             "featuredImage": "/media/JunoInnovationLab/UploadUI.png",
             "problemStatement": "Juno. (formerly TruePrep.ai) is an A.I. tax preparation company that sponsored an innovation lab for students to create solutions that improve their tax preparation process. The problem statement was to create a software solution that improves the accuracy and efficiency of tax document review and research.",

@@ -610,8 +610,8 @@
             ]
         },
         {
-            "projectTitle": "L & S Engineering Building VR Tour (HydroVision Showcase)",
-            "featuredImage": "",
+            "projectTitle": "L & S Engineering VR HydroVision Showcase",
+            "featuredImage": "/media/HydroVisionShowcase/Showcase.png",
             "problemStatement": "L & S Electric wanted an immersive way to showcase their engineering facility at HydroVision and other industry events, enabling attendees to experience the space and capabilities without a physical visit.",
             "solution": "I built an Oculus Rift VR tour in Unity that guided users through the engineering building with narration. The experience was optimized for trade‑show reliability: baked lighting, asset optimization, and a simple operator flow for rapid resets and high throughput at the booth.",
             "skillsUsed": [
@@ -632,24 +632,29 @@
                 },
                 {
                     "stepName": "Content Capture & Scene Build",
-                    "images": [],
+                    "images": [
+                        "/media/HydroVisionShowcase/Development.mp4"
+                    ],
                     "stepDescription": "Prepared environment assets, built scenes in Unity, and created hotspots and guided paths to focus attention on key capabilities. Recorded narration and 360 video and integrated it into the experience."
                 },
                 {
                     "stepName": "Optimization & QA",
                     "images": [],
-                    "stepDescription": "Baked lighting and occlusion, and tested for stable 90 FPS with smooth UX."
+                    "stepDescription": "Baked lighting and occlusion, and tested for stable 90 FPS and iterated on interaction design."
                 },
                 {
                     "stepName": "Event Deployment",
-                    "images": [],
+                    "images": [
+                        "/media/HydroVisionShowcase/UserTesting.mp4",
+                        "/media/HydrovisionShowcase/SettingUpAtHydroVision.jpg"
+                    ],
                     "stepDescription": "Packaged and deployed the build for HydroVision; validated on-site setup and supported booth operations."
                 }
             ]
         },
         {
-            "projectTitle": "Quest 1 Traction Motor Refurbishment Showcase",
-            "featuredImage": "",
+            "projectTitle": "VR Traction Motor Refurbishment Showcase",
+            "featuredImage": "/media/VRMotorRefurbShowcase/Measurements.jpg",
             "problemStatement": "Communicate the rail traction motor refurbishment process interactively at conventions, highlighting L & S Electric’s process quality and expertise on a standalone headset.",
             "solution": "I developed an Oculus Quest 1 application in Unity that walked users through the refurbishment workflow with step‑by‑step interactions, annotated stages, and controller‑driven navigation. The experience was tuned for offline demos with aggressive asset compression and baked lighting for smooth performance.",
             "skillsUsed": [
@@ -667,12 +672,17 @@
             "developmentProcess": [
                 {
                     "stepName": "Workflow Design",
-                    "images": [],
+                    "images": [
+                        "/media/VRMotorRefurbShowcase/ShowcaseLocations.jpg",
+                        "/media/VRMotorRefurbShowcase/OrderOfOperations.jpg"
+                    ],
                     "stepDescription": "Mapped the refurbishment process into clear, interactive stages suitable for a short convention demo."
                 },
                 {
                     "stepName": "Asset Pipeline",
-                    "images": [],
+                    "images": [
+                        "/media/VRMotorRefurbShowcase/Measurements.jpg"
+                    ],
                     "stepDescription": "Prepared/optimized models and textures for Quest; implemented LODs and baked lighting to maintain frame rate."
                 },
                 {
@@ -682,14 +692,16 @@
                 },
                 {
                     "stepName": "Packaging & Event Readiness",
-                    "images": [],
+                    "images": [
+                        "/media/VRMotorRefurbShowcase/HeadsetAtConvention.jpg"
+                    ],
                     "stepDescription": "Delivered side‑loadable builds, created simple operator instructions, and tested for robust offline use."
                 }
             ]
         },
         {
             "projectTitle": "HoloLens 2 CAD Viewer for HPUs and Hydraulic Valves",
-            "featuredImage": "",
+            "featuredImage": "/media/Hololens2.jpg",
             "problemStatement": "Engineers needed to inspect large CAD assemblies (HPUs and hydraulic valves) at true scale with hands‑free interaction for reviews, training, and stakeholder demos.",
             "solution": "I built a HoloLens 2 application using MRTK and OpenXR that loads prepared CAD models, supports inspection and part isolation, and provides intuitive gesture‑based controls. The app leveraged spatial mapping and anchored placements for stable viewing in real environments.",
             "skillsUsed": [

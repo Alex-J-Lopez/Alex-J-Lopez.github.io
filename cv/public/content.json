@@ -734,7 +734,7 @@
                     "stepName": "Event Deployment",
                     "images": [
                         "/media/HydroVisionShowcase/UserTesting.mp4",
-                        "/media/HydrovisionShowcase/SettingUpAtHydroVision.jpg"
+                        "/media/HydroVisionShowcase/SettingUpAtHydroVision.jpg"
                     ],
                     "stepDescription": "Packaged and deployed the build for HydroVision; validated on-site setup and supported booth operations."
                 }

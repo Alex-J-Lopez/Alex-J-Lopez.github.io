@@ -1,6 +1,90 @@
 {
     "projects": [
         {
+            "projectTitle": "Mitchell Park Domes Hacksgiving (1st Place)",
+            "featuredImage": "/media/Hacksgiving2025/Presentation1.jpg",
+            "problemStatement": "The Mitchell Park Domes are a Milwaukee landmark that showcases a variety of plant species from around the world. The Domes wanted a software solution that would increase revenue by enhancing the visitor experience through partnerships, engagement, and accessibility. The challenge was to create a solution that would address these goals while also being user-friendly and easy to implement.",
+            "solution": "My team created a mobile application using React Native and Expo that leverages Bluetooth Low Energy (BLE) beacons to deliver location-based information and experiences to visitors. The app includes features such as Dome Detectives—an interactive scavenger hunt that encourages exploration and learning about plants and exhibits. It also includes Botanical Tales, audio stories that provide historical context about plants and exhibits, paced by the user's location via the BLE beacons. A partnership feature, Sip & Seek, allows visitors to purchase drinks from the Domes café and receive an audio tour related to the plant ingredients used in the beverages. The app also includes a chat feature that lets visitors ask questions and receive answers from an AI-powered chatbot. For accessibility, the app offers text-to-speech, adjustable font sizes, and support for 10 languages.",
+            "skillsUsed": [
+                "React Native",
+                "Expo",
+                "TypeScript",
+                "Node.js",
+                "JavaScript",
+                "Bluetooth Low Energy (BLE) Beacons",
+                "OpenAI API",
+                "GitHub",
+                "Localization"
+            ],
+            "projectSourceCodeLink": "https://github.com/xDazld/HacksGiving-2025",
+            "developmentProcess": [
+                {
+                    "stepName": "Hackathon Kickoff",
+                    "images": [
+                        "/media/Hacksgiving2025/DomesGroupPicture.jpg",
+                        "/media/Hacksgiving2025/Kickoff1.jpg",
+                        "/media/Hacksgiving2025/Kickoff2.jpg",
+                        "/media/Hacksgiving2025/Kickoff3.jpg"                        
+                    ],
+                    "stepDescription": "We started the process by researching the problem space and brainstorming ideas. We decided to focus on creating a mobile application that would enhance the visitor experience through location-based information and experiences."
+                },
+                {
+                    "stepName": "Initial Development",
+                    "images": [
+                        "/media/Hacksgiving2025/BotanicalTales.png",
+                        "/media/Hacksgiving2025/DomeDetective.png",
+                        "/media/Hacksgiving2025/SipSeek.png",
+                        "/media/Hacksgiving2025/VoiceChat.png"
+                    ],
+                    "stepDescription": "We got right to work and developed the mobile application using extreme programming methods. UX work was done in parallel with backend development. We used GitHub for version control and collaboration."
+                },
+                {
+                    "stepName": "Breakfast Break",
+                    "images": [
+                        "/media/Hacksgiving2025/Breakfast.jpg"
+                    ],
+                    "stepDescription": "We took a quick breakfast break to refuel before heading to the Domes for testing."
+                },
+                {
+                    "stepName": "Testing at the Domes",
+                    "images": [
+                        "/media/Hacksgiving2025/DomeDetectiveTest.mp4",
+                        "/media/Hacksgiving2025/GroupPictureAtDomesForTesting.jpg",
+                        "/media/Hacksgiving2025/DomeDetectiveDemo1.jpg",
+                        "/media/Hacksgiving2025/DomeDetectiveDemoWrongPlant1.jpg",
+                        "/media/Hacksgiving2025/DomeDetectiveStartPage.jpg"
+                    ],
+                    "stepDescription": "We went to the Domes to test our prototype of the Dome Detective feature. We established that the Vision Model and LLM were not prone to hallucinations and that the experience was engaging for users."
+                },
+                {
+                    "stepName": "Dinner #2",
+                    "images": [
+                        "/media/Hacksgiving2025/Dinner2.jpg"
+                    ],
+                    "stepDescription": "After testing at the Domes, we took another dinner break to recharge before the final development push."
+                },
+                {
+                    "stepName": "Final Development Push",
+                    "images": [
+                        "/media/Hacksgiving2025/DemoBLELocation.mp4"
+                    ],
+                    "stepDescription": "After testing we made final adjustments and improvements to the app based on our findings. We focused on polishing the user experience and ensuring that all features were working correctly."
+                },
+                {
+                    "stepName":"Presentation and Awards",
+                    "images": [
+                        "/media/Hacksgiving2025/Presentation1.jpg",
+                        "/media/Hacksgiving2025/Presentation2.jpg",
+                        "/media/Hacksgiving2025/WinningTeamPictureWithCEO.jpg",
+                        "/media/Hacksgiving2025/PresentationDaySelfie1.jpg",
+                        "/media/Hacksgiving2025/WinningTeamPicture.jpg",
+                        "/media/Hacksgiving2025/AllParticipants.jpg"
+                    ],
+                    "stepDescription": "We presented our project to the judges and audience. Our team was awarded 1st place for our innovative solution which focused on revenue building strategies and recognized the future of the Domes."
+                }
+            ]
+        },
+        {
             "projectTitle": "TruePrep.ai Innovation Lab (3rd Place)",
             "featuredImage": "/media/JunoInnovationLab/UploadUI.png",
             "problemStatement": "Juno. (formerly TruePrep.ai) is an A.I. tax preparation company that sponsored an innovation lab for students to create solutions that improve their tax preparation process. The problem statement was to create a software solution that improves the accuracy and efficiency of tax document review and research.",
@@ -470,6 +554,189 @@
                     "stepDescription": "Version two improved the user experience and reduced hardware to a single NodeMCU with one or two water sensors. The web interface and backend were reworked. The project was later abandoned due to uncertainty about sensor effects on plants, but it was a valuable learning experience."
                 }
             ]
+        },
+        {
+            "projectTitle": "MSOE Winter Game Jam Mixed Reality Tech Demo HoloLens 2 (1st Place)",
+            "featuredImage": "/media/WinterGameJamXR/P2_Hand_Menu_Interaction.png",
+            "problemStatement": "For a MSOE game development club winter game jam, the goal was to showcase interactive Mixed Reality by combining real-world spatial understanding with autonomous agents and user-controlled environmental effects on the HoloLens 2—demonstrating technical depth in a short build window.",
+            "solution": "I built a HoloLens 2 tech demo using MRTK2 and Microsoft Scene Understanding to generate a real‑world floor mesh which was converted into a runtime nav mesh. Users spawn winter‑themed wolves that obey gravity and randomly roam the mesh. A hand menu toggles snowfall particle systems, adjusts wind strength influencing snow drift, and spawns additional wolves. The project won 1st place for its innovative use of spatial understanding and intuitive hand‑tracked controls without peripherals.",
+            "skillsUsed": [
+                "C#",
+                "Unity3D",
+                "MRTK2",
+                "Microsoft HoloLens 2",
+                "Scene Understanding SDK",
+                "Runtime Nav Mesh Generation",
+                "Particle Systems",
+                "Hand Tracking UI",
+                "OpenXR"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Prototyping Spatial Mesh Interactions and Hand Interactions",
+                    "images": [
+                        "/media/WinterGameJamXR/P1_Spatial_Mesh_Interaction.mp4",
+                        "/media/WinterGameJamXR/P1_Hand_Interaction.png",
+                        "/media/WinterGameJamXR/P1_Scene_Interaction.png"
+                    ],
+                    "stepDescription": "Created initial prototype with a placeholder low poly wolf model that was kinematic and was able to collide and be occluded by the spatial mesh. Implemented basic hand menu with MRTK2 to spawn wolves."
+                },
+                {
+                    "stepName": "Hand Menu & Controls",
+                    "images": [
+                        "/media/WinterGameJamXR/P2_Hand_Menu_Gravity_Snow.mp4",
+                        "/media/WinterGameJamXR/P2_Hand_Menu.png",
+                        "/media/WinterGameJamXR/P2_Hand_Menu_Interaction.png",
+                        "/media/WinterGameJamXR/P2_Simple_Snow.png"
+                    ],
+                    "stepDescription": "Built MRTK2 hand menu to spawn wolves, toggle snow, and adjust wind force affecting particle direction."
+                },
+                {
+                    "stepName": "Scene Understanding + Runtime Nav Mesh",
+                    "images": ["/media/WinterGameJamXR/P3_Nav_Mesh.png"],
+                    "stepDescription": "Detected floor surfaces via Microsoft Scene Understanding, filtered planes to build a clean floor mesh, and generated a runtime nav mesh. Wolves roam randomly over the mesh with gravity compliance (no state machine)."
+                },
+                {
+                    "stepName": "Near Interaction and Constraints",
+                    "images": ["/media/WinterGameJamXR/P3_Near_Interaction_Constraints.mp4"],
+                    "stepDescription": "Added new wolf and near interaction handlers and constraints to allow users to pick up and move wolves around the environment naturally with their hands instead of the raycaster."
+                },
+                {
+                    "stepName": "Recognition",
+                    "images": [],
+                    "stepDescription": "Received 1st place award for innovative integration of spatial mapping, procedural navigation, and intuitive MR interaction."
+                }
+            ]
+        },
+        {
+            "projectTitle": "L & S Engineering VR HydroVision Showcase",
+            "featuredImage": "/media/HydroVisionShowcase/Showcase.png",
+            "problemStatement": "L & S Electric wanted an immersive way to showcase their engineering facility at HydroVision and other industry events, enabling attendees to experience the space and capabilities without a physical visit.",
+            "solution": "I built an Oculus Rift VR tour in Unity that guided users through the engineering building with narration. The experience was optimized for trade‑show reliability: baked lighting, asset optimization, and a simple operator flow for rapid resets and high throughput at the booth.",
+            "skillsUsed": [
+                "C#",
+                "Unity3D",
+                "Oculus Rift CV1",
+                "Davinci Resolve",
+                "3D Modeling",
+                "Performance Optimization",
+                "Event Demo Operations"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Discovery & Goals",
+                    "images": [],
+                    "stepDescription": "Aligned with stakeholders on booth flow, messaging, and technical constraints (offline, reliable resets, minimal operator steps)."
+                },
+                {
+                    "stepName": "Content Capture & Scene Build",
+                    "images": [
+                        "/media/HydroVisionShowcase/Development.mp4"
+                    ],
+                    "stepDescription": "Prepared environment assets, built scenes in Unity, and created hotspots and guided paths to focus attention on key capabilities. Recorded narration and 360 video and integrated it into the experience."
+                },
+                {
+                    "stepName": "Optimization & QA",
+                    "images": [],
+                    "stepDescription": "Baked lighting and occlusion, and tested for stable 90 FPS and iterated on interaction design."
+                },
+                {
+                    "stepName": "Event Deployment",
+                    "images": [
+                        "/media/HydroVisionShowcase/UserTesting.mp4",
+                        "/media/HydrovisionShowcase/SettingUpAtHydroVision.jpg"
+                    ],
+                    "stepDescription": "Packaged and deployed the build for HydroVision; validated on-site setup and supported booth operations."
+                }
+            ]
+        },
+        {
+            "projectTitle": "VR Traction Motor Refurbishment Showcase",
+            "featuredImage": "/media/VRMotorRefurbShowcase/Measurements.jpg",
+            "problemStatement": "Communicate the rail traction motor refurbishment process interactively at conventions, highlighting L & S Electric’s process quality and expertise on a standalone headset.",
+            "solution": "I developed an Oculus Quest 1 application in Unity that walked users through the refurbishment workflow with step‑by‑step interactions, annotated stages, and controller‑driven navigation. The experience was tuned for offline demos with aggressive asset compression and baked lighting for smooth performance.",
+            "skillsUsed": [
+                "C#",
+                "Unity3D",
+                "Oculus Quest 1",
+                "OpenXR",
+                "Blender",
+                "3D Modeling",
+                "UX for XR",
+                "Davinci Resolve",
+                "Performance Optimization"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Workflow Design",
+                    "images": [
+                        "/media/VRMotorRefurbShowcase/ShowcaseLocations.jpg",
+                        "/media/VRMotorRefurbShowcase/OrderOfOperations.jpg"
+                    ],
+                    "stepDescription": "Mapped the refurbishment process into clear, interactive stages suitable for a short convention demo."
+                },
+                {
+                    "stepName": "Asset Pipeline",
+                    "images": [
+                        "/media/VRMotorRefurbShowcase/Measurements.jpg"
+                    ],
+                    "stepDescription": "Prepared/optimized models and textures for Quest; implemented LODs and baked lighting to maintain frame rate."
+                },
+                {
+                    "stepName": "Interaction & UX",
+                    "images": [],
+                    "stepDescription": "Implemented controller input, clear prompts, and quick resets to maximize attendee throughput."
+                },
+                {
+                    "stepName": "Packaging & Event Readiness",
+                    "images": [
+                        "/media/VRMotorRefurbShowcase/HeadsetAtConvention.jpg"
+                    ],
+                    "stepDescription": "Delivered side‑loadable builds, created simple operator instructions, and tested for robust offline use."
+                }
+            ]
+        },
+        {
+            "projectTitle": "HoloLens 2 CAD Viewer for HPUs and Hydraulic Valves",
+            "featuredImage": "/media/Hololens2.jpg",
+            "problemStatement": "Engineers needed to inspect large CAD assemblies (HPUs and hydraulic valves) at true scale with hands‑free interaction for reviews, training, and stakeholder demos.",
+            "solution": "I built a HoloLens 2 application using MRTK and OpenXR that loads prepared CAD models, supports inspection and part isolation, and provides intuitive gesture‑based controls. The app leveraged spatial mapping and anchored placements for stable viewing in real environments.",
+            "skillsUsed": [
+                "C#",
+                "Unity3D",
+                "MRTK (Mixed Reality Toolkit)",
+                "Microsoft HoloLens 2",
+                "OpenXR",
+                "CAD Visualization",
+                "Spatial Mapping",
+                "UX for AR"
+            ],
+            "projectSourceCodeLink": "",
+            "developmentProcess": [
+                {
+                    "stepName": "Requirements & Model Prep",
+                    "images": [],
+                    "stepDescription": "Converted and decimated CAD assets, defined inspection use cases (explode, isolate, highlight), and set performance targets."
+                },
+                {
+                    "stepName": "Interaction Design",
+                    "images": [],
+                    "stepDescription": "Implemented MRTK-based gestures and tool panels; ensured discoverable controls with minimal onboarding."
+                },
+                {
+                    "stepName": "Anchoring & Spatial UX",
+                    "images": [],
+                    "stepDescription": "Used spatial mapping/anchors to place assemblies reliably and maintain alignment during sessions."
+                },
+                {
+                    "stepName": "Field Validation",
+                    "images": [],
+                    "stepDescription": "Tested in office and lab settings for stability, clarity, and comfort over extended viewing."
+                }
+            ]
         }
     ],
     "workHistory": [
@@ -528,19 +795,22 @@
             "duration": "May 2023 - Present (Part Time)"
         },
         {
-            "title": "Software Consultant",
+            "title": "VR/AR/XR Software Consultant",
             "company": "Self Employed",
             "companyUrl": "",
-            "description": "Worked with L & S Electric, Inc. and other clients as an independent contractor to build software applications ranging from VR tours to virtual showcases and custom installers.",
+            "description": "Independent contractor delivering production XR applications for L & S Electric, Inc. and other clients. Built an Oculus Rift CV1 VR tour of L & S’s engineering building showcased at HydroVision; created an Oculus Quest 1 application demonstrating the rail traction motor refurbishment process for industry events; and developed an MRTK/HoloLens 2 tool to view and interact with CAD models of HPUs and hydraulic valves for powerplant control. Also produced virtual showcases and custom installers.",
             "technologies": [
                 "C#",
                 "Unity3D",
+                "MRTK (Mixed Reality Toolkit)",
+                "OpenXR",
+                "Oculus Rift CV1",
+                "Oculus Quest 1",
+                "Microsoft HoloLens 2",
                 "Blender",
                 "3D Modeling",
-                "Davinci Resolve",
-                "OpenXR",
-                "Microsoft Hololens 2 Development",
-                "Meta Quest Development"
+                "CAD Visualization",
+                "Davinci Resolve"
             ],
             "duration": "2018 - 2021"
         },

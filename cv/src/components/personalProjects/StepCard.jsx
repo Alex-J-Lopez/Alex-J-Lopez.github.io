@@ -2,7 +2,7 @@
 import React from "react";
 import ImageCarousel from "./ImageCarousel";
 
-const StepCard = ({ index, step }) => {
+const StepCard = ({ index, step, onOpenModal }) => {
     return (
         <article key={index} className="bg-white/5 hover:bg-white/6 transition-transform hover:-translate-y-1 transform rounded-2xl overflow-hidden shadow-sm flex flex-col">
             <div className="p-5">
@@ -14,7 +14,7 @@ const StepCard = ({ index, step }) => {
                 </div>
 
                 <div className="mb-3">
-                    <ImageCarousel images={step.images} />
+                    <ImageCarousel images={step.images} onOpenModal={onOpenModal} />
                 </div>
 
                 <p className="text-sm text-slate-200 leading-relaxed">{step.stepDescription}</p>

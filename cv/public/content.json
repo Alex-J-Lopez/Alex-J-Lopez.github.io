@@ -85,6 +85,94 @@
             ]
         },
         {
+            "projectTitle": "MSOE Rosie Supercomputer Dashboard",
+            "featuredImage": "/media/RosieDashboard/RosieDashboardMainPage.png",
+            "problemStatement": "MSOE's Rosie Supercomputer is a powerful computing resource used by students and faculty for research and academic projects. However, the existing visualization of workloads limited in functionality and user experience. Hardware specifications and workload distribution was available via an API hosted on Rosie but there was no user-friendly interface to visualize this data effectively.",
+            "solution": "I developed a comprehensive web dashboard using React.js and TailwindCSS that interfaces with Rosie's existing API to provide real-time visualization of hardware specifications and workload distribution. The dashboard features interactive charts and graphs that allow users to easily monitor system performance, job statuses, and resource allocation. The interface is designed to be intuitive and user-friendly, making it accessible for both technical and non-technical users. You can check it out live at https://alex-j-lopez.github.io/MSOE-Rosie-Supercomputer-Dashboard/",
+            "skillsUsed": [
+                "React.js",
+                "TailwindCSS",
+                "TypeScript",
+                "SWR",
+                "RESTful APIs",
+                "Data Visualization",
+                "GitHub"
+            ],
+            "projectSourceCodeLink": "https://github.com/Alex-J-Lopez/MSOE-Rosie-Supercomputer-Dashboard",
+            "developmentProcess": [
+                {
+                    "stepName": "GPU Usage",
+                    "images": [
+                        "/media/RosieDashboard/GPUVis.png"
+                    ],
+                    "stepDescription": "The GPU visalizations show temperature and usage of each GPU on a per node basis. This allows users to quickly identify which nodes are under heavy load and which ones are idle."
+                },
+                {
+                    "stepName": "CPU Usage",
+                    "images": [
+                        "/media/RosieDashboard/CPUVis.png"
+                    ],
+                    "stepDescription": "The CPU visualizations shows the computational load of each CPUs on a per node basis. This allows users to quickly identify which nodes are under heavy load and which ones are idle."
+                },
+                {
+                    "stepName": "Memory Usage",
+                    "images": [
+                        "/media/RosieDashboard/MemoryVis.png"
+                    ],
+                    "stepDescription": "The memory visualizations show the memory usage of each node. This allows users to quickly identify which nodes are under heavy load and which ones have available memory."
+                },
+                {
+                    "stepName": "Disk Usage",
+                    "images": [
+                        "/media/RosieDashboard/DiskVis.png"
+                    ],
+                    "stepDescription": "The disk visualizations show the disk usage of each node. This allows users to quickly identify which nodes are under heavy load and which ones have available disk space."
+                },
+                {
+                    "stepName": "User Sessions",
+                    "images": [
+                        "/media/RosieDashboard/UserSessions.png"
+                    ],
+                    "stepDescription": "The user sessions visualizations show the active jobs per user on the Rosie cluser and their statuses. This allows users to quickly identify which users are using the cluster and what jobs they are running."
+                },
+                {
+                    "stepName": "Node Overview",
+                    "images": [
+                        "/media/RosieDashboard/NodeOverview.png"
+                    ],
+                    "stepDescription": "The node overview visualizations provide a summary of the status and health of each node in the cluster. This allows users to quickly assess the overall state of the cluster and identify any nodes that may require attention."
+                },
+                {
+                    "stepName": "Leaderboard",
+                    "images": [
+                        "/media/RosieDashboard/Leaderboard.png"
+                    ],
+                    "stepDescription": "The leaderboard visualizations show the top users based on their time used and total jobs run. This allows users to see who the most active and efficient users are on the cluster."
+                },
+                {
+                    "stepName": "Network Summary",
+                    "images": [
+                        "/media/RosieDashboard/NetworkSummary.png"
+                    ],
+                    "stepDescription": "The network summary visualizations provide an overview of the network traffic and connectivity between nodes in the cluster. This allows users to quickly identify any network issues or bottlenecks."
+                },
+                {
+                    "stepName": "Active Jobs",
+                    "images": [
+                        "/media/RosieDashboard/ActiveJobs.png"
+                    ],
+                    "stepDescription": "The active jobs visualizations show the currently running jobs on the cluster. This allows users to monitor the progress and status of active jobs."
+                },
+                {
+                    "stepName": "Job Distribution",
+                    "images": [
+                        "/media/RosieDashboard/JobDistribution.png"
+                    ],
+                    "stepDescription": "The job distribution visualizations show the distribution of jobs across the cluster. This allows users to see how jobs are distributed and identify any imbalances or hotspots."
+                }
+            ]
+        },
+        {
             "projectTitle": "TruePrep.ai Innovation Lab (3rd Place)",
             "featuredImage": "/media/JunoInnovationLab/UploadUI.png",
             "problemStatement": "Juno. (formerly TruePrep.ai) is an A.I. tax preparation company that sponsored an innovation lab for students to create solutions that improve their tax preparation process. The problem statement was to create a software solution that improves the accuracy and efficiency of tax document review and research.",

@@ -23,7 +23,9 @@
                 "MR",
                 "XR",
                 "Meta Quest 3",
-                "FastAPI"
+                "FastAPI",
+                "OpenXR",
+                "Unity3D"
             ],
             "projectSourceCodeLink": "https://github.com/MAIC-Innovation-Labs/2025-2026-xorbix-innovation-lab-xorvengers",
             "developmentProcess": [
@@ -746,7 +748,10 @@
                 "Runtime Nav Mesh Generation",
                 "Particle Systems",
                 "Hand Tracking UI",
-                "OpenXR"
+                "OpenXR",
+                "XR",
+                "MR",
+                "VR"
             ],
             "projectSourceCodeLink": "",
             "developmentProcess": [
@@ -798,7 +803,9 @@
                 "Davinci Resolve",
                 "3D Modeling",
                 "Performance Optimization",
-                "Event Demo Operations"
+                "Event Demo Operations",
+                "XR",
+                "VR"
             ],
             "projectSourceCodeLink": "",
             "developmentProcess": [
@@ -843,7 +850,9 @@
                 "3D Modeling",
                 "UX for XR",
                 "Davinci Resolve",
-                "Performance Optimization"
+                "Performance Optimization",
+                "XR",
+                "VR"
             ],
             "projectSourceCodeLink": "",
             "developmentProcess": [
@@ -889,7 +898,9 @@
                 "OpenXR",
                 "CAD Visualization",
                 "Spatial Mapping",
-                "UX for AR"
+                "UX for AR",
+                "XR",
+                "MR"
             ],
             "projectSourceCodeLink": "",
             "developmentProcess": [

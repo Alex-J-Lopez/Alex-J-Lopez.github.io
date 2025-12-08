@@ -1,6 +1,95 @@
 {
     "projects": [
         {
+            "projectTitle": "Xorbix Innovation Lab Hackathon (3rd Place)",
+            "featuredImage": "/media/XorbixInnovationLab/HeadsetUI1.jpg",
+            "problemStatement": "Xorbix is a company that specializes in providing software solutions for companies in many industries. They are the premier provider of Databricks solutions in Wisconsin. The problem statement for the hackathon was to create a software solution that improves Quality Assurance Descision making and Defect detection.",
+            "solution": "My team created a camera first desktop, mobile, and Mixed Reality application which focused on removeing distractions from the operator while performing quality assurance inspections. The application uses computer vision to identify defects in products and provides real-time feedback to the operator as well as informing the operator what the correct course of acion is when a defect is detected. We used an AI pipeline involving Yolo v11 to crop products out of the overall image, then we passed those product images to a custom Vision Transformer trained on the Kapput Dataset. When a defect was detected, we passed the VIT output to a custom GPT 5 mini agent to make the final decision on how to proceed. The application was built using Next.js and TailwindCSS for the desktop and mobile app while the MR app was built on Mixed Reality Toolkit 3 and Meta Spatial SDK.",
+            "skillsUsed": [
+                "Next.js",
+                "TailwindCSS",
+                "C#",
+                "MRTK3",
+                "Meta Spatial SDK",
+                "Python",
+                "PyTorch",
+                "Computer Vision",
+                "YOLO v11",
+                "Vision Transformers",
+                "OpenAI API",
+                "GitHub",
+                "Agile Development",
+                "VR",
+                "MR",
+                "XR",
+                "Meta Quest 3",
+                "FastAPI"
+            ],
+            "projectSourceCodeLink": "https://github.com/MAIC-Innovation-Labs/2025-2026-xorbix-innovation-lab-xorvengers",
+            "developmentProcess": [
+                {
+                    "stepName": "Prototyping",
+                    "images": [
+                        "/media/XorbixInnovationLab/Figma2.png",
+                        "/media/XorbixInnovationLab/Figma1.png",
+                        "/media/XorbixInnovationLab/MSWhiteboard.png"
+                    ],
+                    "stepDescription": "UX worked on figmas for the team to use for prototyping the application. We created wireframes and mockups of the user interface to get a better idea of how the application would look and feel."
+                },
+                {
+                    "stepName": "AI Pipeline",
+                    "images": [
+                        "/media/XorbixInnovationLab/Architecture.png",
+                        "/media/XorbixInnovationLab/TrainingYolo.png"
+                    ],
+                    "stepDescription": "The AI pipeline was a crucial part of the application. We used YOLO v11 to crop products out of the overall image, then we passed those product images to a custom Vision Transformer trained on the Kapput Dataset. When a defect was detected, we passed the VIT output to a custom GPT 5 mini agent to make the final decision on how to proceed."
+                },
+                {
+                    "stepName": "Desktop App",
+                    "images": [
+                        "/media/XorbixInnovationLab/DesktopAppDemo.MOV",
+                        "/media/XorbixInnovationLab/DesktopUI1.png",
+                        "/media/XorbixInnovationLab/DesktopUI2.png"
+                    ],
+                    "stepDescription": "The desktop application was built using Next.js and TailwindCSS. The application was designed to be user-friendly and easy to navigate. The desktop app was the primary interface for the application."
+                },
+                {
+                    "stepName": "Mixed Reality App Prototype",
+                    "images": [
+                        "/media/XorbixInnovationLab/HeadsetPrototype1.mp4",
+                        "/media/XorbixInnovationLab/HeadsetPrototypeTest.mp4"
+                    ],
+                    "stepDescription": "I started the development process by using MRTK3 and a Meta Quest 3 with camera passthrough to create a prototype of the Mixed Reality application. Images were passed to the vision transformer and the results were displayed on a canvas which follows the user's body."
+                },
+                {
+                    "stepName": "Running Yolo on the Quest 3 with MRTK3",
+                    "images": [
+                        "/media/XorbixInnovationLab/HeadsetYoloAndMRTK3.MOV",
+                        "/media/XorbixInnovationLab/YoloHeadset.MOV"
+                    ],
+                    "stepDescription": "I was able to get Yolo running on the device and used it to crop products out of the overall image."
+                },
+                {
+                    "stepName": "Mixed Reality App Final Development",
+                    "images": [
+                        "/media/XorbixInnovationLab/MRAppDemo.mp4",
+                        "/media/XorbixInnovationLab/MRMenu.png",
+                        "/media/XorbixInnovationLab/HeadsetUI1.jpg"
+                    ],
+                    "stepDescription": "I began the final development of the Mixed Reality application by working closely with out UX members. I implemented the Vision Transformer and GPT 5 mini agent API pipeline into the application and created a user interface that was easy to navigate."
+                },
+                {
+                    "stepName": "Presentation and Awards",
+                    "images": [
+                        "/media/XorbixInnovationLab/TeamSelfie.jpg",
+                        "/media/XorbixInnovationLab/Presentation1.jpg",
+                        "/media/XorbixInnovationLab/Presentation2.jpg"
+                    ],
+                    "stepDescription": "The final step was to present the application. We created a presentation that included a demo of the application and a summary of the development process. We presented the application at the Xorbix Innovation Lab Hackathon final event where we got 3rd place in the competition for our solution and attention to the business problem."
+                }
+            ]
+        },
+        {
             "projectTitle": "Mitchell Park Domes Hacksgiving (1st Place)",
             "featuredImage": "/media/Hacksgiving2025/Presentation1.jpg",
             "problemStatement": "The Mitchell Park Domes are a Milwaukee landmark that showcases a variety of plant species from around the world. The Domes wanted a software solution that would increase revenue by enhancing the visitor experience through partnerships, engagement, and accessibility. The challenge was to create a solution that would address these goals while also being user-friendly and easy to implement.",

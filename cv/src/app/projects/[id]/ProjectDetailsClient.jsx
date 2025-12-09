@@ -46,11 +46,14 @@ export default function ProjectDetailsClient({ project }) {
                                 ))}
                             </ul>
                         </div>
-                        {project.projectSourceCodeLink && (
-                            <p className="mt-2">
-                                <a className="inline-block mt-2 px-4 py-2 bg-rose-600 text-white rounded hover:bg-rose-500" href={project.projectSourceCodeLink} target="_blank" rel="noopener noreferrer">Source Code</a>
-                            </p>
-                        )}
+                        <div className="mt-4 flex gap-2">
+                            {project.projectSourceCodeLink && (
+                                <a className="inline-block px-4 py-2 bg-rose-600 text-white rounded hover:bg-rose-500" href={project.projectSourceCodeLink} target="_blank" rel="noopener noreferrer">Source Code</a>
+                            )}
+                            {project.projectWebsiteLink && (
+                                <a className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-500" href={project.projectWebsiteLink} target="_blank" rel="noopener noreferrer">Visit Project</a>
+                            )}
+                        </div>
                     </section>
 
                     <section>

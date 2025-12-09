@@ -7,15 +7,18 @@
             "solution": "My team created a camera first desktop, mobile, and Mixed Reality application which focused on removeing distractions from the operator while performing quality assurance inspections. The application uses computer vision to identify defects in products and provides real-time feedback to the operator as well as informing the operator what the correct course of acion is when a defect is detected. We used an AI pipeline involving Yolo v11 to crop products out of the overall image, then we passed those product images to a custom Vision Transformer trained on the Kapput Dataset. When a defect was detected, we passed the VIT output to a custom GPT 5 mini agent to make the final decision on how to proceed. The application was built using Next.js and TailwindCSS for the desktop and mobile app while the MR app was built on Mixed Reality Toolkit 3 and Meta Spatial SDK.",
             "skillsUsed": [
                 "Next.js",
+                "React",
                 "TailwindCSS",
                 "C#",
-                "MRTK3",
+                "MRTK",
                 "Meta Spatial SDK",
                 "Python",
                 "PyTorch",
                 "Computer Vision",
-                "YOLO v11",
-                "Vision Transformers",
+                "Machine Learning",
+                "Artificial Intelligence",
+                "ONNX Runtime",
+                "YOLO",
                 "OpenAI API",
                 "GitHub",
                 "Agile Development",
@@ -25,7 +28,7 @@
                 "Meta Quest 3",
                 "FastAPI",
                 "OpenXR",
-                "Unity3D"
+                "Unity"
             ],
             "projectSourceCodeLink": "https://github.com/MAIC-Innovation-Labs/2025-2026-xorbix-innovation-lab-xorvengers",
             "developmentProcess": [
@@ -98,14 +101,22 @@
             "solution": "My team created a mobile application using React Native and Expo that leverages Bluetooth Low Energy (BLE) beacons to deliver location-based information and experiences to visitors. The app includes features such as Dome Detectives—an interactive scavenger hunt that encourages exploration and learning about plants and exhibits. It also includes Botanical Tales, audio stories that provide historical context about plants and exhibits, paced by the user's location via the BLE beacons. A partnership feature, Sip & Seek, allows visitors to purchase drinks from the Domes café and receive an audio tour related to the plant ingredients used in the beverages. The app also includes a chat feature that lets visitors ask questions and receive answers from an AI-powered chatbot. For accessibility, the app offers text-to-speech, adjustable font sizes, and support for 10 languages.",
             "skillsUsed": [
                 "React Native",
+                "React",
                 "Expo",
+                "Mobile Development",
                 "TypeScript",
                 "Node.js",
                 "JavaScript",
-                "Bluetooth Low Energy (BLE) Beacons",
+                "C",
+                "C++",
+                "ESP32",
+                "BLE",
                 "OpenAI API",
+                "Machine Learning",
+                "Artificial Intelligence",
                 "GitHub",
-                "Localization"
+                "Localization",
+                "Agile Development"
             ],
             "projectSourceCodeLink": "https://github.com/xDazld/HacksGiving-2025",
             "developmentProcess": [
@@ -181,7 +192,11 @@
             "problemStatement": "MSOE's Rosie Supercomputer is a powerful computing resource used by students and faculty for research and academic projects. However, the existing visualization of workloads limited in functionality and user experience. Hardware specifications and workload distribution was available via an API hosted on Rosie but there was no user-friendly interface to visualize this data effectively.",
             "solution": "I developed a comprehensive web dashboard using React.js and TailwindCSS that interfaces with Rosie's existing API to provide real-time visualization of hardware specifications and workload distribution. The dashboard features interactive charts and graphs that allow users to easily monitor system performance, job statuses, and resource allocation. The interface is designed to be intuitive and user-friendly, making it accessible for both technical and non-technical users. You can check it out live at https://alex-j-lopez.github.io/MSOE-Rosie-Supercomputer-Dashboard/",
             "skillsUsed": [
-                "React.js",
+                "React",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "CI/CD",
                 "TailwindCSS",
                 "TypeScript",
                 "SWR",
@@ -190,6 +205,7 @@
                 "GitHub"
             ],
             "projectSourceCodeLink": "https://github.com/Alex-J-Lopez/MSOE-Rosie-Supercomputer-Dashboard",
+            "projectWebsiteLink": "https://alex-j-lopez.github.io/MSOE-Rosie-Supercomputer-Dashboard/",
             "developmentProcess": [
                 {
                     "stepName": "GPU Usage",
@@ -272,9 +288,14 @@
                 "Next.js",
                 "React",
                 "JavaScript",
+                "HTML",
+                "CSS",
                 "TailwindCSS",
                 "OpenAI API",
                 "FastAPI",
+                "Python",
+                "Machine Learning",
+                "Artificial Intelligence",
                 "GitHub",
                 "Agile Development"
             ],
@@ -325,8 +346,12 @@
             "skillsUsed": [
                 "C#",
                 ".NET MAUI",
+                "XAML",
                 "Android Development",
                 "Desktop Development",
+                "Computer Vision",
+                "Machine Learning",
+                "Artificial Intelligence",
                 "ONNX Runtime",
                 "GitHub",
                 "Agile Development"
@@ -389,10 +414,14 @@
                 ".NET MAUI",
                 "Android Development",
                 "iOS Development",
+                "Mobile Development",
                 "ESP32",
                 "Embedded Systems",
                 "FastAPI",
-                "Bluetooth Low Energy (BLE) Beacons",
+                "Python",
+                "BLE",
+                "Artificial Intelligence",
+                "Machine Learning",
                 "GitHub",
                 "Agile Development"
             ],
@@ -454,18 +483,12 @@
                 "C#",
                 ".NET MAUI",
                 "XAML",
-                "MVVM Architecture",
+                "MVVM",
                 "JavaScript",
-                "Desktop Application Development",
+                "Desktop Development",
                 "TwinCAT ADS",
-                "Real-time Data Processing",
-                "Multithreading",
-                "Asynchronous Programming",
-                "Data Structures",
-                "COMTRADE File Parsing",
                 "Industrial Control Systems",
-                "PLC Communication",
-                "Data Visualization",
+                "PLC",
                 "GitHub"
             ],
             "projectSourceCodeLink": "",
@@ -522,7 +545,11 @@
                 "Node.js",
                 "OpenAI API",
                 "FastAPI",
-                "GitHub"
+                "Python",
+                "Machine Learning",
+                "Artificial Intelligence",
+                "GitHub",
+                "Agile Development"
             ],
             "projectSourceCodeLink": "",
             "developmentProcess": [
@@ -552,7 +579,7 @@
             "problemStatement": "When I started my freshman year at MSOE University in the fall of 2022, I had far reaching ambitions for myself. I quickly began doing personal projects to improve my skills, and I needed a place where I could keep a record of each of my projects and my creative process.",
             "solution": "There were a few solutions to my problem. I could purchase a subscription to a website making application and create my website that way. I could give prospective employeers a link to a google drive with all my projects. Or, I could improve my web development skills and create my own website. As you can tell by now, the thrid choice was both the most professional and also the choice I decided upon. I learned HTML, CSS, and some javascript in order to make this idea happen.",
             "skillsUsed": [
-                "React.js",
+                "React",
                 "Next.js",
                 "TailwindCSS",
                 "JSON",
@@ -562,9 +589,10 @@
                 "Responsive Web Design",
                 "GitHub",
                 "CI/CD",
-                "Github Actions"
+                "GitHub Actions"
             ],
             "projectSourceCodeLink": "https://github.com/Alex-J-Lopez/Alex-J-Lopez.github.io",
+            "projectWebsiteLink": "https://alex-j-lopez.github.io/",
             "developmentProcess": [
                 {
                     "stepName": "Version 1",
@@ -627,11 +655,13 @@
             "problemStatement": "When I moved into my college dorm room, I quickly realized that my roommate and I had a nack for losing our keys. As a result I decided to build a machine to open our door for us; therefore, I could reduce the chance of being locked out.",
             "solution": "The solution to the problem was a machine that would be able to open my door for me. I settled on a web interface backed by an embedded system attached to the door that acts as a server. Clients press a button on the website and the machine (an ESP8266/NodeMCU) responds by operating a stepper motor to open the door.",
             "skillsUsed": [
-                "NodeMCU (ESP8266, ESP32)",
-                "A4988 Stepper Driver",
-                "Nema 17 Stepper Motor",
-                "8x2 LCD Display",
+                "ESP8266",
+                "ESP32",
+                "Embedded Systems",
+                "IoT",
+                "PCB Design",
                 "C++",
+                "C",
                 "HTML",
                 "CSS"
             ],
@@ -704,9 +734,11 @@
             "problemStatement": "When I moved into my college dorm I wanted to have a few plants to make it feel more at home. Keeping these plants watered was a challenge and I needed a solution.",
             "solution": "I built an apparatus to read water level and display it to a client on a web interface using a NodeMCU ESP8266. The device reports measurements to the web UI where users can check water levels remotely.",
             "skillsUsed": [
-                "NodeMCU v1.0 ESP8266",
-                "Water Measurement Sensor",
+                "ESP8266",
+                "Embedded Systems",
+                "IoT",
                 "C++",
+                "C",
                 "HTML",
                 "CSS"
             ],
@@ -741,17 +773,14 @@
             "solution": "I built a HoloLens 2 tech demo using MRTK2 and Microsoft Scene Understanding to generate a real‑world floor mesh which was converted into a runtime nav mesh. Users spawn winter‑themed wolves that obey gravity and randomly roam the mesh. A hand menu toggles snowfall particle systems, adjusts wind strength influencing snow drift, and spawns additional wolves. The project won 1st place for its innovative use of spatial understanding and intuitive hand‑tracked controls without peripherals.",
             "skillsUsed": [
                 "C#",
-                "Unity3D",
-                "MRTK2",
-                "Microsoft HoloLens 2",
-                "Scene Understanding SDK",
-                "Runtime Nav Mesh Generation",
-                "Particle Systems",
-                "Hand Tracking UI",
+                "Unity",
+                "MRTK",
+                "HoloLens 2",
                 "OpenXR",
                 "XR",
                 "MR",
-                "VR"
+                "VR",
+                "Game Development"
             ],
             "projectSourceCodeLink": "",
             "developmentProcess": [
@@ -798,12 +827,10 @@
             "solution": "I built an Oculus Rift VR tour in Unity that guided users through the engineering building with narration. The experience was optimized for trade‑show reliability: baked lighting, asset optimization, and a simple operator flow for rapid resets and high throughput at the booth.",
             "skillsUsed": [
                 "C#",
-                "Unity3D",
+                "Unity",
                 "Oculus Rift CV1",
                 "Davinci Resolve",
                 "3D Modeling",
-                "Performance Optimization",
-                "Event Demo Operations",
                 "XR",
                 "VR"
             ],
@@ -843,14 +870,12 @@
             "solution": "I developed an Oculus Quest 1 application in Unity that walked users through the refurbishment workflow with step‑by‑step interactions, annotated stages, and controller‑driven navigation. The experience was tuned for offline demos with aggressive asset compression and baked lighting for smooth performance.",
             "skillsUsed": [
                 "C#",
-                "Unity3D",
+                "Unity",
                 "Oculus Quest 1",
                 "OpenXR",
                 "Blender",
                 "3D Modeling",
-                "UX for XR",
                 "Davinci Resolve",
-                "Performance Optimization",
                 "XR",
                 "VR"
             ],
@@ -892,15 +917,13 @@
             "solution": "I built a HoloLens 2 application using MRTK and OpenXR that loads prepared CAD models, supports inspection and part isolation, and provides intuitive gesture‑based controls. The app leveraged spatial mapping and anchored placements for stable viewing in real environments.",
             "skillsUsed": [
                 "C#",
-                "Unity3D",
-                "MRTK (Mixed Reality Toolkit)",
-                "Microsoft HoloLens 2",
+                "Unity",
+                "MRTK",
+                "HoloLens 2",
                 "OpenXR",
-                "CAD Visualization",
-                "Spatial Mapping",
-                "UX for AR",
                 "XR",
-                "MR"
+                "MR",
+                "AR"
             ],
             "projectSourceCodeLink": "",
             "developmentProcess": [

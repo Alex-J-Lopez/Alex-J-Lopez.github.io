@@ -19,9 +19,9 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Text column */}
           <div>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Hi — I’m Alex Lopez.</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Alexander Lopez</h1>
             <p className="text-lg text-slate-200 mb-6">
-              I am a software engineer who builds polished full stack solutions. Browse my work below or get in touch.
+              Welcome, My name is Alex Lopez. I am a software engineer who builds polished full stack solutions. Browse my work below or get in touch.
             </p>
 
             <div className="flex flex-wrap gap-3">

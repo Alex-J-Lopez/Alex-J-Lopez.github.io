@@ -37,15 +37,17 @@
                 {
                     "stepName": "MapLibre & 3D Rendering",
                     "images": [
-                        "/media/Nexrad3D/GlobeRender.png"
+                        "/media/Nexrad3D/GlobeRender.png",
+                        "/media/Nexrad3D/Scan1.png",
+                        "/media/Nexrad3D/Scan2.png",
+                        "/media/Nexrad3D/Scan3.png",
+                        "/media/Nexrad3D/Scan4.png"
                     ],
                     "stepDescription": "Created custom MapLibre layers and local volume ray-march renderers to display the processed radar data in a real-time, interactive 3D globe view."
                 },
                 {
                     "stepName": "Ingestion & Infrastructure",
-                    "images": [
-                        "/media/Nexrad3D/Docker.png"
-                    ],
+                    "images": [],
                     "stepDescription": "Set up a backend ingest worker to poll upstream radar manifests and publish readiness events using Redis, with MinIO for local object storage emulation. Everything was tied together using Docker Compose for easy local development and full-stack deployment."
                 }
             ]

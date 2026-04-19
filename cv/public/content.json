@@ -1,6 +1,56 @@
 {
     "projects": [
         {
+            "projectTitle": "Nexrad 3D",
+            "featuredImage": "/media/Nexrad3D/Featured.png",
+            "problemStatement": "I wanted to create a modern, web-native 3D globe experience for visualizing volumetric weather radar data. Existing radar visualization tools are often desktop-only or lack true 3D volumetric rendering in the browser with near-real-time updates.",
+            "solution": "I developed Nexrad 3D, a monorepo web platform that provides a 3D globe experience, near-real-time radar updates, and radar-source switching. It features a Next.js frontend with custom MapLibre globe and local volume ray-march renderers, accompanied by a backend ingest worker that polls upstream radar manifests. I also built specialized TypeScript packages to parse NEXRAD Level 2 and ODIM H5 radar formats directly.",
+            "skillsUsed": [
+                "TypeScript",
+                "Next.js",
+                "React",
+                "MapLibre",
+                "WebGL",
+                "Docker",
+                "Redis",
+                "MinIO",
+                "Turborepo",
+                "Full Stack Development"
+            ],
+            "projectSourceCodeLink": "",
+            "projectWebsiteLink": "https://www.nexrad3d.com",
+            "developmentProcess": [
+                {
+                    "stepName": "Architecture & Prototyping",
+                    "images": [
+                        "/media/Nexrad3D/Architecture.png"
+                    ],
+                    "stepDescription": "I started by designing a monorepo architecture using Turborepo to split the platform into specialized packages: a frontend app, an ingest worker, and shared contract/parser libraries."
+                },
+                {
+                    "stepName": "Radar Parsing",
+                    "images": [
+                        "/media/Nexrad3D/Parsing.png"
+                    ],
+                    "stepDescription": "Developed portable parser interfaces for NEXRAD Level 2 and ODIM H5 formats to correctly read and process volumetric radar data."
+                },
+                {
+                    "stepName": "MapLibre & 3D Rendering",
+                    "images": [
+                        "/media/Nexrad3D/GlobeRender.png"
+                    ],
+                    "stepDescription": "Created custom MapLibre layers and local volume ray-march renderers to display the processed radar data in a real-time, interactive 3D globe view."
+                },
+                {
+                    "stepName": "Ingestion & Infrastructure",
+                    "images": [
+                        "/media/Nexrad3D/Docker.png"
+                    ],
+                    "stepDescription": "Set up a backend ingest worker to poll upstream radar manifests and publish readiness events using Redis, with MinIO for local object storage emulation. Everything was tied together using Docker Compose for easy local development and full-stack deployment."
+                }
+            ]
+        },
+        {
             "projectTitle": "Xorbix Innovation Lab Hackathon (3rd Place)",
             "featuredImage": "/media/XorbixInnovationLab/HeadsetUI1.jpg",
             "problemStatement": "Xorbix is a company that specializes in providing software solutions for companies in many industries. They are the premier provider of Databricks solutions in Wisconsin. The problem statement for the hackathon was to create a software solution that improves Quality Assurance Descision making and Defect detection.",
@@ -126,7 +176,7 @@
                         "/media/Hacksgiving2025/DomesGroupPicture.jpg",
                         "/media/Hacksgiving2025/Kickoff1.jpg",
                         "/media/Hacksgiving2025/Kickoff2.jpg",
-                        "/media/Hacksgiving2025/Kickoff3.jpg"                        
+                        "/media/Hacksgiving2025/Kickoff3.jpg"
                     ],
                     "stepDescription": "We started the process by researching the problem space and brainstorming ideas. We decided to focus on creating a mobile application that would enhance the visitor experience through location-based information and experiences."
                 },
@@ -173,7 +223,7 @@
                     "stepDescription": "After testing we made final adjustments and improvements to the app based on our findings. We focused on polishing the user experience and ensuring that all features were working correctly."
                 },
                 {
-                    "stepName":"Presentation and Awards",
+                    "stepName": "Presentation and Awards",
                     "images": [
                         "/media/Hacksgiving2025/Presentation1.jpg",
                         "/media/Hacksgiving2025/Presentation2.jpg",
@@ -320,7 +370,7 @@
                     "stepDescription": "The next step was to create a prototype of the software. We created a basic version of the software that included the core functionality. This prototype was used to test the feasibility of the solution and to gather feedback from the sponsor."
                 },
                 {
-                    "stepName":"Development",
+                    "stepName": "Development",
                     "images": [
                         "/media/JunoInnovationLab/UploadUI.png",
                         "/media/JunoInnovationLab/ReviewStep.png",
@@ -329,7 +379,7 @@
                     "stepDescription": "After gathering feedback from the sponsor, we began the development process. We used an agile development process to iteratively develop the software. We used GitHub for version control and collaboration. We also used FastAPI to create a backend server that would handle requests from the web app and communicate with the OpenAI API."
                 },
                 {
-                    "stepName":"Presentation and Awards",
+                    "stepName": "Presentation and Awards",
                     "images": [
                         "/media/JunoInnovationLab/AllFinalistsGroupPhoto.jpg",
                         "/media/JunoInnovationLab/ChosenAsFinalist.jpg"
@@ -363,7 +413,7 @@
                     "images": [
                         "/media/BradyInnovationLab/ModelRequirementsWhiteboard.jpeg",
                         "/media/BradyInnovationLab/UserStories1.png",
-                        "/media/BradyInnovationLab/Requirements.png"                        
+                        "/media/BradyInnovationLab/Requirements.png"
                     ],
                     "stepDescription": "The first step in the development process was to research the problem and come up with a plan. We researched existing solutions and technologies that could be used to solve the problem. We also researched the requirements and constraints of the project. We identified datasets that existed for training machine learning models to identify liquid levels in containers. Crucially, we interviewed the sponsor to determine business requirements which lead us to run our ML models locally as opposed to in the cloud."
                 },
@@ -396,7 +446,7 @@
                     "images": [
                         "/media/BradyInnovationLab/TeamPictureAfterWinningCompetition.jpg",
                         "/media/BradyInnovationLab/FinalDayTeamTestingSoftware.jpg",
-                        "/media/BradyInnovationLab/AllFinalistsGroupPicture.jpg"                        
+                        "/media/BradyInnovationLab/AllFinalistsGroupPicture.jpg"
                     ],
                     "stepDescription": "The final step was to present the software. We created a presentation that included a demo of the software and a summary of the development process. We presented the software at the Brady Corp Innovation Lab final event where we got 1st place in the competition for our solution."
                 }
@@ -464,7 +514,7 @@
                     "stepDescription": "We took a much-needed break to refuel and recharge before the final push to complete the project."
                 },
                 {
-                    "stepName":"Presentation and Awards",
+                    "stepName": "Presentation and Awards",
                     "images": [
                         "/media/DiscoveryWorldHackathon/Presentation.png",
                         "/media/DiscoveryWorldHackathon/TeamPresenting.png",
@@ -474,7 +524,8 @@
                     "stepDescription": "The final step was to present the app. We created a presentation that included a demo of the app and a summary of the development process. We presented the app at the HacksGiving 2024 final event where we got 2nd place in the competition for our solution!"
                 }
             ]
-        },{
+        },
+        {
             "projectTitle": "LS-ACT - Hydro Power Excitation System Configuration & Control Application",
             "featuredImage": "/media/LSACT/AutoControlPage.png",
             "problemStatement": "L & S Electric needed a modern, comprehensive desktop application for hydro power excitation system configuration and control. The application needed to provide real-time data visualization, advanced scope analysis, COMTRADE file support for fault analysis, and automated control sequences. The solution had to be reliable, performant, and intuitive for electrical engineers and technicians working with complex power distribution systems.",
@@ -561,7 +612,7 @@
                     "stepDescription": "After the hackathon kickoff, we got right to work. We worked through the night and developed the proxy server, backend server, and frontend web application. We used GitHub for version control and collaboration. We also used FastAPI to create a backend server that would handle requests from the web app and communicate with the locally running LLM Llama 7b."
                 },
                 {
-                    "stepName":"Presentation and Awards",
+                    "stepName": "Presentation and Awards",
                     "images": [
                         "/media/NextStepClinicHackathon/NextAITeamPresenting.png",
                         "/media/NextStepClinicHackathon/AllFinalistsGroupPicture.jpg",
@@ -805,12 +856,16 @@
                 },
                 {
                     "stepName": "Scene Understanding + Runtime Nav Mesh",
-                    "images": ["/media/WinterGameJamXR/P3_Nav_Mesh.png"],
+                    "images": [
+                        "/media/WinterGameJamXR/P3_Nav_Mesh.png"
+                    ],
                     "stepDescription": "Detected floor surfaces via Microsoft Scene Understanding, filtered planes to build a clean floor mesh, and generated a runtime nav mesh. Wolves roam randomly over the mesh with gravity compliance (no state machine)."
                 },
                 {
                     "stepName": "Near Interaction and Constraints",
-                    "images": ["/media/WinterGameJamXR/P3_Near_Interaction_Constraints.mp4"],
+                    "images": [
+                        "/media/WinterGameJamXR/P3_Near_Interaction_Constraints.mp4"
+                    ],
                     "stepDescription": "Added new wolf and near interaction handlers and constraints to allow users to pick up and move wolves around the environment naturally with their hands instead of the raycaster."
                 },
                 {

@@ -1,6 +1,55 @@
 {
     "projects": [
         {
+            "projectTitle": "Quorum",
+            "featuredImage": "/media/Quorum/Slide1.png",
+            "problemStatement": "Traditional investment advising often lacks sector-aware, diverse perspectives and fails to dynamically integrate real-time public sentiment. Investors are overwhelmed by mixed signals and struggle to make informed decisions. The challenge was to create a solution that provides clear, actionable guidance while reducing cognitive overload for retail investors and advisors.",
+            "solution": "Developed Quorum, a sector-aware solution to investment advising. It uses a council of LLM advisors to deliberate on a stock ticker with its provided data from Yfinance. Additionally, it features a customer sentiment advisor that uses the Alpha Vantage API to determine the public sentiment on the asset.",
+            "skillsUsed": [
+                "React.JS",
+                "LLM Ops",
+                "Artificial Intelligence",
+                "Yfinance API",
+                "Alpha Vantage API",
+                "Machine Learning",
+                "VITE",
+                "TypeScript",
+                "Docker"
+            ],
+            "projectSourceCodeLink": "https://github.com/MAIC-Innovation-Labs/2025-2026-persistent-systems-innovation-lab-cursor-credits",
+            "developmentProcess": [
+                {
+                    "stepName": "Conceptualization & Design",
+                    "images": [
+                        "/media/Quorum/Slide1.png",
+                        "/media/Quorum/WhatDoesItDo.png"
+                    ],
+                    "stepDescription": "Conceptualized the platform in collaboration with Persistent Innovation Labs and MSOE AI Club. The primary goal was to build a tool that turns noisy financial signals into decision-ready guidance, reducing cognitive overload for retail investors and advisors."
+                },
+                {
+                    "stepName": "Investment Council Dashboard",
+                    "images": [
+                        "/media/Quorum/TickerComparison.png"
+                    ],
+                    "stepDescription": "Developed the Investment Council dashboard, allowing users to compare multiple stock tickers side-by-side (such as MSFT and NVDA). The dashboard generates a council confidence score and clear Buy, Hold, or Avoid ratings powered by a specialized team of AI advisors (Risk, Growth, Fundamentals, Sector Strategist, and Sentiment)."
+                },
+                {
+                    "stepName": "Auditable AI Reasoning",
+                    "images": [
+                        "/media/Quorum/AdvisorRationale.png"
+                    ],
+                    "stepDescription": "Ensured the system was 'Auditable by Design' to avoid black-box AI outputs. Each advisor provides transparent reasoning modals displaying underlying ML model signals, conviction percentages, and key financial metrics like log-returns, volatility, and moving average outperformance."
+                },
+                {
+                    "stepName": "Industry Ready Architecture",
+                    "images": [
+                        "/media/Quorum/Architecture.png"
+                    ],
+                    "stepDescription": "Architected the software to be 'Fit for Industry', structuring data ingestion pipelines to easily support plugins for industry-standard platforms like Bloomberg, PitchBook, and S&P Global."
+                }
+            ]
+        },
+        {
             "projectTitle": "Nexrad 3D",
             "featuredImage": "/media/Nexrad3D/Featured.png",
             "problemStatement": "I wanted to create a modern, web-native 3D globe experience for visualizing volumetric weather radar data. Existing radar visualization tools are often desktop-only or lack true 3D volumetric rendering in the browser with near-real-time updates.",

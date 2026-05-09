@@ -5,7 +5,7 @@ import ProjectPreview from '@/components/personalProjects/projectPreview';
 import React, { useEffect, useState } from 'react';
 
 export default function Home() {
-  const [projectIndex, setProjectIndex] = useState(1);
+  const [projectIndex, setProjectIndex] = useState(0);
   // useEffect(() => {
   //   let tempIndex = 0;
   //   do {

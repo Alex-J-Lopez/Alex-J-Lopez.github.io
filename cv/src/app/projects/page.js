@@ -29,6 +29,17 @@ const ProjectsPage = () => {
         );
     }, [projects, selectedFilters]);
 
+    // Determine which skills are visible based on the currently filtered projects
+    const visibleSkills = useMemo(() => {
+        if (selectedFilters.length === 0) return allSkills;
+        
+        const skillsSet = new Set(selectedFilters); // always include currently selected filters
+        filteredProjects.forEach(project => {
+            project.skillsUsed?.forEach(skill => skillsSet.add(skill));
+        });
+        return Array.from(skillsSet).sort();
+    }, [filteredProjects, selectedFilters, allSkills]);
+
     const toggleFilter = (skill) => {
         setSelectedFilters(prev => 
             prev.includes(skill) 
@@ -89,7 +100,7 @@ const ProjectsPage = () => {
                         {isFilterOpen && (
                             <div className="bg-white/5 p-4 rounded-lg mb-4">
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    {allSkills.map(skill => (
+                                    {visibleSkills.map(skill => (
                                         <button
                                             key={skill}
                                             onClick={() => toggleFilter(skill)}
